@@ -1,11 +1,118 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Vocal Remover: remove vocals from a song</title>
+    <title>Vocal Remover: Remove Vocals from a Song</title>
     <link rel="icon" sizes="32x32" type="image/png" href="icons/32.png" />
     <link rel="icon" sizes="16x16" type="image/png" href="icons/16.png" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
     <link rel="canonical" href="https://removevocalsfromasong.com/" />
+    <meta
+      name="description"
+      content="Vocal Remover lets you remove vocals from a song and separate voice from music in seconds — online in your browser or offline on your Mac."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+
+    <meta property="og:title" content="Vocal Remover: Remove Vocals from a Song" />
+    <meta
+      property="og:description"
+      content="AI-powered Vocal Remover to separate voice from music and create clean instrumentals. Available as a browser extension and Mac app."
+    />
+    <meta property="og:url" content="https://removevocalsfromasong.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://removevocalsfromasong.com/online.png" />
+
+    <script>
+      if (navigator.userAgentData && navigator.userAgentData.platform !== 'macOS') {
+        let st = document.createElement('style');
+        st.innerText = '.hide-if-not-mac { display: none; }';
+        document.head.appendChild(st);
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://removevocalsfromasong.com/#online",
+            "name": "Vocal Remover",
+            "alternateName": "Vocal Remover Online",
+            "applicationCategory": "MultimediaApplication",
+            "operatingSystem": "Chromium-based browser on Windows and macOS",
+            "description": "Vocal Remover is a browser extension that lets you remove vocals from a song directly in your browser. Use AI-powered vocal separation to create instant instrumentals from YouTube and other audio or video platforms.",
+            "url": "https://removevocalsfromasong.com/#online",
+            "installUrl": "https://chromewebstore.google.com/detail/vocal-remover/bcbfalkgcdnejkdjacfpgcoanadljgoe",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.2,
+              "ratingCount": 12
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "extensions.ee",
+              "url": "https://extensions.ee"
+            },
+            "offers": [
+              {
+                "@type": "Offer",
+                "name": "Weekly subscription",
+                "price": "5.99",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              },
+              {
+                "@type": "Offer",
+                "name": "Yearly subscription",
+                "price": "41.90",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              },
+              {
+                "@type": "Offer",
+                "name": "One-time payment",
+                "price": "79.00",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            ]
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://removevocalsfromasong.com/#offline",
+            "name": "Vocal Remover",
+            "alternateName": "Vocal Remover for Mac",
+            "applicationCategory": "MultimediaApplication",
+            "operatingSystem": "macOS 15.0 or later on Apple Silicon Macs",
+            "description": "Vocal Remover for Mac separates voice and instrumental stems in seconds. Drop one track or a whole folder to batch-process karaoke-ready instrumentals and clean voice-only stems offline.",
+            "url": "https://removevocalsfromasong.com/#offline",
+            "installUrl": "https://apps.apple.com/app/id6749937623",
+            "publisher": {
+              "@type": "Organization",
+              "name": "extensions.ee",
+              "url": "https://extensions.ee"
+            },
+            "offers": [
+              {
+                "@type": "Offer",
+                "name": "Weekly subscription",
+                "price": "2.99",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              },
+              {
+                "@type": "Offer",
+                "name": "Yearly subscription",
+                "price": "29.99",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
   <body class="bg-white dark:bg-gray-900">
     <section class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
