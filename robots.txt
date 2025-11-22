@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://removevocalsfromasong.com/sitemap.xml
