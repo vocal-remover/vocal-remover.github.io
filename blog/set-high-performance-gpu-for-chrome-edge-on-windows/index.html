@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://removevocalsfromasong.com/blog/set-high-performance-gpu-for-chrome-edge-on-windows/" />
+  <title>Pick the High-Performance Graphics Chip for Chrome & Edge (Windows)</title>
+  <!-- Flowbite (works on top of Tailwind) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" />
+  <style>
+    /* Ensure hidden tab panels don't affect layout before Flowbite JS runs */
+    .hidden-init { display: none; }
+  </style>
+</head>
+<body class="bg-white text-slate-800">
+  <main class="max-w-4xl mx-auto p-6 sm:p-10">
+    <header class="mb-8">
+      <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">Make Windows use your fast graphics chip for your browser</h1>
+      <p class="mt-3 text-slate-600"><a href="https://chromewebstore.google.com/detail/vocal-remover/bcbfalkgcdnejkdjacfpgcoanadljgoe?utm_source=high-performance-gpu-guide-windows" target="_blank" class="underline">Vocal Remover extension</a> performs complex math in real time, so it needs a fast graphics chip to work smoothly. Even though this is about audio, modern browsers use the graphics chip behind the scenes to speed up the heavy number-crunching, and Vocal Remover needs it.</p>
+      <p class="mt-3 text-slate-600">On some computers — especially laptops — Windows may choose the power-saving graphics chip for your browser. That can cause slowdowns, sound hiccups, or completely prevent Vocal Remover extension from working. This guide tells Windows to use your high-performance graphics chip for your browser.</p>
+      <div id="detectBox" class="mt-4 inline-flex items-center gap-2 rounded-full bg-emerald-50 px-3 py-1.5 text-emerald-700 border border-emerald-200">
+        <span class="text-sm">Detected browser: <strong id="detectedBrowser">—</strong></span>
+      </div>
+    </header>
+
+    <!-- Flowbite Tabs -->
+    <div class="mb-6 border-b border-slate-200" role="tablist" id="browserTabs" data-tabs-toggle="#browserTabsContent">
+      <ul class="-mb-px flex flex-wrap gap-2 sm:gap-0" id="browserTabsList">
+        <li class="me-2" role="presentation">
+          <button id="tab-chrome" class="inline-flex items-center rounded-t-xl border-b-2 border-transparent px-4 py-2 text-sm font-medium hover:text-blue-700 data-[active=true]:border-blue-600 data-[active=true]:text-blue-700" type="button" role="tab" aria-controls="panel-chrome" aria-selected="true" data-tabs-target="#panel-chrome">
+            Google Chrome
+          </button>
+        </li>
+        <li class="me-2" role="presentation">
+          <button id="tab-edge" class="inline-flex items-center rounded-t-xl border-b-2 border-transparent px-4 py-2 text-sm font-medium hover:text-violet-700 data-[active=true]:border-violet-600 data-[active=true]:text-violet-700" type="button" role="tab" aria-controls="panel-edge" aria-selected="false" data-tabs-target="#panel-edge">
+            Microsoft Edge
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div id="browserTabsContent">
+      <!-- CHROME PANEL -->
+      <section id="panel-chrome" class="hidden-init" role="tabpanel" aria-labelledby="tab-chrome">
+        <article class="space-y-8">
+          <h2 class="text-2xl font-semibold">Set Chrome to use the high-performance graphics chip</h2>
+
+          <!-- Step 1 -->
+          <section>
+            <div class="flex items-start gap-4">
+              <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-600 text-white text-2xl">1</div>
+              <div class="grow">
+                <h3 class="text-2xl">Open Graphics settings</h3>
+                <p class="mt-1 text-slate-600">Open settings by <a href="ms-settings:display-advancedgraphics" class="underline">clicking here</a>, or go to <span class="font-medium">Settings → System → Display → Graphics</span>.</p>
+                <p class="mt-2 text-slate-600">
+                  In the list, look for <span class="font-medium">Google Chrome</span> (you may need to scroll). If you see it, go to <a href="#step3-chrome" class="underline">Step 3</a>.
+                </p>
+
+                <img class="mt-4 rounded-md" src="graphics-settings.png" alt="Settings → System → Display → Graphics screen" />
+              </div>
+            </div>
+          </section>
+
+          <!-- Step 2 (check first, then A/B with Browse) -->
+          <section>
+            <div class="flex items-start gap-4">
+              <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-600 text-white text-2xl">2</div>
+              <div class="grow">
+                <h3 class="text-2xl">Add Chrome to the list (only if it's missing)</h3>
+
+                <div class="mt-2 space-y-4">
+                  <p class="mt-2 text-slate-600">
+                    If you don't see Chrome there:
+                  </p>
+                  <ol class="list-decimal pl-5 text-slate-600 space-y-2">
+                    <li>Click <span class="font-medium">Add desktop app</span>.</li>
+                    <li>At the bottom, in the <span class="font-medium">File name</span> box, <span class="font-medium">paste one of the lines</span> below.</li>
+                    <li>Press <span class="font-medium">Enter</span> or click <span class="font-medium">Add</span>.<p>
+                  </ol>
+                  <p class="mt-2 text-slate-600">
+                    If the first line shows you an error, try the next one.
+                  </p>
+
+                  <!-- Copy-friendly addresses (avoid the word "path") -->
+                  <div class="mt-3 space-y-2">
+                    <div class="flex items-center gap-2 rounded-lg border border-slate-200 bg-white p-2">
+                      <code class="flex-1 overflow-x-auto whitespace-nowrap text-sm">%LocalAppData%\Google\Chrome\Application\chrome.exe</code>
+                      <button class="copy-btn rounded-md border px-2 py-1 border-blue-600 bg-blue-600 text-white" data-copy="%LocalAppData%\Google\Chrome\Application\chrome.exe">Copy</button>
+                    </div>
+                    <div class="flex items-center gap-2 rounded-lg border border-slate-200 bg-white p-2">
+                      <code class="flex-1 overflow-x-auto whitespace-nowrap text-sm">C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</code>
+                      <button class="copy-btn rounded-md border px-2 py-1 border-blue-600 bg-blue-600 text-white" data-copy="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe">Copy</button>
+                    </div>
+                    <div class="flex items-center gap-2 rounded-lg border border-slate-200 bg-white p-2">
+                      <code class="flex-1 overflow-x-auto whitespace-nowrap text-sm">C:\Program Files\Google\Chrome\Application\chrome.exe</code>
+                      <button class="copy-btn rounded-md border px-2 py-1 border-blue-600 bg-blue-600 text-white" data-copy="C:\Program Files\Google\Chrome\Application\chrome.exe">Copy</button>
+                    </div>
+                  </div>
+
+                  <img class="mt-4 rounded-md" src="graphics-settings-2.png" alt="Settings → System → Display → Graphics screen with Add desktop app button highlighted" />
+                  <img class="mt-4 rounded-md" src="file-picker-2.png" alt="File picker with file name and button highlighted" />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Step 3 -->
+          <section id="step3-chrome">
+            <div class="flex items-start gap-4">
+              <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-600 text-white text-2xl">3</div>
+              <div class="grow">
+                <h3 class="text-2xl">Choose <em>High Performance</em> for Chrome</h3>
+                <p class="mt-1 text-slate-600">Find <span class="font-medium">Google Chrome</span> in the list (you may need to scroll). Click it and set <span class="font-medium whitespace-nowrap">GPU preference</span> to <span class="font-medium whitespace-nowrap">High Performance</span>.</p>
+
+                <img class="mt-4 rounded-md" src="graphics-settings-chrome-3.png" alt="Settings → System → Display → Graphics screen with Chrome highlighted" />
+              </div>
+            </div>
+          </section>
+
+          <!-- Step 4: Restart -->
+          <section>
+            <div class="flex items-start gap-4">
+              <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-600 text-white text-2xl">4</div>
+              <div class="grow">
+                <h3 class="text-2xl">Restart the browser — and if needed, your computer</h3>
+                <p class="mt-1 text-slate-600">Close Chrome and open it again. If it doesn't help, try restarting your computer.</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Troubleshooting -->
+          <section class="rounded-xl border border-slate-200 bg-white p-5">
+            <h3 class="text-2xl">If you don't see a difference</h3>
+            <ul class="mt-2 list-disc pl-5 text-slate-600 space-y-2">
+              <li><span class="font-medium">Laptop on battery?</span> Some laptops still prefer the power-saving graphics chip on battery. Try plugging&nbsp;in.</li>
+              <li><span class="font-medium">Update graphics drivers</span> via your graphics chip maker's app (NVIDIA / AMD / Intel) or Windows Update.</li>
+              <li><span class="font-medium">Reset</span>: In Graphics settings, set Chrome back to <em>Let Windows decide</em>, then repeat the steps.</li>
+            </ul>
+          </section>
+        </article>
+      </section>
+
+      <!-- EDGE PANEL -->
+      <section id="panel-edge" class="hidden-init" role="tabpanel" aria-labelledby="tab-edge">
+        <article class="space-y-8">
+          <h2 class="text-2xl font-semibold">Set Edge to use the high-performance graphics chip</h2>
+
+          <!-- Step 1 -->
+          <section>
+            <div class="flex items-start gap-4">
+              <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-600 text-white text-2xl">1</div>
+              <div class="grow">
+                <h3 class="text-2xl">Open Graphics settings</h3>
+                <p class="mt-1 text-slate-600">Open settings by <a href="ms-settings:display-advancedgraphics" class="underline">clicking here</a>, or go to <span class="font-medium">Settings → System → Display → Graphics</span>.</p>
+                <p class="mt-2 text-slate-600">
+                  In the list, look for <span class="font-medium">Microsoft Edge</span> (you may need to scroll). If you see it, go to <a href="#step3-edge" class="underline">Step 3</a>.
+                </p>
+
+                <img class="mt-4 rounded-md" src="graphics-settings.png" alt="Settings → System → Display → Graphics screen" />
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Step 2 (check first, then A/B with Browse) -->
+          <section>
+            <div class="flex items-start gap-4">
+              <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-600 text-white text-2xl">2</div>
+              <div class="grow">
+                <h3 class="text-2xl">Add Edge to the list (only if it's missing)</h3>
+
+                <div class="mt-2 space-y-4">
+                  <p class="mt-2 text-slate-600">
+                    If you don't see Edge there:
+                  </p>
+                  <ol class="list-decimal pl-5 text-slate-600 space-y-2">
+                    <li>Click <span class="font-medium">Add desktop app</span>.</li>
+                    <li>At the bottom, in the <span class="font-medium">File name</span> box, <span class="font-medium">paste one of the lines</span> below.</li>
+                    <li>Press <span class="font-medium">Enter</span> or click <span class="font-medium">Add</span>.<p>
+                  </ol>
+                  <p class="mt-2 text-slate-600">
+                    If the first line shows you an error, try the next one.
+                  </p>
+
+                  <!-- Copy-friendly addresses (avoid the word "path") -->
+                  <div class="mt-3 space-y-2">
+                    <div class="flex items-center gap-2 rounded-lg border border-slate-200 bg-white p-2">
+                      <code class="flex-1 overflow-x-auto whitespace-nowrap text-sm">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</code>
+                      <button class="copy-btn rounded-md border px-2 py-1 border-blue-600 bg-blue-600 text-white" data-copy="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe">Copy</button>
+                    </div>
+                    <div class="flex items-center gap-2 rounded-lg border border-slate-200 bg-white p-2">
+                      <code class="flex-1 overflow-x-auto whitespace-nowrap text-sm">C:\Program Files\Microsoft\Edge\Application\msedge.exe</code>
+                      <button class="copy-btn rounded-md border px-2 py-1 border-blue-600 bg-blue-600 text-white" data-copy="C:\Program Files\Microsoft\Edge\Application\msedge.exe">Copy</button>
+                    </div>
+                  </div>
+
+                  <img class="mt-4 rounded-md" src="graphics-settings-2.png" alt="Settings → System → Display → Graphics screen with Add desktop app button highlighted" />
+                  <img class="mt-4 rounded-md" src="file-picker-2.png" alt="File picker with file name and button highlighted" />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Step 3 -->
+          <section id="step3-edge">
+            <div class="flex items-start gap-4">
+              <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-600 text-white text-2xl">3</div>
+              <div class="grow">
+                <h3 class="text-2xl">Choose <em>High Performance</em> for Edge</h3>
+                <p class="mt-1 text-slate-600">Find <span class="font-medium">Microsoft Edge</span> in the list (you may need to scroll). Click it and set <span class="font-medium whitespace-nowrap">GPU preference</span> to <span class="font-medium whitespace-nowrap">High Performance</span>.</p>
+
+                <img class="mt-4 rounded-md" src="graphics-settings-edge-3.png" alt="Settings → System → Display → Graphics screen with Edge highlighted" />
+              </div>
+            </div>
+          </section>
+
+          <!-- Step 4: Restart -->
+          <section>
+            <div class="flex items-start gap-4">
+              <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-600 text-white text-2xl">4</div>
+              <div class="grow">
+                <h3 class="text-2xl">Restart the browser — and if needed, your computer</h3>
+                <p class="mt-1 text-slate-600">Close Edge and open it again. If it doesn't help, try restarting your computer.</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Troubleshooting -->
+          <section class="rounded-xl border border-slate-200 bg-white p-5">
+            <h3 class="text-2xl">If you don't see a difference</h3>
+            <ul class="mt-2 list-disc pl-5 text-slate-600 space-y-2">
+              <li><span class="font-medium">Laptop on battery?</span> Some laptops still prefer the power-saving graphics chip on battery. Try plugging&nbsp;in.</li>
+              <li><span class="font-medium">Update graphics drivers</span> via your graphics chip maker's app (NVIDIA / AMD / Intel) or Windows Update.</li>
+              <li><span class="font-medium">Reset</span>: In Graphics settings, set Edge back to <em>Let Windows decide</em>, then repeat the steps.</li>
+            </ul>
+          </section>
+        </article>
+      </section>
+    </div>
+
+    <p class="mt-8 text-center"><a href="https://removevocalsfromasong.com/" id="home-page-link">&ShortLeftArrow; <span class="underline">Back to the Home Page</span></a></p>
+  </main>
+
+  <!-- Flowbite JS (after the content) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
+  <script>
+    // Detect browser and auto-select the right tab
+    (function () {
+      const ua = navigator.userAgent;
+      let detected = 'Unknown';
+      const chromeBtn = document.getElementById('tab-chrome');
+      const edgeBtn = document.getElementById('tab-edge');
+
+      if (/Edg\//.test(ua)) {
+        detected = 'Microsoft Edge';
+        // Flowbite toggles via click; trigger Edge tab
+        setTimeout(() => edgeBtn.click(), 100);
+      } else if (/Chrome\//.test(ua)) {
+        detected = 'Google Chrome';
+        setTimeout(() => chromeBtn.click(), 100);
+      } else {
+        // Default to Chrome tab if unknown
+        setTimeout(() => chromeBtn.click(), 100);
+      }
+      document.getElementById('detectedBrowser').textContent = detected;
+
+      // Remove initial hidden class once Flowbite has applied states
+      const unhide = () => {
+        document.querySelectorAll('.hidden-init').forEach(el => {
+          if (el.classList.contains('hidden-init')) el.classList.remove('hidden-init');
+        });
+      };
+      setTimeout(unhide, 50);
+
+      // Copy-to-clipboard buttons
+      document.querySelectorAll('.copy-btn').forEach(btn => {
+        btn.addEventListener('click', async () => {
+          const text = btn.getAttribute('data-copy') || '';
+          try {
+            await navigator.clipboard.writeText(text);
+            const prev = btn.textContent;
+            btn.textContent = 'Copied!';
+            setTimeout(() => (btn.textContent = prev), 1200);
+          } catch (e) {
+            console.error('Copy failed', e);
+          }
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
