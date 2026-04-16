@@ -264,6 +264,21 @@
           var localeLinks = document.querySelectorAll("[data-locale-link]");
           var currentSearch = window.location.search || "";
           var currentHash = window.location.hash || "";
+          var normalizeLocalePath = function(path) {
+            if (!path) {
+              return "/";
+            }
+
+            if (path.length > 1 && path.slice(-11) === "/index.html") {
+              path = path.slice(0, -11) || "/";
+            }
+
+            if (path !== "/" && path.slice(-1) !== "/") {
+              path += "/";
+            }
+
+            return path;
+          };
 
           localeLinks.forEach(function(link) {
             var localeCode = link.getAttribute("data-locale-code");
@@ -283,12 +298,17 @@
             });
           });
 
-          {% if page.locale_root %}
-            var rootPaths = ["/", "/index.html"];
-            if (rootPaths.indexOf(window.location.pathname) !== -1) {
+          {% if registry_page and locale_code == site.default_locale %}
+            var currentPagePath = normalizeLocalePath(window.location.pathname);
+            var sourcePagePath = normalizeLocalePath({{ registry_page.paths[locale_code] | jsonify }});
+
+            if (currentPagePath === sourcePagePath) {
               var localePaths = {
                 {% for configured_locale in site.locales %}
-                  {{ configured_locale | jsonify }}: {{ site.data.locales[configured_locale].site.path | jsonify }}{% unless forloop.last %},{% endunless %}
+                  {% assign localized_path = registry_page.paths[configured_locale] %}
+                  {% if localized_path %}
+                    {{ configured_locale | jsonify }}: {{ localized_path | jsonify }}{% unless forloop.last %},{% endunless %}
+                  {% endif %}
                 {% endfor %}
               };
 
@@ -323,7 +343,7 @@
               }
 
               if (targetLocale && targetLocale !== {{ site.default_locale | jsonify }} && localePaths[targetLocale]) {
-                window.location.replace(localePaths[targetLocale] + currentSearch + currentHash);
+                window.location.replace(normalizeLocalePath(localePaths[targetLocale]) + currentSearch + currentHash);
               }
             }
           {% endif %}
