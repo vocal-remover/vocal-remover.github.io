@@ -1,4 +1,12 @@
 {% if site.locales.size > 1 %}
+{%- assign registry_page = nil -%}
+{%- if page.registry_id -%}
+  {%- for candidate_page in site.data.page_registry.pages -%}
+    {%- if candidate_page.id == page.registry_id -%}
+      {%- assign registry_page = candidate_page -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
 <nav aria-label="{{ site.data.locales[include.locale_code].switcher.aria_label }}" class="flex items-center justify-end">
   <details class="locale-switcher group relative" data-locale-switcher>
     <summary class="flex cursor-pointer items-center gap-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-semibold text-gray-900 transition hover:border-blue-700 hover:text-blue-700">
@@ -13,9 +21,13 @@
     <div class="locale-switcher-menu">
       <ul class="grid gap-1">
 {% for locale_code in site.locales -%}
+        {%- assign locale_target_path = site.data.locales[locale_code].site.path -%}
+        {%- if registry_page and registry_page.paths[locale_code] -%}
+          {%- assign locale_target_path = registry_page.paths[locale_code] -%}
+        {%- endif -%}
         <li>
           <a
-            href="{{ site.data.locales[locale_code].site.path | relative_url }}"
+            href="{{ locale_target_path | relative_url }}"
             class="locale-switcher-link"
             lang="{{ site.data.locales[locale_code].site.lang }}"
             hreflang="{{ site.data.locales[locale_code].site.lang }}"{% if locale_code == include.locale_code %} aria-current="page"{% endif %}
