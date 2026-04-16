@@ -102,7 +102,7 @@ faq:
     - question: ボーカル リムーバー拡張機能が遅い、または不安定です。どうすればいいですか？
       answers:
         - Windows の一部のパソコン、とくにノート PC では、ブラウザーに高速な GPU ではなく省電力 GPU が割り当てられることがあります。ボーカル リムーバーは音声をリアルタイム処理するため、動作が重くなったり、音が途切れたり、うまく動かなくなる原因になります。
-      answer_html: 'Windows に対して、ブラウザーに高性能 GPU を使うよう指定できます。スクリーンショット付きの手順はこちらです: <a href="/ja/blog/chrome-edge-windows-de-koseinou-gpu-wo-erabu/" class="underline">Windows で Chrome と Edge に高性能 GPU を選ぶ</a>。手順どおりにしても改善しない場合は、パソコンやブラウザーの性能がリアルタイム処理に足りない可能性があります。その場合は、より高性能な環境でボーカル リムーバーを試してください。'
+      answer_html: 'Windows に対して、ブラウザーに高性能 GPU を使うよう指定できます。スクリーンショット付きの手順はこちらです: <a href="/ja/blog/set-high-performance-gpu-for-chrome-edge-on-windows/" class="underline">Windows で Chrome と Edge に高性能 GPU を選ぶ</a>。手順どおりにしても改善しない場合は、パソコンやブラウザーの性能がリアルタイム処理に足りない可能性があります。その場合は、より高性能な環境でボーカル リムーバーを試してください。'
     - question: ボーカル リムーバー Online と Offline の違いは？
       answers:
         - ボーカル リムーバー Online は、YouTube などのサイト上で再生中の音声や動画から直接ボーカルを外せるブラウザー拡張機能です。

@@ -18,10 +18,10 @@ pages:
     llms_section: guides
     paths:
       en: /blog/set-high-performance-gpu-for-chrome-edge-on-windows/
-      it: /it/blog/scegliere-la-scheda-grafica-ad-alte-prestazioni-per-chrome-edge-su-windows/
-      es: /es/blog/elegir-la-grafica-de-alto-rendimiento-para-chrome-edge-en-windows/
-      de: /de/blog/leistungsstarke-grafik-fur-chrome-edge-in-windows-auswahlen/
-      fr: /fr/blog/choisir-le-gpu-hautes-performances-pour-chrome-edge-sur-windows/
-      ja: /ja/blog/chrome-edge-windows-de-koseinou-gpu-wo-erabu/
-      ru: /ru/blog/выбрать-высокопроизводительный-графический-процессор-для-chrome-edge-на-windows/
-      uk: /uk/blog/обрати-високопродуктивний-графічний-процесор-для-chrome-edge-на-windows/
+      it: /it/blog/set-high-performance-gpu-for-chrome-edge-on-windows/
+      es: /es/blog/set-high-performance-gpu-for-chrome-edge-on-windows/
+      de: /de/blog/set-high-performance-gpu-for-chrome-edge-on-windows/
+      fr: /fr/blog/set-high-performance-gpu-for-chrome-edge-on-windows/
+      ja: /ja/blog/set-high-performance-gpu-for-chrome-edge-on-windows/
+      ru: /ru/blog/set-high-performance-gpu-for-chrome-edge-on-windows/
+      uk: /uk/blog/set-high-performance-gpu-for-chrome-edge-on-windows/
