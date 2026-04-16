@@ -64,6 +64,19 @@ related_tools:
     speed_tool:
       name: Changer le BPM
       url: https://www.musiciantools.online/fr/changer-le-bpm
+  ja:
+    vocal_remover:
+      name: ボーカル リムーバー
+      url: https://removevocalsfromasong.com/ja/
+    bpm_extension:
+      name: BPM Changer
+      url: https://chromewebstore.google.com/detail/bpm-changer/klddneocmcmoacnnemmelgeilnedcpjj
+    pitch_changer:
+      name: Pitch Changer
+      url: https://pitch-changer.com/ja/
+    speed_tool:
+      name: BPM Changer
+      url: https://www.musiciantools.online/ja/テンポ変更
   ru:
     vocal_remover:
       name: Vocal Remover

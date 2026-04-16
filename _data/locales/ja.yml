@@ -1,0 +1,352 @@
+site:
+  lang: ja
+  locale_label: JA
+  native_label: 日本語
+  path: /ja/
+formatting:
+  decimal_separator: "."
+switcher:
+  aria_label: 言語切り替え
+  button_label: 言語を選ぶ
+meta:
+  title: "ボーカル リムーバー: 曲からボーカルをオンラインでもオフラインでも外す"
+  description: "あらゆるサイトで曲からボーカルを外し、練習、カラオケ、制作のために声と伴奏を分離できます。ブラウザー拡張機能と iPhone、iPad、Mac 向けアプリで使えます。"
+  og_title: "ボーカル リムーバー: 曲からボーカルを外す"
+  og_description: "あらゆるサイトで曲からボーカルを外し、練習、カラオケ、制作のために声と伴奏を分離できます。ブラウザー拡張機能と iPhone、iPad、Mac 向けアプリで使えます。"
+hero:
+  badge_label: 新着
+  badge_text: ボーカル リムーバーの iPhone / iPad 版が公開されました。新機能を見る
+  title: ボーカル リムーバー
+  subtitle: 曲からボーカルを数秒で外せる
+  description_line_1: ボーカル リムーバーなら、どんな曲でもボーカルを外して声と伴奏を分けられます
+  description_line_2: カラオケ、リミックス、練習、ポッドキャスト、レッスンに役立ちます。
+  description_line_3: お気に入りのサイトではオンラインで、iPhone、iPad、Mac ではオフラインで使えます。
+  online_cta_title: ボーカル リムーバー Online を追加
+  online_cta_subtitle: ブラウザーへ
+  offline_cta_title: ボーカル リムーバー Offline を追加
+  offline_cta_subtitle: iPhone、iPad、Mac へ
+nav:
+  aria_label: ページ内セクション
+  overview: ボーカル リムーバーとは？
+  online: サイトで使う
+  offline: ファイルで使う
+  use_cases: どんな人向け？
+  faq: FAQ
+overview:
+  title: ボーカル リムーバーとは？
+  paragraphs:
+    - "ボーカル リムーバーを使えば、複雑な音声ソフトなしで、どんなサイトでも曲からボーカルを外し、パソコン上で声と伴奏を分離できます。カラオケ、リミックス、練習、レッスン、コンテンツ制作といった実践的な場面向けに作られています。"
+    - "ボーカル リムーバーでできること:"
+  bullets:
+    - 曲からボーカルを外して、きれいな伴奏を作る。
+    - 声を分離して、歌い回しやハーモニー、重なりを確認する。
+    - カラオケ用トラックや伴奏、教材を用意する。
+    - ポッドキャストや動画から背景音楽を取り除く。
+  versions_intro: "ボーカル リムーバーには 2 つのバージョンがあります:"
+  online_link_label: ボーカル リムーバー Online
+  online_link_suffix: サイト向けブラウザー拡張機能と、
+  offline_link_label: ボーカル リムーバー Offline
+  offline_link_suffix: ファイル向けの iPhone、iPad、Mac アプリです。
+online:
+  title: ボーカル リムーバー Online
+  paragraphs:
+    - ボーカル リムーバーを使えば、AI ベースの分離でオンライン再生中のトラックからボーカルを手早く外せます。
+    - ボーカル リムーバー Online はブラウザーにそのまま追加できます。YouTube の動画や多くの音声サイトで、数クリックでボーカルを外せます。
+  bullets:
+    - あらゆるサイトで再生中の曲からオンラインでボーカルを外せる。
+    - YouTube でもほかの音楽プラットフォームでも使える。
+    - ファイルをダウンロードしたりアップロードしたりせずに伴奏を作れる。
+    - AI 分離で高品質な結果を得られる。
+    - カラオケ、カバー、リミックス、練習用トラックに向いている。
+  perfect_for_label: "おすすめ:"
+  perfect_for_text: カラオケ好き、シンガー、ボーカルコーチ、先生、クリエイター、オンライン動画で練習する人。
+  pricing_template: "無料トライアル後: WEEKLY_PRICE、YEARLY_PRICE、または LIFETIME_PRICE。"
+  offer_templates:
+    weekly: "週額 $PRICE_VALUE"
+    yearly: "年額 $PRICE_VALUE"
+    lifetime: "買い切り $PRICE_VALUE"
+  cta: ボーカル リムーバーをブラウザーに追加
+  image_alt: ボーカル リムーバー拡張機能をインストールして、Chrome に数秒で追加できます。
+offline:
+  title: ボーカル リムーバー Offline
+  paragraphs:
+    - ボーカル リムーバーは曲からボーカルを外し、声と伴奏を数秒で分離します。複数ファイルをまとめて処理して、きれいな伴奏を用意できます。
+    - 1 曲でもフォルダーごとでもドラッグすると、iPhone、iPad、Mac 向けのボーカル リムーバーが各曲をボーカルとインストゥルメンタルのステムに分けます。速度、精度、オフライン処理を重視した設計です。
+  bullets:
+    - 密度の高いミックスでも精度の高い AI 分離。
+    - 作業を続けながら数十曲、数百曲を処理できるバッチモード。
+    - WAV、AIFF、MP3、FLAC、M4A などに対応。
+    - アカウント不要、アップロード待ちなしのオフライン処理。
+  perfect_for_label: "おすすめ:"
+  perfect_for_text: プロデューサー、DJ、ポッドキャスター、先生、ローカル音声ファイルを扱う音楽家。
+  pricing_template: "無料トライアル後: WEEKLY_PRICE または YEARLY_PRICE。"
+  offer_templates:
+    weekly: "週額 $PRICE_VALUE"
+    yearly: "年額 $PRICE_VALUE"
+  cta: ボーカル リムーバーを iPhone、iPad、Mac に追加
+  image_alt: ボーカル リムーバーをダウンロードして、伴奏とボーカルステムをすばやく準備しましょう。
+use_cases:
+  title: ボーカル リムーバーを使うのは？
+  items:
+    - title: シンガーとカラオケ好き
+      body: どんな曲でもすぐにカラオケ版にできます。自分に合うキーで練習し、セットリストを準備し、別の伴奏を探し回らずにリハーサルできます。
+    - title: プロデューサーと DJ
+      body: リミックス、エディット、マッシュアップ用に、きれいな伴奏とボーカルを取り出せます。DAW やライブセット向けのステムもすぐに用意できます。
+    - title: 先生と学習者
+      body: レッスン、耳コピ、採譜向けにシンプルなトラックを作れます。ボーカルを分離して歌い回しを確認したり、外して上から演奏や歌唱をしたりできます。
+    - title: ポッドキャスターとクリエイター
+      body: 話し声の下にある音楽を外し、イントロやアウトロを整え、編集や再利用に向けてわかりやすいステムを用意できます。
+faq:
+  title: よくある質問
+  items:
+    - question: ボーカル リムーバー拡張機能が遅い、または不安定です。どうすればいいですか？
+      answers:
+        - Windows の一部のパソコン、とくにノート PC では、ブラウザーに高速な GPU ではなく省電力 GPU が割り当てられることがあります。ボーカル リムーバーは音声をリアルタイム処理するため、動作が重くなったり、音が途切れたり、うまく動かなくなる原因になります。
+      answer_html: 'Windows に対して、ブラウザーに高性能 GPU を使うよう指定できます。スクリーンショット付きの手順はこちらです: <a href="/ja/blog/chrome-edge-windows-de-koseinou-gpu-wo-erabu/" class="underline">Windows で Chrome と Edge に高性能 GPU を選ぶ</a>。手順どおりにしても改善しない場合は、パソコンやブラウザーの性能がリアルタイム処理に足りない可能性があります。その場合は、より高性能な環境でボーカル リムーバーを試してください。'
+    - question: ボーカル リムーバー Online と Offline の違いは？
+      answers:
+        - ボーカル リムーバー Online は、YouTube などのサイト上で再生中の音声や動画から直接ボーカルを外せるブラウザー拡張機能です。
+        - ボーカル リムーバー Offline は、iPhone、iPad、Mac 向けの単体アプリで、自分の音声ファイルを完全オフラインで扱え、フォルダー単位でまとめて処理できます。
+    - question: 音声ファイルをアップロードする必要はありますか？
+      answers:
+        - アップロードは不要です。
+        - 拡張機能は再生中の音をブラウザー内でそのまま処理し、iPhone、iPad、Mac 向けアプリはパソコン上のファイルをローカルで扱います。サーバー経由ではありません。
+    - question: ボーカル リムーバー Offline はどの音声形式に対応していますか？
+      answers:
+        - iPhone、iPad、Mac 向けのボーカル リムーバーは WAV、AIFF、MP3、FLAC、M4A などの一般的な形式に対応しています。変換しなくても手元のファイルをそのまま分離できます。動画、フォルダー、DAW のリージョンをドラッグすると、アプリが自動で音声を取り出します。
+    - question: ボーカルを外すと音質は落ちますか？
+      answers:
+        - ボーカル リムーバーは、伴奏を自然で音楽的に保つことを目指した AI 分離を使っています。
+        - Offline 版は曲全体を見ながら処理でき、計算資源も多いため、より高い品質を出しやすいです。
+        - とても複雑だったりノイズの多いミックスではアーティファクトが出ることもありますが、通常の曲ならかなりきれいに分離できます。
+    - question: 曲のキーも変えられますか？
+      linked_answers:
+        - tool_key: pitch_changer
+          template: はい。TOOL_LINK を使えば、オンラインでもオフラインでも曲のピッチやキーを変更できます。ボーカル リムーバーと一緒に使うと便利です。
+    - question: 曲のテンポを変えるには？
+      answers: []
+      linked_answers:
+        - tool_key: bpm_extension
+          template: サイトで再生中の音楽をそのまま遅くしたり速くしたりしたいなら、TOOL_LINK を使ってください。
+        - tool_key: speed_tool
+          template: 手元のファイルのテンポだけを変えてピッチを保ちたいなら、TOOL_LINK を使ってください。
+    - question: 無料トライアルはありますか？ 料金はどうなりますか？
+      answers:
+        - 拡張機能にも iPhone、iPad、Mac 向けアプリにも無料トライアルがあります。カードは不要です。
+        - トライアル後、ボーカル リムーバー Online では週額、年額、買い切り、Offline では週額と年額のプランが使えます。詳しくは上の料金表示をご覧ください。
+        - 決済は拡張機能では Paddle、アプリでは Apple により安全に処理されます。
+    - question: サブスクリプションはどうやって解約しますか？
+      answers:
+        - アプリまたは拡張機能内の「Manage Subscription」ボタンを押して案内に従ってください。
+        - すべて自動化されているので、電話やメールは必要ありません。
+    - question: ボーカル リムーバーはどんな人向けですか？
+      answers:
+        - ボーカル リムーバーは、シンガー、音楽家、プロデューサー、DJ、先生、クリエイターなど、声と音楽を分けたい人向けです。
+        - カラオケの準備でも、授業でも、セリフ編集でも、リミックス制作でも、すばやく使いやすいステムを作れます。
+get_started:
+  title: ボーカル リムーバーを始める
+  line_1: ブラウザーで作業したい人も、iPhone、iPad、Mac のローカルファイルで作業したい人も、
+  line_2: ボーカル リムーバーなら、曲からボーカルを外し、声と伴奏を分けて、自分の制作や練習に合わせたトラックを作れます。
+  rating_template: "Chrome Web Store で RATING_VALUE/5 · REVIEW_COUNT REVIEW_LABEL"
+  review_count_rule: one_other
+  review_count_labels:
+    one: 件のレビュー
+    other: 件のレビュー
+footer:
+  copyright: "© 2025 <a href=\"https://extensions.ee/\" class=\"underline\">extensions.ee</a>."
+  contact: "連絡先: info@extensions.ee."
+  payments_label: "支払いと返金:"
+  paddle_label: Paddle
+  paddle_url: https://paddle.net/
+  apple_label: Apple
+  apple_url: https://support.apple.com/billing
+  terms_label: 利用規約
+  terms_path: /terms-and-conditions.html
+  refund_label: 返金ポリシー
+  refund_path: /refund-policy.html
+  privacy_label: プライバシーポリシー
+  privacy_path: /privacy-policy.html
+  paragraphs:
+    - 当サイトでの購入は、オンライン販売代理店 Paddle.com が Merchant of Record として処理します。Paddle は、サイト経由の注文に関するカスタマーサポート、返金、請求、適用税の管理を担当します。
+    - App Store での購入は Apple が Merchant of Record として直接処理します。Apple は請求、領収書、税金、返金、関連するサポート問い合わせを担当します。
+    - どこで購入したかわからない場合は、Paddle または Apple から届いた確認メールや領収書を確認してください。
+  acknowledgements_prefix: サードパーティーの商標とコンポーネントは
+  acknowledgements_label: Acknowledgements
+  acknowledgements_url: https://extensions.ee/acknowledgements.html?from=removevocalsfromasong.com
+  acknowledgements_suffix: ページに掲載しています。
+structured_data:
+  online:
+    name: ボーカル リムーバー
+    alternateName: ボーカル リムーバー Online
+    applicationCategory: MultimediaApplication
+    operatingSystem: Chromium-based browser on Windows and macOS
+    description: ボーカル リムーバーは、ブラウザー上で曲からボーカルを外せる拡張機能です。AI による分離で、YouTube などの音声・動画プラットフォームからすぐにきれいな伴奏を作れます。
+    inLanguage: ja
+    publisher:
+      "@type": Organization
+      name: extensions.ee
+      url: https://extensions.ee
+    offer_names:
+      weekly: 週額プラン
+      yearly: 年額プラン
+      lifetime: 買い切り
+  offline:
+    name: ボーカル リムーバー
+    alternateName: iPhone、iPad、Mac 向けボーカル リムーバー
+    applicationCategory: MultimediaApplication
+    operatingSystem: macOS 15.0 or iOS 18.0
+    description: iPhone、iPad、Mac 向けボーカル リムーバーは、声と伴奏を数秒で分離します。1 曲でもフォルダーごとでも読み込めば、オフラインでカラオケ向け伴奏ときれいなボーカルステムを作れます。
+    inLanguage: ja
+    publisher:
+      "@type": Organization
+      name: extensions.ee
+      url: https://extensions.ee
+    offer_names:
+      weekly: 週額プラン
+      yearly: 年額プラン
+llms:
+  languages_heading: 対応言語
+  home_link_label: ホーム
+  link_label: LLMS
+  lead: ボーカル リムーバーは、シンガー、プロデューサー、先生、ポッドキャスター、カラオケ好きが、サイト上でも手元のファイルでも声と伴奏を分けられるようにします。
+  intro: このリファレンスでは、この言語で利用できるボーカル リムーバーのページをまとめ、音楽用途、ファイルの扱い、サイト向け拡張機能とファイル向けオフラインアプリの選び方に絞って案内します。
+  versions_heading: 自分に合うバージョンを選ぶ
+  sections:
+    site: サイト
+    guides: ガイド
+  pages:
+    home:
+      title: ボーカル リムーバー
+      summary: ここから始めれば、ボーカル リムーバーで伴奏を作る方法、ボーカルを分離する方法、ブラウザー拡張機能とオフラインアプリの違い、サイト向けかファイル向けかの選び方がわかります。
+    gpu_guide:
+      title: Windows で Chrome と Edge に高性能 GPU を選ぶ
+      summary: Windows でブラウザー拡張機能がカクついたり、リアルタイム処理が重かったりするときに読むガイドです。特に省電力 GPU が既定になっているノート PC で役立ちます。
+pages:
+  gpu_guide:
+    meta:
+      title: "Windows で Chrome と Edge に高性能 GPU を選ぶ"
+      description: "Windows でボーカル リムーバーが遅い、または不安定なときは、この手順で Chrome または Edge に高性能 GPU を割り当ててください。"
+      og_title: "Windows で Chrome と Edge に高性能 GPU を選ぶ"
+      og_description: "Windows でボーカル リムーバーが遅い、または不安定なときは、この手順で Chrome または Edge に高性能 GPU を割り当ててください。"
+      og_type: article
+      og_image: /blog/set-high-performance-gpu-for-chrome-edge-on-windows/graphics-settings-chrome-3.png
+    guide:
+      extension_link_label: ボーカル リムーバー拡張機能
+      page_title: Windows でブラウザーに高速 GPU を使わせる
+      intro_html:
+        - "EXTENSION_LINK は重い計算をリアルタイムで行うため、快適に動くには高速 GPU が必要です。音声の処理でも、最近のブラウザーは重い計算を速くするために GPU を使うので、ボーカル リムーバーにも重要です。"
+        - "一部のパソコン、とくにノート PC では、ブラウザーに省電力 GPU が割り当てられることがあります。そのままだと重くなったり音が途切れたり、ボーカル リムーバーが正しく動かなくなったりします。このガイドでは、ブラウザーに高性能 GPU を使わせる設定を行います。"
+      detected_browser_label: 検出されたブラウザー
+      unknown_browser_label: 不明
+      back_home_label: ホームへ戻る
+      copy_button:
+        idle: コピー
+        success: コピーしました
+      browsers:
+        chrome:
+          tab_label: Google Chrome
+          detected_label: Google Chrome
+          tab_accent: blue
+          title: Chrome に高性能 GPU を使わせる
+          steps:
+            - number: 1
+              title: グラフィック設定を開く
+              paragraphs_html:
+                - '<a href="ms-settings:display-advancedgraphics" class="underline">こちらのリンク</a>から開くか、<span class="font-medium">設定 → システム → ディスプレイ → グラフィック</span> に進みます。'
+                - '一覧の中から <span class="font-medium">Google Chrome</span> を探します（スクロールが必要な場合があります）。すでに見つかる場合は <a href="#step3-chrome" class="underline">手順 3</a> へ進んでください。'
+              images:
+                - src: graphics-settings.png
+                  alt: 設定 → システム → ディスプレイ → グラフィック 画面
+            - number: 2
+              title: 見当たらない場合は Chrome を追加する
+              paragraphs_html:
+                - "Chrome が表示されない場合:"
+              instructions_html:
+                - '<span class="font-medium">デスクトップ アプリを追加</span> を押します。'
+                - '下の <span class="font-medium">ファイル名</span> 欄に、<span class="font-medium">以下のいずれかのパス</span> を貼り付けます。'
+                - '<span class="font-medium">Enter</span> を押すか、<span class="font-medium">追加</span> を押します。'
+              note_html: 1 つ目のパスでエラーになる場合は次を試してください。
+              copy_paths:
+                - '%LocalAppData%\Google\Chrome\Application\chrome.exe'
+                - 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+                - 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+              images:
+                - src: graphics-settings-2.png
+                  alt: グラフィック設定で デスクトップ アプリを追加 ボタンが強調された画面
+                - src: file-picker-2.png
+                  alt: ファイル名欄が強調されたファイル選択画面
+            - number: 3
+              anchor_id: step3-chrome
+              title_html: 'Chrome で <em>高パフォーマンス</em> を選ぶ'
+              paragraphs_html:
+                - '一覧で <span class="font-medium">Google Chrome</span> を見つけて <span class="font-medium">オプション</span> を開き、<span class="font-medium whitespace-nowrap">GPU の設定</span> を <span class="font-medium whitespace-nowrap">高パフォーマンス</span> にします。'
+              images:
+                - src: graphics-settings-chrome-3.png
+                  alt: Google Chrome が強調されたグラフィック設定画面
+            - number: 4
+              title: ブラウザーを再起動し、必要なら PC も再起動する
+              paragraphs_html:
+                - "Chrome を閉じて開き直してください。改善しない場合はパソコンを再起動します。"
+              images: []
+          troubleshooting:
+            title: 変化がないとき
+            items:
+              - label: "バッテリー駆動中？"
+                body_html: ノート PC によっては、バッテリー時に省電力 GPU を優先し続けることがあります。電源に接続して試してください。
+              - label: GPU ドライバーを更新
+                body_html: GPU メーカーのアプリ（NVIDIA / AMD / Intel）または Windows Update から更新します。
+              - label: 設定を戻す
+                body_html: 'グラフィック設定で Chrome を <em>Windows に任せる</em> に戻してから、もう一度手順を行ってください。'
+        edge:
+          tab_label: Microsoft Edge
+          detected_label: Microsoft Edge
+          tab_accent: violet
+          title: Edge に高性能 GPU を使わせる
+          steps:
+            - number: 1
+              title: グラフィック設定を開く
+              paragraphs_html:
+                - '<a href="ms-settings:display-advancedgraphics" class="underline">こちらのリンク</a>から開くか、<span class="font-medium">設定 → システム → ディスプレイ → グラフィック</span> に進みます。'
+                - '一覧の中から <span class="font-medium">Microsoft Edge</span> を探します（スクロールが必要な場合があります）。すでに見つかる場合は <a href="#step3-edge" class="underline">手順 3</a> へ進んでください。'
+              images:
+                - src: graphics-settings.png
+                  alt: 設定 → システム → ディスプレイ → グラフィック 画面
+            - number: 2
+              title: 見当たらない場合は Edge を追加する
+              paragraphs_html:
+                - "Edge が表示されない場合:"
+              instructions_html:
+                - '<span class="font-medium">デスクトップ アプリを追加</span> を押します。'
+                - '下の <span class="font-medium">ファイル名</span> 欄に、<span class="font-medium">以下のいずれかのパス</span> を貼り付けます。'
+                - '<span class="font-medium">Enter</span> を押すか、<span class="font-medium">追加</span> を押します。'
+              note_html: 1 つ目のパスでエラーになる場合は次を試してください。
+              copy_paths:
+                - 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'
+                - 'C:\Program Files\Microsoft\Edge\Application\msedge.exe'
+              images:
+                - src: graphics-settings-2.png
+                  alt: グラフィック設定で デスクトップ アプリを追加 ボタンが強調された画面
+                - src: file-picker-2.png
+                  alt: ファイル名欄が強調されたファイル選択画面
+            - number: 3
+              anchor_id: step3-edge
+              title_html: 'Edge で <em>高パフォーマンス</em> を選ぶ'
+              paragraphs_html:
+                - '一覧で <span class="font-medium">Microsoft Edge</span> を見つけて <span class="font-medium">オプション</span> を開き、<span class="font-medium whitespace-nowrap">GPU の設定</span> を <span class="font-medium whitespace-nowrap">高パフォーマンス</span> にします。'
+              images:
+                - src: graphics-settings-edge-3.png
+                  alt: Microsoft Edge が強調されたグラフィック設定画面
+            - number: 4
+              title: ブラウザーを再起動し、必要なら PC も再起動する
+              paragraphs_html:
+                - "Edge を閉じて開き直してください。改善しない場合はパソコンを再起動します。"
+              images: []
+          troubleshooting:
+            title: 変化がないとき
+            items:
+              - label: "バッテリー駆動中？"
+                body_html: ノート PC によっては、バッテリー時に省電力 GPU を優先し続けることがあります。電源に接続して試してください。
+              - label: GPU ドライバーを更新
+                body_html: GPU メーカーのアプリ（NVIDIA / AMD / Intel）または Windows Update から更新します。
+              - label: 設定を戻す
+                body_html: 'グラフィック設定で Edge を <em>Windows に任せる</em> に戻してから、もう一度手順を行ってください。'
