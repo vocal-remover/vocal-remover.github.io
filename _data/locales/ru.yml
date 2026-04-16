@@ -232,7 +232,7 @@ pages:
       og_type: article
       og_image: /blog/set-high-performance-gpu-for-chrome-edge-on-windows/graphics-settings-chrome-3.png
     guide:
-      extension_link_label: расширение Vocal Remover
+      extension_link_label: Расширение Vocal Remover
       page_title: Как включить быстрый графический процессор для браузера в Windows
       intro_html:
         - "EXTENSION_LINK выполняет сложные вычисления в реальном времени, поэтому ему нужен быстрый графический процессор. Хотя речь идет об аудио, браузер тоже использует графику для тяжёлых вычислений, и для Vocal Remover это важно."
@@ -278,9 +278,9 @@ pages:
                   alt: Окно выбора файла с выделенным полем имени файла
             - number: 3
               anchor_id: step3-chrome
-              title_html: 'Выберите для Chrome режим <em>High Performance</em>'
+              title_html: 'Выберите для Chrome режим <em>«Высокопроизводительный»</em>'
               paragraphs_html:
-                - 'Найдите в списке <span class="font-medium">Google Chrome</span>, откройте параметры приложения и выберите режим <span class="font-medium whitespace-nowrap">High Performance</span>.'
+                - 'Найдите в списке <span class="font-medium">Google Chrome</span>, откройте <span class="font-medium">Параметры</span> приложения и в списке <span class="font-medium">Параметры GPU</span> выберите <span class="font-medium whitespace-nowrap">Высокопроизводительный</span> вместо <span class="font-medium whitespace-nowrap">Разрешить Windows принимать решение</span>.'
               images:
                 - src: graphics-settings-chrome-3.png
                   alt: Экран настроек графики с выделенным Google Chrome
@@ -297,7 +297,7 @@ pages:
               - label: Обновите графические драйверы
                 body_html: через приложение производителя графики (NVIDIA / AMD / Intel) или через Windows Update.
               - label: Сброс
-                body_html: 'В настройках графики верните Chrome к режиму <em>Let Windows decide</em>, а затем повторите шаги.'
+                body_html: 'В настройках графики верните Chrome к режиму <em>Разрешить Windows принимать решение</em>, а затем повторите шаги.'
         edge:
           tab_label: Microsoft Edge
           detected_label: Microsoft Edge
@@ -331,9 +331,9 @@ pages:
                   alt: Окно выбора файла с выделенным полем имени файла
             - number: 3
               anchor_id: step3-edge
-              title_html: 'Выберите для Edge режим <em>High Performance</em>'
+              title_html: 'Выберите для Edge режим <em>«Высокопроизводительный»</em>'
               paragraphs_html:
-                - 'Найдите в списке <span class="font-medium">Microsoft Edge</span>, откройте параметры приложения и выберите режим <span class="font-medium whitespace-nowrap">High Performance</span>.'
+                - 'Найдите в списке <span class="font-medium">Microsoft Edge</span>, откройте <span class="font-medium">Параметры</span> приложения и в списке <span class="font-medium">Параметры GPU</span> выберите <span class="font-medium whitespace-nowrap">Высокопроизводительный</span> вместо <span class="font-medium whitespace-nowrap">Разрешить Windows принимать решение</span>.'
               images:
                 - src: graphics-settings-edge-3.png
                   alt: Экран настроек графики с выделенным Microsoft Edge
@@ -350,4 +350,4 @@ pages:
               - label: Обновите графические драйверы
                 body_html: через приложение производителя графики (NVIDIA / AMD / Intel) или через Windows Update.
               - label: Сброс
-                body_html: 'В настройках графики верните Edge к режиму <em>Let Windows decide</em>, а затем повторите шаги.'
+                body_html: 'В настройках графики верните Edge к режиму <em>Разрешить Windows принимать решение</em>, а затем повторите шаги.'
