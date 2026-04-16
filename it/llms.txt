@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /it/llms.txt
+---
+{% include llms_locale.txt locale="it" %}
