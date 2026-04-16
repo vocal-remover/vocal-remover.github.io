@@ -1,0 +1,353 @@
+site:
+  lang: ru
+  locale_label: RU
+  native_label: Русский
+  path: /ru/
+formatting:
+  decimal_separator: ","
+switcher:
+  aria_label: Переключение языка
+  button_label: Выбрать язык
+meta:
+  title: "Vocal Remover: убрать вокал из песни онлайн и офлайн"
+  description: "Убирайте вокал из песни на любом сайте и разделяйте голос и музыку для караоке, репетиций и продакшена. Доступно как расширение для браузера и приложение для iPhone, iPad и Mac."
+  og_title: "Vocal Remover: убрать вокал из песни онлайн и офлайн"
+  og_description: "Убирайте вокал из песни на любом сайте и разделяйте голос и музыку для караоке, репетиций и продакшена. Доступно как расширение для браузера и приложение для iPhone, iPad и Mac."
+hero:
+  badge_label: Новое
+  badge_text: Vocal Remover для Mac уже вышел. Посмотрите, что нового
+  title: Vocal Remover
+  subtitle: Убрать вокал из песни за секунды
+  description_line_1: Vocal Remover помогает быстро убрать вокал из песни и отделить голос от музыки
+  description_line_2: для караоке, ремиксов, занятий, подкастов и преподавания.
+  description_line_3: Пользуйтесь им онлайн на любимых сайтах или офлайн на iPhone, iPad и Mac.
+  online_cta_title: Добавить Vocal Remover Online
+  online_cta_subtitle: в браузер
+  offline_cta_title: Добавить Vocal Remover Offline
+  offline_cta_subtitle: на iPhone, iPad или Mac
+nav:
+  aria_label: Разделы страницы
+  overview: Что такое Vocal Remover?
+  online: Для сайтов
+  offline: Для файлов
+  use_cases: Для кого он?
+  faq: FAQ
+overview:
+  title: Что такое Vocal Remover?
+  paragraphs:
+    - Vocal Remover помогает убирать вокал из песни на любом сайте и отделять голос от музыки в файлах без сложных аудиоредакторов. Он создан для реальных музыкальных задач: караоке, ремиксов, репетиций, занятий и контент-продакшена.
+    - "С его помощью можно:"
+  bullets:
+    - Убирать вокал из песни и получать чистый инструментал.
+    - Изолировать голос, чтобы разбирать фразировку, гармонии и слои.
+    - Готовить караоке-версии, минусовки и материалы для занятий.
+    - Убирать фоновую музыку из подкастов и видео, когда нужен более чистый голос.
+  versions_intro: "Vocal Remover доступен в двух версиях:"
+  online_link_label: Vocal Remover Online
+  online_link_suffix: расширение для сайтов, и
+  offline_link_label: Vocal Remover Offline
+  offline_link_suffix: приложение для iPhone, iPad и Mac для работы с файлами.
+online:
+  title: Vocal Remover Online
+  paragraphs:
+    - Используйте Vocal Remover, чтобы быстро убрать вокал из песни онлайн и получить чистый инструментал. Это удобный AI-инструмент, который помогает разделять голос и музыку прямо во время прослушивания.
+    - Vocal Remover Online добавляется прямо в браузер. Убирайте вокал из видео на YouTube и на других аудио- и видеосайтах всего за несколько кликов.
+  bullets:
+    - Убирайте вокал из песни онлайн прямо на любом сайте.
+    - Работает как расширение для удаления вокала на YouTube и на других музыкальных платформах.
+    - Помогает быстро получать чистые инструменталы без лишней подготовки.
+    - AI-разделение голоса и музыки для аккуратного результата.
+    - Отлично подходит для караоке, каверов, ремиксов и фонограмм.
+  perfect_for_label: "Отлично подходит для:"
+  perfect_for_text: любителей караоке, певцов, вокальных педагогов, преподавателей, контент-мейкеров и всех, кто занимается под онлайн-видео.
+  pricing_template: "После бесплатного пробного периода: WEEKLY_PRICE, YEARLY_PRICE или LIFETIME_PRICE."
+  offer_templates:
+    weekly: "$PRICE_VALUE в неделю"
+    yearly: "$PRICE_VALUE в год"
+    lifetime: "разовая покупка за $PRICE_VALUE"
+  cta: Добавить Vocal Remover в браузер
+  image_alt: Установите расширение Vocal Remover и добавьте его в Chrome за несколько секунд.
+offline:
+  title: Vocal Remover Offline
+  paragraphs:
+    - Vocal Remover быстро разделяет голос и музыку в песнях и помогает за секунды готовить чистые инструменталы. Можно обрабатывать сразу несколько файлов и не выбиваться из рабочего ритма.
+    - Добавьте один трек или целую папку, и Vocal Remover для iPhone, iPad или Mac разложит каждый файл на вокальный и инструментальный стем. Это удобно для репетиций, ремиксов, преподавания и каталогов с большими пачками музыки.
+  bullets:
+    - AI-разделение для аккуратной работы даже с плотными аранжировками.
+    - Пакетный режим для обработки десятков и сотен треков подряд.
+    - Поддержка WAV, AIFF, MP3, FLAC, M4A и других популярных форматов.
+    - Удобный офлайн-режим для работы со своей музыкальной библиотекой.
+  perfect_for_label: "Отлично подходит для:"
+  perfect_for_text: продюсеров, диджеев, подкастеров, преподавателей и музыкантов, которые работают с локальными аудиофайлами.
+  pricing_template: "После бесплатного пробного периода: WEEKLY_PRICE или YEARLY_PRICE."
+  offer_templates:
+    weekly: "$PRICE_VALUE в неделю"
+    yearly: "$PRICE_VALUE в год"
+  cta: Добавить Vocal Remover на iPhone, iPad или Mac
+  image_alt: Скачайте Vocal Remover и готовьте инструменталы и вокальные стемы в удобном для себя темпе.
+use_cases:
+  title: Кто использует Vocal Remover?
+  items:
+    - title: Певцы и любители караоке
+      body: Быстро превращайте любой трек в караоке-версию. Репетируйте в удобной тональности, собирайте сет-листы и готовьтесь к выступлениям без долгих поисков минусовок.
+    - title: Продюсеры и диджеи
+      body: Доставайте чистые инструменталы и вокалы для ремиксов, эдитов и мэшапов. Готовьте стемы для DAW и лайв-сетов за несколько кликов.
+    - title: Преподаватели и учащиеся
+      body: Делайте облегчённые версии треков для уроков, тренировки слуха и расшифровки. Можно отдельно послушать голос или убрать его, чтобы ученик пел поверх.
+    - title: Подкастеры и контент-мейкеры
+      body: Убирайте музыку под речью, очищайте заставки и аутро, а затем готовьте понятные стемы для монтажа и переработки материала.
+faq:
+  title: Часто задаваемые вопросы
+  items:
+    - question: Расширение Vocal Remover тормозит или работает с перебоями. Что делать?
+      answers:
+        - На некоторых компьютерах с Windows, особенно на ноутбуках, браузер может запускаться на энергосберегающем графическом процессоре вместо более быстрого. Так как расширение Vocal Remover обрабатывает звук в реальном времени, из-за этого появляются торможения, заикания или расширение вообще перестаёт нормально работать.
+      answer_html: 'Можно назначить браузеру высокопроизводительный графический процессор. Вот пошаговая инструкция со скриншотами: <a href="/ru/blog/выбрать-высокопроизводительный-графический-процессор-для-chrome-edge-на-windows/" class="underline">как выбрать быстрый графический процессор для Chrome и Edge в Windows</a>. Если после этого лучше не стало, значит мощности компьютера или браузера может просто не хватать для такой обработки в реальном времени. Если есть возможность, попробуйте более производительную систему.'
+    - question: В чем разница между Vocal Remover Online и Vocal Remover Offline?
+      answers:
+        - Vocal Remover Online — это расширение для браузера, которое убирает вокал прямо на сайтах вроде YouTube и других аудио- или видеоплатформ.
+        - Vocal Remover Offline — отдельное приложение для iPhone, iPad и Mac. Оно работает с вашими файлами и умеет пакетно обрабатывать целые папки.
+    - question: Нужно ли загружать аудиофайлы?
+      answers:
+        - Нет, загрузка не нужна.
+        - Расширение обрабатывает звук прямо во время воспроизведения в браузере, а приложение для iPhone, iPad и Mac работает с вашими файлами на устройстве.
+    - question: Какие аудиоформаты поддерживает Vocal Remover Offline?
+      answers:
+        - Vocal Remover для iPhone, iPad и Mac работает с популярными форматами вроде WAV, AIFF, MP3, FLAC, M4A и другими, поэтому можно сразу разбирать уже готовые файлы без предварительной конвертации. Также можно добавлять видео, папки и регионы из DAW, а приложение само извлечёт звук.
+    - question: Повлияет ли удаление вокала на качество звука?
+      answers:
+        - Vocal Remover использует AI-разделение, которое старается сохранять инструментал чистым и музыкальным.
+        - Офлайн-версия обычно даёт более точный результат, потому что видит трек целиком и может обработать его глубже.
+        - В очень сложных или шумных миксах артефакты возможны, но в большинстве обычных песен разделение звучит аккуратно.
+    - question: Можно ли ещё и менять тональность песен?
+      linked_answers:
+        - tool_key: pitch_changer
+          template: Да, используйте TOOL_LINK, чтобы менять высоту и тональность песен онлайн или офлайн. Он отлично дополняет Vocal Remover.
+    - question: Как изменить темп песни?
+      answers: []
+      linked_answers:
+        - tool_key: bpm_extension
+          template: Если нужно замедлить или ускорить музыку прямо на сайте, пока трек уже играет, используйте TOOL_LINK.
+        - tool_key: speed_tool
+          template: Если нужно изменить темп собственного файла и сохранить прежнюю тональность, используйте TOOL_LINK.
+    - question: Есть ли бесплатный пробный период? Как устроена оплата?
+      answers:
+        - И расширение, и приложение для iPhone, iPad и Mac предлагают бесплатный пробный период без привязки карты.
+        - После пробного периода Vocal Remover Online предлагает недельную, годовую и разовую покупку, а Vocal Remover Offline — недельную и годовую подписку, как указано выше.
+        - Все платежи безопасно обрабатываются через Paddle для расширения или через Apple для приложения.
+    - question: Как отменить подписку?
+      answers:
+        - Нажмите кнопку Manage Subscription внутри приложения или расширения и следуйте подсказкам.
+        - Процесс полностью автоматический, поэтому не нужно звонить или писать письма.
+    - question: Для кого создан Vocal Remover?
+      answers:
+        - Vocal Remover создан для певцов, музыкантов, продюсеров, диджеев, преподавателей, контент-мейкеров и всех, кому нужно отделять голос от музыки.
+        - Если вы готовите караоке, учебные материалы, диалоги для монтажа или ремиксы, он помогает быстро получить нужные стемы.
+get_started:
+  title: Начните с Vocal Remover
+  line_1: Работаете ли вы в браузере или с локальными файлами на iPhone, iPad и Mac,
+  line_2: Vocal Remover помогает быстро убирать вокал из песен, отделять голос от музыки и подготавливать треки под вашу задачу.
+  rating_template: "RATING_VALUE/5 · REVIEW_COUNT REVIEW_LABEL в Chrome Web Store"
+  review_count_rule: slavic
+  review_count_labels:
+    one: отзыв
+    few: отзыва
+    many: отзывов
+footer:
+  copyright: "© 2025 <a href=\"https://extensions.ee/\" class=\"underline\">extensions.ee</a>."
+  contact: "Контакт: info@extensions.ee."
+  payments_label: "Оплата и возвраты:"
+  paddle_label: Paddle
+  paddle_url: https://paddle.net/
+  apple_label: Apple
+  apple_url: https://support.apple.com/billing
+  terms_label: Условия использования
+  terms_path: /terms-and-conditions.html
+  refund_label: Политика возврата
+  refund_path: /refund-policy.html
+  privacy_label: Политика конфиденциальности
+  privacy_path: /privacy-policy.html
+  paragraphs:
+    - Покупки на сайте обрабатываются нашим онлайн-реселлером Paddle.com, который выступает Merchant of Record для этих заказов. Paddle отвечает за поддержку по заказам с сайта, возвраты, биллинг и применимые налоги.
+    - Покупки в App Store обрабатываются напрямую Apple, которая выступает Merchant of Record для заказов из App Store. Apple ведёт биллинг, чеки, налоги, возвраты и все связанные обращения по таким покупкам.
+    - Если вы не уверены, где оформляли покупку, проверьте письмо с подтверждением заказа или чек от Paddle или Apple.
+  acknowledgements_prefix: Сторонние торговые марки и компоненты перечислены на странице
+  acknowledgements_label: Acknowledgements
+  acknowledgements_url: https://extensions.ee/acknowledgements.html?from=removevocalsfromasong.com
+  acknowledgements_suffix: .
+structured_data:
+  online:
+    name: Vocal Remover
+    alternateName: Vocal Remover Online
+    applicationCategory: MultimediaApplication
+    operatingSystem: Chromium-based browser on Windows and macOS
+    description: Vocal Remover — расширение для браузера, которое помогает убирать вокал из песни прямо во время прослушивания. Используйте AI-разделение, чтобы быстро получать инструменталы из YouTube и других аудио- или видеоплатформ.
+    inLanguage: ru
+    publisher:
+      "@type": Organization
+      name: extensions.ee
+      url: https://extensions.ee
+    offer_names:
+      weekly: Недельная подписка
+      yearly: Годовая подписка
+      lifetime: Разовая покупка
+  offline:
+    name: Vocal Remover
+    alternateName: Vocal Remover for iPhone, iPad or Mac
+    applicationCategory: MultimediaApplication
+    operatingSystem: macOS 15.0 or iOS 18.0
+    description: Vocal Remover для iPhone, iPad и Mac быстро разделяет вокал и инструментал. Добавьте один трек или целую папку, чтобы получить минусовки и отдельные вокальные стемы для репетиций, ремиксов и занятий.
+    inLanguage: ru
+    publisher:
+      "@type": Organization
+      name: extensions.ee
+      url: https://extensions.ee
+    offer_names:
+      weekly: Недельная подписка
+      yearly: Годовая подписка
+llms:
+  languages_heading: Доступные языки
+  home_link_label: Главная
+  link_label: LLMS
+  lead: Vocal Remover помогает певцам, продюсерам, преподавателям, подкастерам и любителям караоке отделять вокал от музыки на сайтах или в собственных файлах.
+  intro: Этот справочный текст показывает страницы Vocal Remover на этом языке и помогает быстро перейти к нужной версии инструмента для сайтов, файлов и настройки Windows.
+  versions_heading: Как выбрать подходящую версию
+  sections:
+    site: Сайт
+    guides: Руководства
+  pages:
+    home:
+      title: Vocal Remover
+      summary: Начните здесь, чтобы понять, как Vocal Remover помогает собирать инструменталы, выделять вокал, сравнивать браузерное расширение с приложением для файлов и выбирать подходящий вариант под задачу.
+    gpu_guide:
+      title: Как выбрать быстрый графический процессор для Chrome и Edge в Windows
+      summary: Откройте это руководство, если расширение на Windows тормозит или заикается в реальном времени, особенно на ноутбуках, которые по умолчанию используют энергосберегающую графику.
+pages:
+  gpu_guide:
+    meta:
+      title: "Как выбрать быстрый графический процессор для Chrome и Edge (Windows)"
+      description: "Если Vocal Remover тормозит или работает с перебоями в Windows, назначьте Chrome или Edge высокопроизводительный графический процессор по этой пошаговой инструкции."
+      og_title: "Как выбрать быстрый графический процессор для Chrome и Edge (Windows)"
+      og_description: "Если Vocal Remover тормозит или работает с перебоями в Windows, назначьте Chrome или Edge высокопроизводительный графический процессор по этой пошаговой инструкции."
+      og_type: article
+      og_image: /blog/set-high-performance-gpu-for-chrome-edge-on-windows/graphics-settings-chrome-3.png
+    guide:
+      extension_link_label: расширение Vocal Remover
+      page_title: Как включить быстрый графический процессор для браузера в Windows
+      intro_html:
+        - "EXTENSION_LINK выполняет сложные вычисления в реальном времени, поэтому ему нужен быстрый графический процессор. Хотя речь идет об аудио, браузер тоже использует графику для тяжёлых вычислений, и для Vocal Remover это важно."
+        - "На некоторых компьютерах, особенно на ноутбуках, Windows может назначить браузеру энергосберегающий графический процессор. Из-за этого появляются торможения, заикания звука или расширение вообще перестаёт нормально работать. Эта инструкция поможет выбрать для браузера быстрый графический процессор."
+      detected_browser_label: Определённый браузер
+      unknown_browser_label: Неизвестно
+      back_home_label: Вернуться на главную
+      copy_button:
+        idle: Копировать
+        success: Скопировано!
+      browsers:
+        chrome:
+          tab_label: Google Chrome
+          detected_label: Google Chrome
+          tab_accent: blue
+          title: Как назначить Google Chrome высокопроизводительный графический процессор
+          steps:
+            - number: 1
+              title: Откройте настройки графики
+              paragraphs_html:
+                - 'Откройте настройки <a href="ms-settings:display-advancedgraphics" class="underline">по этой ссылке</a> или перейдите в <span class="font-medium">Параметры → Система → Дисплей → Графика</span>.'
+                - 'В списке найдите <span class="font-medium">Google Chrome</span> (возможно, придётся прокрутить ниже). Если он уже есть, переходите к <a href="#step3-chrome" class="underline">шагу 3</a>.'
+              images:
+                - src: graphics-settings.png
+                  alt: Экран Параметры → Система → Дисплей → Графика
+            - number: 2
+              title: Добавьте Chrome в список, если его там нет
+              paragraphs_html:
+                - "Если Chrome нет в списке:"
+              instructions_html:
+                - 'Нажмите <span class="font-medium">Добавить классическое приложение</span>.'
+                - 'Внизу, в поле <span class="font-medium">Имя файла</span>, <span class="font-medium">вставьте одну из строк</span> ниже.'
+                - 'Нажмите <span class="font-medium">Enter</span> или кнопку <span class="font-medium">Добавить</span>.'
+              note_html: Если первая строка не сработает, попробуйте следующую.
+              copy_paths:
+                - '%LocalAppData%\Google\Chrome\Application\chrome.exe'
+                - 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+                - 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+              images:
+                - src: graphics-settings-2.png
+                  alt: Экран настроек графики с выделенной кнопкой добавления классического приложения
+                - src: file-picker-2.png
+                  alt: Окно выбора файла с выделенным полем имени файла
+            - number: 3
+              anchor_id: step3-chrome
+              title_html: 'Выберите для Chrome режим <em>High Performance</em>'
+              paragraphs_html:
+                - 'Найдите в списке <span class="font-medium">Google Chrome</span>, откройте параметры приложения и выберите режим <span class="font-medium whitespace-nowrap">High Performance</span>.'
+              images:
+                - src: graphics-settings-chrome-3.png
+                  alt: Экран настроек графики с выделенным Google Chrome
+            - number: 4
+              title: Перезапустите браузер, а при необходимости и компьютер
+              paragraphs_html:
+                - 'Закройте Chrome и откройте его снова. Если это не помогло, перезагрузите компьютер.'
+              images: []
+          troubleshooting:
+            title: Если ничего не изменилось
+            items:
+              - label: "Ноутбук работает от батареи?"
+                body_html: Некоторые ноутбуки всё равно предпочитают энергосберегающий графический процессор без питания от сети. Попробуйте подключить зарядку.
+              - label: Обновите графические драйверы
+                body_html: через приложение производителя графики (NVIDIA / AMD / Intel) или через Windows Update.
+              - label: Сброс
+                body_html: 'В настройках графики верните Chrome к режиму <em>Let Windows decide</em>, а затем повторите шаги.'
+        edge:
+          tab_label: Microsoft Edge
+          detected_label: Microsoft Edge
+          tab_accent: violet
+          title: Как назначить Microsoft Edge высокопроизводительный графический процессор
+          steps:
+            - number: 1
+              title: Откройте настройки графики
+              paragraphs_html:
+                - 'Откройте настройки <a href="ms-settings:display-advancedgraphics" class="underline">по этой ссылке</a> или перейдите в <span class="font-medium">Параметры → Система → Дисплей → Графика</span>.'
+                - 'В списке найдите <span class="font-medium">Microsoft Edge</span> (возможно, придётся прокрутить ниже). Если он уже есть, переходите к <a href="#step3-edge" class="underline">шагу 3</a>.'
+              images:
+                - src: graphics-settings.png
+                  alt: Экран Параметры → Система → Дисплей → Графика
+            - number: 2
+              title: Добавьте Edge в список, если его там нет
+              paragraphs_html:
+                - "Если Edge нет в списке:"
+              instructions_html:
+                - 'Нажмите <span class="font-medium">Добавить классическое приложение</span>.'
+                - 'Внизу, в поле <span class="font-medium">Имя файла</span>, <span class="font-medium">вставьте одну из строк</span> ниже.'
+                - 'Нажмите <span class="font-medium">Enter</span> или кнопку <span class="font-medium">Добавить</span>.'
+              note_html: Если первая строка не сработает, попробуйте следующую.
+              copy_paths:
+                - 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'
+                - 'C:\Program Files\Microsoft\Edge\Application\msedge.exe'
+              images:
+                - src: graphics-settings-2.png
+                  alt: Экран настроек графики с выделенной кнопкой добавления классического приложения
+                - src: file-picker-2.png
+                  alt: Окно выбора файла с выделенным полем имени файла
+            - number: 3
+              anchor_id: step3-edge
+              title_html: 'Выберите для Edge режим <em>High Performance</em>'
+              paragraphs_html:
+                - 'Найдите в списке <span class="font-medium">Microsoft Edge</span>, откройте параметры приложения и выберите режим <span class="font-medium whitespace-nowrap">High Performance</span>.'
+              images:
+                - src: graphics-settings-edge-3.png
+                  alt: Экран настроек графики с выделенным Microsoft Edge
+            - number: 4
+              title: Перезапустите браузер, а при необходимости и компьютер
+              paragraphs_html:
+                - 'Закройте Edge и откройте его снова. Если это не помогло, перезагрузите компьютер.'
+              images: []
+          troubleshooting:
+            title: Если ничего не изменилось
+            items:
+              - label: "Ноутбук работает от батареи?"
+                body_html: Некоторые ноутбуки всё равно предпочитают энергосберегающий графический процессор без питания от сети. Попробуйте подключить зарядку.
+              - label: Обновите графические драйверы
+                body_html: через приложение производителя графики (NVIDIA / AMD / Intel) или через Windows Update.
+              - label: Сброс
+                body_html: 'В настройках графики верните Edge к режиму <em>Let Windows decide</em>, а затем повторите шаги.'

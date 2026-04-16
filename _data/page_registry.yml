@@ -5,9 +5,11 @@ pages:
     llms_section: site
     paths:
       en: /
+      ru: /ru/
   - id: gpu_guide
     sitemap: true
     llms_level: concise
     llms_section: guides
     paths:
       en: /blog/set-high-performance-gpu-for-chrome-edge-on-windows/
+      ru: /ru/blog/выбрать-высокопроизводительный-графический-процессор-для-chrome-edge-на-windows/

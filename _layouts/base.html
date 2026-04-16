@@ -154,20 +154,22 @@
       }
     </style>
 {% if page.homepage -%}
+{%- assign online_page_url = page_absolute_url | append: '#online' -%}
+{%- assign offline_page_url = page_absolute_url | append: '#offline' -%}
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@graph": [
           {
             "@type": "SoftwareApplication",
-            "@id": {{ product_facts.site_url | append: '/#online' | replace: '//#', '/#' | jsonify }},
+            "@id": {{ online_page_url | jsonify }},
             "name": {{ locale_data.structured_data.online.name | jsonify }},
             "alternateName": {{ locale_data.structured_data.online.alternateName | jsonify }},
             "applicationCategory": {{ locale_data.structured_data.online.applicationCategory | jsonify }},
             "operatingSystem": {{ locale_data.structured_data.online.operatingSystem | jsonify }},
             "description": {{ locale_data.structured_data.online.description | jsonify }},
             "inLanguage": {{ locale_data.structured_data.online.inLanguage | jsonify }},
-            "url": {{ product_facts.site_url | append: '/#online' | replace: '//#', '/#' | jsonify }},
+            "url": {{ online_page_url | jsonify }},
             "installUrl": {{ product_facts.online.install_url | jsonify }},
             "aggregateRating": {
               "@type": "AggregateRating",
@@ -201,14 +203,14 @@
           },
           {
             "@type": "SoftwareApplication",
-            "@id": {{ product_facts.site_url | append: '/#offline' | replace: '//#', '/#' | jsonify }},
+            "@id": {{ offline_page_url | jsonify }},
             "name": {{ locale_data.structured_data.offline.name | jsonify }},
             "alternateName": {{ locale_data.structured_data.offline.alternateName | jsonify }},
             "applicationCategory": {{ locale_data.structured_data.offline.applicationCategory | jsonify }},
             "operatingSystem": {{ locale_data.structured_data.offline.operatingSystem | jsonify }},
             "description": {{ locale_data.structured_data.offline.description | jsonify }},
             "inLanguage": {{ locale_data.structured_data.offline.inLanguage | jsonify }},
-            "url": {{ product_facts.site_url | append: '/#offline' | replace: '//#', '/#' | jsonify }},
+            "url": {{ offline_page_url | jsonify }},
             "installUrl": {{ product_facts.offline.install_url | jsonify }},
             "publisher": {{ locale_data.structured_data.offline.publisher | jsonify }},
             "offers": [

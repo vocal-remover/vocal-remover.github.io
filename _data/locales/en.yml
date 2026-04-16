@@ -230,3 +230,123 @@ pages:
       og_description: "If Vocal Remover feels slow or glitchy on Windows, tell Chrome or Edge to use the high-performance graphics chip with this step-by-step guide."
       og_type: article
       og_image: /blog/set-high-performance-gpu-for-chrome-edge-on-windows/graphics-settings-chrome-3.png
+    guide:
+      extension_link_label: Vocal Remover extension
+      page_title: Make Windows use your fast graphics chip for your browser
+      intro_html:
+        - "EXTENSION_LINK performs complex math in real time, so it needs a fast graphics chip to work smoothly. Even though this is about audio, modern browsers use the graphics chip behind the scenes to speed up the heavy number-crunching, and Vocal Remover needs it."
+        - "On some computers, especially laptops, Windows may choose the power-saving graphics chip for your browser. That can cause slowdowns, sound hiccups, or completely prevent Vocal Remover extension from working. This guide tells Windows to use your high-performance graphics chip for your browser."
+      detected_browser_label: Detected browser
+      unknown_browser_label: Unknown
+      back_home_label: Back to the Home Page
+      copy_button:
+        idle: Copy
+        success: Copied!
+      browsers:
+        chrome:
+          tab_label: Google Chrome
+          detected_label: Google Chrome
+          tab_accent: blue
+          title: Set Chrome to use the high-performance graphics chip
+          steps:
+            - number: 1
+              title: Open Graphics settings
+              paragraphs_html:
+                - 'Open settings by <a href="ms-settings:display-advancedgraphics" class="underline">clicking here</a>, or go to <span class="font-medium">Settings → System → Display → Graphics</span>.'
+                - 'In the list, look for <span class="font-medium">Google Chrome</span> (you may need to scroll). If you see it, go to <a href="#step3-chrome" class="underline">Step 3</a>.'
+              images:
+                - src: graphics-settings.png
+                  alt: Settings → System → Display → Graphics screen
+            - number: 2
+              title: Add Chrome to the list (only if it's missing)
+              paragraphs_html:
+                - "If you don't see Chrome there:"
+              instructions_html:
+                - 'Click <span class="font-medium">Add desktop app</span>.'
+                - 'At the bottom, in the <span class="font-medium">File name</span> box, <span class="font-medium">paste one of the lines</span> below.'
+                - 'Press <span class="font-medium">Enter</span> or click <span class="font-medium">Add</span>.'
+              note_html: If the first line shows you an error, try the next one.
+              copy_paths:
+                - '%LocalAppData%\Google\Chrome\Application\chrome.exe'
+                - 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+                - 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+              images:
+                - src: graphics-settings-2.png
+                  alt: Settings → System → Display → Graphics screen with Add desktop app button highlighted
+                - src: file-picker-2.png
+                  alt: File picker with file name and button highlighted
+            - number: 3
+              anchor_id: step3-chrome
+              title_html: 'Choose <em>High Performance</em> for Chrome'
+              paragraphs_html:
+                - 'Find <span class="font-medium">Google Chrome</span> in the list (you may need to scroll). Click it and set <span class="font-medium whitespace-nowrap">GPU preference</span> to <span class="font-medium whitespace-nowrap">High Performance</span>.'
+              images:
+                - src: graphics-settings-chrome-3.png
+                  alt: Settings → System → Display → Graphics screen with Chrome highlighted
+            - number: 4
+              title: Restart the browser — and if needed, your computer
+              paragraphs_html:
+                - "Close Chrome and open it again. If it doesn't help, try restarting your computer."
+              images: []
+          troubleshooting:
+            title: If you don't see a difference
+            items:
+              - label: "Laptop on battery?"
+                body_html: Some laptops still prefer the power-saving graphics chip on battery. Try plugging&nbsp;in.
+              - label: Update graphics drivers
+                body_html: via your graphics chip maker's app (NVIDIA / AMD / Intel) or Windows Update.
+              - label: Reset
+                body_html: 'In Graphics settings, set Chrome back to <em>Let Windows decide</em>, then repeat the steps.'
+        edge:
+          tab_label: Microsoft Edge
+          detected_label: Microsoft Edge
+          tab_accent: violet
+          title: Set Edge to use the high-performance graphics chip
+          steps:
+            - number: 1
+              title: Open Graphics settings
+              paragraphs_html:
+                - 'Open settings by <a href="ms-settings:display-advancedgraphics" class="underline">clicking here</a>, or go to <span class="font-medium">Settings → System → Display → Graphics</span>.'
+                - 'In the list, look for <span class="font-medium">Microsoft Edge</span> (you may need to scroll). If you see it, go to <a href="#step3-edge" class="underline">Step 3</a>.'
+              images:
+                - src: graphics-settings.png
+                  alt: Settings → System → Display → Graphics screen
+            - number: 2
+              title: Add Edge to the list (only if it's missing)
+              paragraphs_html:
+                - "If you don't see Edge there:"
+              instructions_html:
+                - 'Click <span class="font-medium">Add desktop app</span>.'
+                - 'At the bottom, in the <span class="font-medium">File name</span> box, <span class="font-medium">paste one of the lines</span> below.'
+                - 'Press <span class="font-medium">Enter</span> or click <span class="font-medium">Add</span>.'
+              note_html: If the first line shows you an error, try the next one.
+              copy_paths:
+                - 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'
+                - 'C:\Program Files\Microsoft\Edge\Application\msedge.exe'
+              images:
+                - src: graphics-settings-2.png
+                  alt: Settings → System → Display → Graphics screen with Add desktop app button highlighted
+                - src: file-picker-2.png
+                  alt: File picker with file name and button highlighted
+            - number: 3
+              anchor_id: step3-edge
+              title_html: 'Choose <em>High Performance</em> for Edge'
+              paragraphs_html:
+                - 'Find <span class="font-medium">Microsoft Edge</span> in the list (you may need to scroll). Click it and set <span class="font-medium whitespace-nowrap">GPU preference</span> to <span class="font-medium whitespace-nowrap">High Performance</span>.'
+              images:
+                - src: graphics-settings-edge-3.png
+                  alt: Settings → System → Display → Graphics screen with Edge highlighted
+            - number: 4
+              title: Restart the browser — and if needed, your computer
+              paragraphs_html:
+                - "Close Edge and open it again. If it doesn't help, try restarting your computer."
+              images: []
+          troubleshooting:
+            title: If you don't see a difference
+            items:
+              - label: "Laptop on battery?"
+                body_html: Some laptops still prefer the power-saving graphics chip on battery. Try plugging&nbsp;in.
+              - label: Update graphics drivers
+                body_html: via your graphics chip maker's app (NVIDIA / AMD / Intel) or Windows Update.
+              - label: Reset
+                body_html: 'In Graphics settings, set Edge back to <em>Let Windows decide</em>, then repeat the steps.'

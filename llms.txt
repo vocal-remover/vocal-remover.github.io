@@ -2,4 +2,4 @@
 layout: null
 permalink: /llms.txt
 ---
-{% include llms_locale.txt locale=site.default_locale %}
+{% include llms_locale.txt locale=site.default_locale show_languages=true root_links=true %}
