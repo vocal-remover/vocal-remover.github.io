@@ -11,6 +11,7 @@ pages:
       fr: /fr/
       ja: /ja/
       ru: /ru/
+      uk: /uk/
   - id: gpu_guide
     sitemap: true
     llms_level: concise
@@ -23,3 +24,4 @@ pages:
       fr: /fr/blog/choisir-le-gpu-hautes-performances-pour-chrome-edge-sur-windows/
       ja: /ja/blog/chrome-edge-windows-de-koseinou-gpu-wo-erabu/
       ru: /ru/blog/выбрать-высокопроизводительный-графический-процессор-для-chrome-edge-на-windows/
+      uk: /uk/blog/обрати-високопродуктивний-графічний-процесор-для-chrome-edge-на-windows/

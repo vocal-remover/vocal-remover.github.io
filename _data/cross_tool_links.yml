@@ -77,6 +77,19 @@ related_tools:
     speed_tool:
       name: BPM Changer
       url: https://www.musiciantools.online/ja/テンポ変更
+  uk:
+    vocal_remover:
+      name: Vocal Remover
+      url: https://removevocalsfromasong.com/uk/
+    bpm_extension:
+      name: Змінити темп пісні онлайн
+      url: https://chromewebstore.google.com/detail/bpm-changer/klddneocmcmoacnnemmelgeilnedcpjj
+    pitch_changer:
+      name: Pitch Changer
+      url: https://pitch-changer.com/uk/
+    speed_tool:
+      name: Змінити темп пісні
+      url: https://www.musiciantools.online/uk/змінити-темп-пісні
   ru:
     vocal_remover:
       name: Vocal Remover
