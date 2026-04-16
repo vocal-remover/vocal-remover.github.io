@@ -1,0 +1,340 @@
+{%- assign locale_code = page.locale | default: site.default_locale -%}
+{%- assign locale_data = site.data.locales[locale_code] -%}
+{%- assign product_facts = site.data.product_facts.vocal_remover -%}
+{%- assign page_absolute_url = page.url | absolute_url -%}
+{%- assign page_meta = locale_data.meta -%}
+{%- assign page_og_image = '/online.png' | absolute_url -%}
+{%- assign registry_page = nil -%}
+{%- for candidate_page in site.data.page_registry.pages -%}
+  {%- if candidate_page.id == page.registry_id -%}
+    {%- assign registry_page = candidate_page -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if page.meta_key and locale_data.pages and locale_data.pages[page.meta_key] and locale_data.pages[page.meta_key].meta -%}
+  {%- assign page_meta = locale_data.pages[page.meta_key].meta -%}
+{%- endif -%}
+{%- if page_meta.og_image -%}
+  {%- assign page_og_image = page_meta.og_image | absolute_url -%}
+{%- endif -%}
+<!DOCTYPE html>
+<html lang="{{ locale_data.site.lang }}">
+  <head>
+    <title>{{ page_meta.title }}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{ page_meta.description }}" />
+    <meta property="og:title" content="{{ page_meta.og_title | default: page_meta.title }}" />
+    <meta property="og:description" content="{{ page_meta.og_description | default: page_meta.description }}" />
+    <meta property="og:url" content="{{ page_absolute_url }}" />
+    <meta property="og:type" content="{{ page_meta.og_type | default: 'website' }}" />
+    <meta property="og:image" content="{{ page_og_image }}" />
+    <link rel="icon" sizes="32x32" type="image/png" href="{{ '/icons/32.png' | relative_url }}" />
+    <link rel="icon" sizes="16x16" type="image/png" href="{{ '/icons/16.png' | relative_url }}" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="canonical" href="{{ page_absolute_url }}" />
+{% if site.locales.size > 1 and registry_page -%}
+{% for alternate_locale_code in site.locales -%}
+{%- assign alternate_path = registry_page.paths[alternate_locale_code] -%}
+{%- if alternate_path -%}
+    <link rel="alternate" hreflang="{{ site.data.locales[alternate_locale_code].site.lang }}" href="{{ alternate_path | absolute_url }}" />
+{%- endif -%}
+{% endfor -%}
+{%- assign default_path = registry_page.paths[site.default_locale] -%}
+{%- if default_path -%}
+    <link rel="alternate" hreflang="x-default" href="{{ default_path | absolute_url }}" />
+{%- endif -%}
+{% endif -%}
+    <style>
+      .locale-switcher {
+        position: relative;
+        display: inline-flex;
+      }
+
+      .hero-topbar {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 0.75rem;
+      }
+
+      .hero-topbar-spacer {
+        display: none;
+      }
+
+      .hero-topbar-update {
+        max-width: 100%;
+      }
+
+      .hero-topbar-switcher {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .locale-switcher summary {
+        list-style: none;
+      }
+
+      .locale-switcher summary::-webkit-details-marker {
+        display: none;
+      }
+
+      .locale-switcher-menu {
+        position: absolute;
+        right: 0;
+        top: calc(100% + 0.5rem);
+        z-index: 20;
+        min-width: 13rem;
+        border: 1px solid #d1d5db;
+        border-radius: 1.5rem;
+        background: #fff;
+        padding: 0.5rem;
+        box-shadow: 0 18px 60px rgba(15, 23, 42, 0.16);
+      }
+
+      .locale-switcher-link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.75rem;
+        border-radius: 1rem;
+        padding: 0.75rem 1rem;
+        color: #111827;
+        font-size: 0.95rem;
+        font-weight: 600;
+        text-decoration: none;
+      }
+
+      .locale-switcher-link:hover,
+      .locale-switcher-link:focus-visible {
+        background: #eff6ff;
+        color: #1d4ed8;
+        outline: none;
+      }
+
+      .locale-switcher-link[aria-current="true"] {
+        background: #dbeafe;
+        color: #1d4ed8;
+      }
+
+      .locale-switcher-abbr {
+        color: #6b7280;
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      @media (max-width: 640px) {
+        .locale-switcher-menu {
+          right: auto;
+          left: 0;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .hero-topbar {
+          display: grid;
+          grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+        }
+
+        .hero-topbar-spacer {
+          display: block;
+        }
+
+        .hero-topbar-update {
+          justify-self: center;
+        }
+
+        .hero-topbar-switcher {
+          justify-self: end;
+          width: auto;
+        }
+      }
+    </style>
+{% if page.homepage -%}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "SoftwareApplication",
+            "@id": {{ product_facts.site_url | append: '/#online' | replace: '//#', '/#' | jsonify }},
+            "name": {{ locale_data.structured_data.online.name | jsonify }},
+            "alternateName": {{ locale_data.structured_data.online.alternateName | jsonify }},
+            "applicationCategory": {{ locale_data.structured_data.online.applicationCategory | jsonify }},
+            "operatingSystem": {{ locale_data.structured_data.online.operatingSystem | jsonify }},
+            "description": {{ locale_data.structured_data.online.description | jsonify }},
+            "inLanguage": {{ locale_data.structured_data.online.inLanguage | jsonify }},
+            "url": {{ product_facts.site_url | append: '/#online' | replace: '//#', '/#' | jsonify }},
+            "installUrl": {{ product_facts.online.install_url | jsonify }},
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": {{ product_facts.online.rating.value }},
+              "ratingCount": {{ product_facts.online.rating.count }}
+            },
+            "publisher": {{ locale_data.structured_data.online.publisher | jsonify }},
+            "offers": [
+              {
+                "@type": "Offer",
+                "name": {{ locale_data.structured_data.online.offer_names.weekly | jsonify }},
+                "price": {{ product_facts.online.offers.weekly.price | jsonify }},
+                "priceCurrency": {{ product_facts.online.offers.weekly.priceCurrency | jsonify }},
+                "availability": "https://schema.org/InStock"
+              },
+              {
+                "@type": "Offer",
+                "name": {{ locale_data.structured_data.online.offer_names.yearly | jsonify }},
+                "price": {{ product_facts.online.offers.yearly.price | jsonify }},
+                "priceCurrency": {{ product_facts.online.offers.yearly.priceCurrency | jsonify }},
+                "availability": "https://schema.org/InStock"
+              },
+              {
+                "@type": "Offer",
+                "name": {{ locale_data.structured_data.online.offer_names.lifetime | jsonify }},
+                "price": {{ product_facts.online.offers.lifetime.price | jsonify }},
+                "priceCurrency": {{ product_facts.online.offers.lifetime.priceCurrency | jsonify }},
+                "availability": "https://schema.org/InStock"
+              }
+            ]
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": {{ product_facts.site_url | append: '/#offline' | replace: '//#', '/#' | jsonify }},
+            "name": {{ locale_data.structured_data.offline.name | jsonify }},
+            "alternateName": {{ locale_data.structured_data.offline.alternateName | jsonify }},
+            "applicationCategory": {{ locale_data.structured_data.offline.applicationCategory | jsonify }},
+            "operatingSystem": {{ locale_data.structured_data.offline.operatingSystem | jsonify }},
+            "description": {{ locale_data.structured_data.offline.description | jsonify }},
+            "inLanguage": {{ locale_data.structured_data.offline.inLanguage | jsonify }},
+            "url": {{ product_facts.site_url | append: '/#offline' | replace: '//#', '/#' | jsonify }},
+            "installUrl": {{ product_facts.offline.install_url | jsonify }},
+            "publisher": {{ locale_data.structured_data.offline.publisher | jsonify }},
+            "offers": [
+              {
+                "@type": "Offer",
+                "name": {{ locale_data.structured_data.offline.offer_names.weekly | jsonify }},
+                "price": {{ product_facts.offline.offers.weekly.price | jsonify }},
+                "priceCurrency": {{ product_facts.offline.offers.weekly.priceCurrency | jsonify }},
+                "availability": "https://schema.org/InStock"
+              },
+              {
+                "@type": "Offer",
+                "name": {{ locale_data.structured_data.offline.offer_names.yearly | jsonify }},
+                "price": {{ product_facts.offline.offers.yearly.price | jsonify }},
+                "priceCurrency": {{ product_facts.offline.offers.yearly.priceCurrency | jsonify }},
+                "availability": "https://schema.org/InStock"
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+{% include faq_structured_data.html
+  faq_schema_key=page.faq_schema_key
+  locale_code=locale_code
+  locale_data=locale_data
+  page_url=page_absolute_url
+  in_language=locale_data.site.lang
+%}
+{% endif -%}
+  </head>
+  <body class="{{ page.body_class | default: 'bg-white' }}">
+{{ content }}
+{% unless page.hide_footer %}
+{% include footer.html locale_code=locale_code %}
+{% endunless %}
+    <script>
+      (function() {
+        var source = (new URLSearchParams(window.location.search)).get("utm_source");
+        if (source) {
+          document.querySelectorAll("a").forEach(function(link) {
+            if (link.href.startsWith("https://chromewebstore.google.com/")) {
+              link.href += "?utm_source=" + encodeURIComponent(source);
+            } else if (link.href.startsWith("https://apps.apple.com/")) {
+              link.href += "?ct=" + encodeURIComponent(source);
+            }
+          });
+        }
+
+        {% if site.locales.size > 1 %}
+          var localeLinks = document.querySelectorAll("[data-locale-link]");
+          var currentSearch = window.location.search || "";
+          var currentHash = window.location.hash || "";
+
+          localeLinks.forEach(function(link) {
+            var localeCode = link.getAttribute("data-locale-code");
+            var targetPath = link.getAttribute("href");
+
+            if (targetPath) {
+              link.href = targetPath + currentSearch + currentHash;
+            }
+
+            link.addEventListener("click", function() {
+              if (!localeCode) return;
+
+              try {
+                window.localStorage.setItem("preferred_locale", localeCode);
+              } catch (error) {
+              }
+            });
+          });
+
+          {% if page.locale_root %}
+            var rootPaths = ["/", "/index.html"];
+            if (rootPaths.indexOf(window.location.pathname) !== -1) {
+              var localePaths = {
+                {% for configured_locale in site.locales %}
+                  {{ configured_locale | jsonify }}: {{ site.data.locales[configured_locale].site.path | jsonify }}{% unless forloop.last %},{% endunless %}
+                {% endfor %}
+              };
+
+              var targetLocale = null;
+              try {
+                targetLocale = window.localStorage.getItem("preferred_locale");
+              } catch (error) {
+              }
+
+              if (targetLocale && !localePaths[targetLocale]) {
+                targetLocale = null;
+              }
+
+              if (!targetLocale) {
+                var requestedLanguages = window.navigator.languages || [window.navigator.language || ""];
+                requestedLanguages.some(function(language) {
+                  var normalizedLanguage = (language || "").toLowerCase();
+                  var languageCode = normalizedLanguage.split("-")[0];
+
+                  if (localePaths[normalizedLanguage]) {
+                    targetLocale = normalizedLanguage;
+                    return true;
+                  }
+
+                  if (localePaths[languageCode]) {
+                    targetLocale = languageCode;
+                    return true;
+                  }
+
+                  return false;
+                });
+              }
+
+              if (targetLocale && targetLocale !== {{ site.default_locale | jsonify }} && localePaths[targetLocale]) {
+                window.location.replace(localePaths[targetLocale] + currentSearch + currentHash);
+              }
+            }
+          {% endif %}
+
+          document.addEventListener("click", function(event) {
+            document.querySelectorAll("[data-locale-switcher]").forEach(function(details) {
+              if (!details.contains(event.target)) {
+                details.removeAttribute("open");
+              }
+            });
+          });
+        {% endif %}
+      })();
+    </script>
+  </body>
+</html>

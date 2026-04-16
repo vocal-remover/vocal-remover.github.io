@@ -1,0 +1,93 @@
+{%- assign locale_code = include.locale -%}
+{%- assign locale_data = site.data.locales[locale_code] -%}
+{%- assign related_tools = site.data.cross_tool_links.related_tools[locale_code] -%}
+# {{ locale_data.hero.title }}
+
+> {{ locale_data.llms.lead }}
+
+{{ locale_data.llms.intro }}
+{%- for section in locale_data.llms.sections -%}
+{%- assign section_key = section[0] -%}
+{%- assign section_title = section[1] -%}
+{%- capture section_body -%}
+{%- for registry_page in site.data.page_registry.pages -%}
+{%- assign localized_path = registry_page.paths[locale_code] -%}
+{%- assign include_page = false -%}
+{%- if localized_path and registry_page.llms_section == section_key and registry_page.llms_level -%}
+  {%- assign include_page = true -%}
+{%- endif -%}
+{%- if include_page -%}
+{%- assign page_copy = locale_data.llms.pages[registry_page.id] -%}
+- [{{ page_copy.title }}]({{ localized_path | absolute_url }}): {{ page_copy.summary }}
+{%- endif -%}
+{%- endfor -%}
+{%- endcapture -%}
+{%- assign section_body = section_body | strip -%}
+{%- if section_body != "" %}
+
+## {{ section_title }}
+
+{{ section_body }}
+{% endif -%}
+{% endfor %}
+
+## {{ locale_data.llms.versions_heading }}
+
+### {{ locale_data.online.title }}
+
+{{ locale_data.online.paragraphs[0] }}
+
+{{ locale_data.online.perfect_for_label }} {{ locale_data.online.perfect_for_text }}
+
+### {{ locale_data.offline.title }}
+
+{{ locale_data.offline.paragraphs[0] }}
+
+{{ locale_data.offline.perfect_for_label }} {{ locale_data.offline.perfect_for_text }}
+
+## {{ locale_data.use_cases.title }}
+
+{% for item in locale_data.use_cases.items -%}
+- **{{ item.title }}**: {{ item.body }}
+{% endfor -%}
+
+## {{ locale_data.faq.title }}
+
+{%- for item in locale_data.faq.items %}
+
+### {{ item.question }}
+
+{% if item.answers and item.answers != empty -%}
+{% for answer in item.answers -%}
+- {{ answer }}
+{% endfor -%}
+{% endif -%}
+{% if item.linked_answers and item.linked_answers != empty -%}
+{% for linked_answer in item.linked_answers -%}
+{% assign linked_tool = related_tools[linked_answer.tool_key] -%}
+- {{ linked_answer.template | replace: 'TOOL_LINK', linked_tool.name }}
+{% endfor -%}
+{% endif -%}
+{% if item.answer_html -%}
+- {{ item.answer_html | strip_html | strip }}
+{% endif %}
+{% endfor -%}
+{%- if include.show_languages and site.locales.size > 1 -%}
+{%- capture languages_body -%}
+{% for candidate_locale in site.locales -%}
+{%- assign candidate_locale_data = site.data.locales[candidate_locale] -%}
+{%- assign llms_path = "/" | append: candidate_locale | append: "/llms.txt" -%}
+{%- if include.root_links and candidate_locale == site.default_locale -%}
+{%- assign llms_path = "/llms.txt" -%}
+{%- endif -%}
+- {{ candidate_locale_data.site.native_label }} ({{ candidate_locale }}): [{{ locale_data.llms.home_link_label }}]({{ candidate_locale_data.site.path | absolute_url }}) | [{{ locale_data.llms.link_label }}]({{ llms_path | absolute_url }})
+{% endfor -%}
+{%- endcapture -%}
+{%- assign languages_body = languages_body | strip -%}
+{%- if languages_body != "" %}
+
+## {{ locale_data.llms.languages_heading }}
+
+{{ languages_body }}
+{% endif -%}
+{%- endif %}

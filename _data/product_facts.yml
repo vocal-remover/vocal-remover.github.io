@@ -1,0 +1,26 @@
+vocal_remover:
+  site_url: https://removevocalsfromasong.com
+  online:
+    install_url: https://chromewebstore.google.com/detail/vocal-remover/bcbfalkgcdnejkdjacfpgcoanadljgoe
+    rating:
+      value: "4.2"
+      count: 12
+    offers:
+      weekly:
+        price: "2.99"
+        priceCurrency: USD
+      yearly:
+        price: "29.90"
+        priceCurrency: USD
+      lifetime:
+        price: "49.00"
+        priceCurrency: USD
+  offline:
+    install_url: https://apps.apple.com/app/id6749937623
+    offers:
+      weekly:
+        price: "2.99"
+        priceCurrency: USD
+      yearly:
+        price: "29.99"
+        priceCurrency: USD

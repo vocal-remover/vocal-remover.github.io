@@ -1,29 +1,26 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://removevocalsfromasong.com/blog/set-high-performance-gpu-for-chrome-edge-on-windows/" />
-  <title>Pick the High-Performance Graphics Chip for Chrome & Edge (Windows)</title>
-  <link rel="icon" sizes="32x32" type="image/png" href="/icons/32.png" />
-  <link rel="icon" sizes="16x16" type="image/png" href="/icons/16.png" />
-  <!-- Flowbite (works on top of Tailwind) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" />
-  <style>
-    /* Ensure hidden tab panels don't affect layout before Flowbite JS runs */
-    .hidden-init { display: none; }
-  </style>
-</head>
-<body class="bg-white text-slate-800">
-  <main class="max-w-4xl mx-auto p-6 sm:p-10">
-    <header class="mb-8">
-      <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">Make Windows use your fast graphics chip for your browser</h1>
-      <p class="mt-3 text-slate-600"><a href="https://chromewebstore.google.com/detail/vocal-remover/bcbfalkgcdnejkdjacfpgcoanadljgoe?utm_source=high-performance-gpu-guide-windows" target="_blank" class="underline">Vocal Remover extension</a> performs complex math in real time, so it needs a fast graphics chip to work smoothly. Even though this is about audio, modern browsers use the graphics chip behind the scenes to speed up the heavy number-crunching, and Vocal Remover needs it.</p>
-      <p class="mt-3 text-slate-600">On some computers — especially laptops — Windows may choose the power-saving graphics chip for your browser. That can cause slowdowns, sound hiccups, or completely prevent Vocal Remover extension from working. This guide tells Windows to use your high-performance graphics chip for your browser.</p>
-      <div id="detectBox" class="mt-4 inline-flex items-center gap-2 rounded-full bg-emerald-50 px-3 py-1.5 text-emerald-700 border border-emerald-200">
-        <span class="text-sm">Detected browser: <strong id="detectedBrowser">—</strong></span>
-      </div>
-    </header>
+---
+layout: article
+locale: en
+registry_id: gpu_guide
+meta_key: gpu_guide
+permalink: /blog/set-high-performance-gpu-for-chrome-edge-on-windows/
+body_class: bg-white text-slate-800
+---
+<style>
+  .hidden-init {
+    display: none;
+  }
+</style>
+
+<main class="max-w-4xl mx-auto p-6 sm:p-10">
+  <header class="mb-8">
+    <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">Make Windows use your fast graphics chip for your browser</h1>
+    <p class="mt-3 text-slate-600"><a href="https://chromewebstore.google.com/detail/vocal-remover/bcbfalkgcdnejkdjacfpgcoanadljgoe?utm_source=high-performance-gpu-guide-windows" target="_blank" class="underline">Vocal Remover extension</a> performs complex math in real time, so it needs a fast graphics chip to work smoothly. Even though this is about audio, modern browsers use the graphics chip behind the scenes to speed up the heavy number-crunching, and Vocal Remover needs it.</p>
+    <p class="mt-3 text-slate-600">On some computers, especially laptops, Windows may choose the power-saving graphics chip for your browser. That can cause slowdowns, sound hiccups, or completely prevent Vocal Remover extension from working. This guide tells Windows to use your high-performance graphics chip for your browser.</p>
+    <div id="detectBox" class="mt-4 inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1.5 text-emerald-700">
+      <span class="text-sm">Detected browser: <strong id="detectedBrowser">—</strong></span>
+    </div>
+  </header>
 
     <!-- Flowbite Tabs -->
     <div class="mb-6 border-b border-slate-200" role="tablist" id="browserTabs" data-tabs-toggle="#browserTabsContent">
@@ -240,56 +237,47 @@
       </section>
     </div>
 
-    <p class="mt-8 text-center"><a href="https://removevocalsfromasong.com/" id="home-page-link">&ShortLeftArrow; <span class="underline">Back to the Home Page</span></a></p>
-  </main>
+  <p class="mt-8 text-center"><a href="{{ '/' | relative_url }}" id="home-page-link">&ShortLeftArrow; <span class="underline">Back to the Home Page</span></a></p>
+</main>
 
-  <!-- Flowbite JS (after the content) -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+<script>
+  (function () {
+    const ua = navigator.userAgent;
+    let detected = 'Unknown';
+    const chromeBtn = document.getElementById('tab-chrome');
+    const edgeBtn = document.getElementById('tab-edge');
 
-  <script>
-    // Detect browser and auto-select the right tab
-    (function () {
-      const ua = navigator.userAgent;
-      let detected = 'Unknown';
-      const chromeBtn = document.getElementById('tab-chrome');
-      const edgeBtn = document.getElementById('tab-edge');
+    if (/Edg\//.test(ua)) {
+      detected = 'Microsoft Edge';
+      setTimeout(() => edgeBtn.click(), 100);
+    } else if (/Chrome\//.test(ua)) {
+      detected = 'Google Chrome';
+      setTimeout(() => chromeBtn.click(), 100);
+    } else {
+      setTimeout(() => chromeBtn.click(), 100);
+    }
+    document.getElementById('detectedBrowser').textContent = detected;
 
-      if (/Edg\//.test(ua)) {
-        detected = 'Microsoft Edge';
-        // Flowbite toggles via click; trigger Edge tab
-        setTimeout(() => edgeBtn.click(), 100);
-      } else if (/Chrome\//.test(ua)) {
-        detected = 'Google Chrome';
-        setTimeout(() => chromeBtn.click(), 100);
-      } else {
-        // Default to Chrome tab if unknown
-        setTimeout(() => chromeBtn.click(), 100);
-      }
-      document.getElementById('detectedBrowser').textContent = detected;
-
-      // Remove initial hidden class once Flowbite has applied states
-      const unhide = () => {
-        document.querySelectorAll('.hidden-init').forEach(el => {
-          if (el.classList.contains('hidden-init')) el.classList.remove('hidden-init');
-        });
-      };
-      setTimeout(unhide, 50);
-
-      // Copy-to-clipboard buttons
-      document.querySelectorAll('.copy-btn').forEach(btn => {
-        btn.addEventListener('click', async () => {
-          const text = btn.getAttribute('data-copy') || '';
-          try {
-            await navigator.clipboard.writeText(text);
-            const prev = btn.textContent;
-            btn.textContent = 'Copied!';
-            setTimeout(() => (btn.textContent = prev), 1200);
-          } catch (e) {
-            console.error('Copy failed', e);
-          }
-        });
+    const unhide = () => {
+      document.querySelectorAll('.hidden-init').forEach(el => {
+        if (el.classList.contains('hidden-init')) el.classList.remove('hidden-init');
       });
-    })();
-  </script>
-</body>
-</html>
+    };
+    setTimeout(unhide, 50);
+
+    document.querySelectorAll('.copy-btn').forEach(btn => {
+      btn.addEventListener('click', async () => {
+        const text = btn.getAttribute('data-copy') || '';
+        try {
+          await navigator.clipboard.writeText(text);
+          const prev = btn.textContent;
+          btn.textContent = 'Copied!';
+          setTimeout(() => (btn.textContent = prev), 1200);
+        } catch (e) {
+          console.error('Copy failed', e);
+        }
+      });
+    });
+  })();
+</script>

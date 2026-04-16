@@ -1,0 +1,225 @@
+site:
+  lang: en
+  locale_label: EN
+  native_label: English
+  path: /
+formatting:
+  decimal_separator: "."
+switcher:
+  aria_label: Language switcher
+  button_label: Choose language
+meta:
+  title: "Vocal Remover: Remove Vocals from a Song Online and Offline"
+  description: "Remove vocals from a song on any website and separate vocals from music for practice, karaoke or production. Available as a browser extension and iPhone, iPad or Mac app."
+  og_title: "Vocal Remover: Remove Vocals from a Song"
+  og_description: "Remove vocals from a song on any website and separate vocals from music for practice, karaoke or production. Available as a browser extension and iPhone, iPad or Mac app."
+hero:
+  badge_label: New
+  badge_text: Vocal Remover for Mac is out! See what's new
+  title: Vocal Remover
+  subtitle: Remove vocals from a song in seconds
+  description_line_1: Vocal Remover makes it easy to take vocals out of any song and separate voice from music
+  description_line_2: for karaoke, remixes, practice, podcasts or teaching.
+  description_line_3: Use it online on your favorite websites or offline on your iPhone, iPad or Mac.
+  online_cta_title: Add Vocal Remover Online
+  online_cta_subtitle: to your browser
+  offline_cta_title: Add Vocal Remover Offline
+  offline_cta_subtitle: to your iPhone, iPad or Mac
+nav:
+  aria_label: Page sections
+  overview: What is Vocal Remover?
+  online: For websites
+  offline: For files
+  use_cases: Who is it for?
+  faq: FAQ
+overview:
+  title: What is Vocal Remover?
+  paragraphs:
+    - "Vocal Remover lets you remove vocals from a song on any website and separate vocals from music on your computer without complicated audio software. It's built for real-world use: karaoke, remixes, practice, teaching and content creation."
+    - "You can:"
+  bullets:
+    - Remove vocals from a song to get a clean instrumental version.
+    - Isolate voice to study phrasing, harmonies and layers.
+    - Prepare karaoke tracks, backing tracks and teaching material.
+    - Clean up podcasts and videos by removing background music.
+  versions_intro: "Vocal Remover comes in two versions:"
+  online_link_label: Vocal Remover Online
+  online_link_suffix: a browser extension, for websites, and
+  offline_link_label: Vocal Remover Offline
+  offline_link_suffix: an iPhone, iPad or Mac app, for files.
+online:
+  title: Vocal Remover Online
+  paragraphs:
+    - Use Vocal Remover to clean your track online and remove vocals from a song with this AI-powered voice remover.
+    - With Vocal Remover Online, you add a smart vocal remover extension directly into your browser. Remove vocals from YouTube videos and many other audio websites in just a few clicks.
+  bullets:
+    - Remove vocals from a song online directly on any website.
+    - Works as YouTube vocal remover extension and on any other music platform.
+    - Get clean instrumentals without downloading or uploading files.
+    - AI vocal remover technology for high-quality separation.
+    - Perfect for karaoke, covers, remixes and background tracks.
+  perfect_for_label: "Perfect for:"
+  perfect_for_text: karaoke lovers, singers, vocal coaches, teachers, content creators and anyone practicing with online videos.
+  pricing_template: "After free trial: WEEKLY_PRICE, YEARLY_PRICE subscriptions or LIFETIME_PRICE."
+  offer_templates:
+    weekly: "$PRICE_VALUE per week"
+    yearly: "$PRICE_VALUE per year"
+    lifetime: "$PRICE_VALUE one-time payment"
+  cta: Add Vocal Remover to your browser
+  image_alt: Install Vocal Remover Extension and add the extension to your Chrome browser in seconds.
+offline:
+  title: Vocal Remover Offline
+  paragraphs:
+    - Lightning-fast Vocal Remover removes vocals from songs and separates voice from music in seconds. Batch-process multiple files in one click for clean instrumentals.
+    - Drop a single track or a whole folder, and Vocal Remover for iPhone, iPad or Mac will split each song into vocal and instrumental stems. Built for speed, accuracy and offline privacy-friendly processing.
+  bullets:
+    - AI vocal remover for precise separation, even on dense mixes.
+    - Batch mode to process hundreds of songs while you keep working.
+    - Works with WAV, AIFF, MP3, FLAC, M4A and more.
+    - Offline processing with no accounts and no upload delays.
+  perfect_for_label: "Perfect for:"
+  perfect_for_text: producers, DJs, podcasters, teachers and musicians working with local audio files.
+  pricing_template: "After free trial: WEEKLY_PRICE or YEARLY_PRICE subscriptions."
+  offer_templates:
+    weekly: "$PRICE_VALUE per week"
+    yearly: "$PRICE_VALUE per year"
+  cta: Add Vocal Remover to your iPhone, iPad or Mac
+  image_alt: Download today and discover why musicians everywhere rely on Vocal Remover to stay in tune with their creativity.
+use_cases:
+  title: Who uses Vocal Remover?
+  items:
+    - title: Singers & karaoke lovers
+      body: Instantly turn any track into a karaoke version. Practice in your own key, prepare set lists and rehearse without hunting for separate instrumental versions.
+    - title: Producers & DJs
+      body: Extract clean instrumentals and vocals for remixes, edits and mashups. Prepare stems for your DAW or live sets in just a few clicks.
+    - title: Teachers & learners
+      body: Create stripped-back tracks for lessons, ear training and transcription. Isolate vocals to study phrasing or remove them to let students perform on top.
+    - title: Podcasters & content creators
+      body: Remove background music under speech, clean intros and outros, and prepare clear stems for editing and repurposing your content.
+faq:
+  title: Frequently Asked Questions
+  items:
+    - question: Vocal Remover extension is slow or glitchy. What can I do?
+      answers:
+        - On some Windows computers, especially laptops, Windows may choose the power-saving graphics chip for your browser instead of the fast one. Because Vocal Remover extension processes sound in real time, this can cause slowdowns, stuttering audio, or prevent it from working at all.
+      answer_html: 'You can tell Windows to use your high-performance graphics chip for your browser. We have a step-by-step guide with screenshots here: <a href="/blog/set-high-performance-gpu-for-chrome-edge-on-windows/" class="underline">Pick the high-performance graphics chip for Chrome &amp; Edge on Windows</a>. If following the guide does not help, your computer or browser may simply be too limited for real-time processing. In that case, try using Vocal Remover on a more powerful system if you have access to one.'
+    - question: What's the difference between Vocal Remover Online and Vocal Remover Offline?
+      answers:
+        - Vocal Remover Online is a browser extension that removes vocals directly on websites like YouTube and other audio or video platforms.
+        - Vocal Remover Offline is a standalone iPhone, iPad or Mac app that works fully offline with your own audio files and lets you batch process entire folders.
+    - question: Do I need to upload audio files?
+      answers:
+        - No uploads needed.
+        - The extension processes audio right in your browser on the fly, and the iPhone, iPad or Mac app works locally with files on your computer, with no servers involved.
+    - question: Which audio formats does Vocal Remover Offline support?
+      answers:
+        - Vocal Remover for iPhone, iPad or Mac works with common formats such as WAV, AIFF, MP3, FLAC, M4A and more, so you can split the files you already have without converting. You can also drop videos, folders or regions from your DAW, and the app will extract the sound automatically.
+    - question: Will removing vocals affect audio quality?
+      answers:
+        - Vocal Remover uses AI separation designed to keep instrumentals clean and musical.
+        - Offline version offers better quality because it sees the whole song during processing and has more resources for computations.
+        - Very complicated or noisy mixes may still show artifacts, but typical songs separate very well.
+    - question: Can I also change the key of songs?
+      linked_answers:
+        - tool_key: pitch_changer
+          template: Yes, use TOOL_LINK to shift pitch and change key of songs online or offline. It works great alongside Vocal Remover.
+    - question: Is there a free trial? How does pricing work?
+      answers:
+        - Both the extension and the iPhone, iPad or Mac app include a free trial period. No card required.
+        - After the trial, Vocal Remover Online offers weekly, yearly and one-time purchase options, and Vocal Remover Offline offers weekly and yearly subscriptions, as listed above.
+        - All payments are handled securely through Paddle for the extension or Apple for the app.
+    - question: How do I cancel my subscription?
+      answers:
+        - Just click the “Manage Subscription” button inside the app or the extension and follow the instructions.
+        - This process is fully automatic, so there is no need to call or send emails.
+    - question: Who is Vocal Remover for?
+      answers:
+        - Vocal Remover is made for singers, musicians, producers, DJs, teachers, content creators and anyone who needs to separate voice and music.
+        - Whether you are preparing karaoke, teaching, editing dialogue or building remixes, it gives you clean stems fast.
+get_started:
+  title: Get started with Vocal Remover
+  line_1: Whether you prefer working in the browser or with local files on your iPhone, iPad or Mac,
+  line_2: Vocal Remover helps you remove vocals from songs, separate voice from music and shape tracks to fit your creativity.
+  rating_template: "RATING_VALUE/5 · REVIEW_COUNT REVIEW_LABEL on Chrome Web Store"
+  review_count_rule: one_other
+  review_count_labels:
+    one: review
+    other: reviews
+footer:
+  copyright: "© 2025 <a href=\"https://extensions.ee/\" class=\"underline\">extensions.ee</a>."
+  contact: "Contact: info@extensions.ee."
+  payments_label: "Payments and refunds:"
+  paddle_label: Paddle
+  paddle_url: https://paddle.net/
+  apple_label: Apple
+  apple_url: https://support.apple.com/billing
+  terms_label: Terms and Conditions
+  terms_path: /terms-and-conditions.html
+  refund_label: Refund Policy
+  refund_path: /refund-policy.html
+  privacy_label: Privacy Policy
+  privacy_path: /privacy-policy.html
+  paragraphs:
+    - Purchases made through our website are processed by our online reseller Paddle.com, which is the Merchant of Record for these orders. Paddle provides customer service for website orders and handles returns, billing, and applicable taxes.
+    - Purchases made through the App Store are processed directly by Apple, which acts as the Merchant of Record for App Store orders. Apple manages billing, receipts, taxes, refunds, and all related customer service inquiries for purchases made via the App Store.
+    - If you are unsure where you purchased, please check your order confirmation email or receipt sent either by Paddle or Apple.
+  acknowledgements_prefix: Third-party trademarks and components are listed on the
+  acknowledgements_label: Acknowledgements
+  acknowledgements_url: https://extensions.ee/acknowledgements.html?from=removevocalsfromasong.com
+  acknowledgements_suffix: page.
+structured_data:
+  online:
+    name: Vocal Remover
+    alternateName: Vocal Remover Online
+    applicationCategory: MultimediaApplication
+    operatingSystem: Chromium-based browser on Windows and macOS
+    description: Vocal Remover is a browser extension that lets you remove vocals from a song directly in your browser. Use AI-powered vocal separation to create instant instrumentals from YouTube and other audio or video platforms.
+    inLanguage: en
+    publisher:
+      "@type": Organization
+      name: extensions.ee
+      url: https://extensions.ee
+    offer_names:
+      weekly: Weekly subscription
+      yearly: Yearly subscription
+      lifetime: One-time payment
+  offline:
+    name: Vocal Remover
+    alternateName: Vocal Remover for iPhone, iPad or Mac
+    applicationCategory: MultimediaApplication
+    operatingSystem: macOS 15.0 or iOS 18.0
+    description: Vocal Remover for Mac separates voice and instrumental stems in seconds. Drop one track or a whole folder to batch-process karaoke-ready instrumentals and clean voice-only stems offline.
+    inLanguage: en
+    publisher:
+      "@type": Organization
+      name: extensions.ee
+      url: https://extensions.ee
+    offer_names:
+      weekly: Weekly subscription
+      yearly: Yearly subscription
+llms:
+  languages_heading: Available languages
+  home_link_label: Home
+  link_label: LLMS
+  lead: Vocal Remover helps singers, producers, teachers, podcasters, and karaoke lovers separate vocals from music on websites or from their own files.
+  intro: This reference covers the available Vocal Remover pages in this language and keeps the focus on musical tasks, file handling, and choosing between the browser extension for websites and the offline app for files.
+  versions_heading: Choose the right version
+  sections:
+    site: Site
+    guides: Guides
+  pages:
+    home:
+      title: Vocal Remover
+      summary: Start here to see how Vocal Remover helps you build instrumentals, isolate vocals, compare the browser extension with the offline app, and pick the right version for websites or files.
+    gpu_guide:
+      title: Pick the High-Performance Graphics Chip for Chrome & Edge on Windows
+      summary: Follow this guide when the browser extension stutters or struggles in real time on Windows, especially on laptops that default to the power-saving graphics chip.
+pages:
+  gpu_guide:
+    meta:
+      title: "Pick the High-Performance Graphics Chip for Chrome & Edge (Windows)"
+      description: "If Vocal Remover feels slow or glitchy on Windows, tell Chrome or Edge to use the high-performance graphics chip with this step-by-step guide."
+      og_title: "Pick the High-Performance Graphics Chip for Chrome & Edge (Windows)"
+      og_description: "If Vocal Remover feels slow or glitchy on Windows, tell Chrome or Edge to use the high-performance graphics chip with this step-by-step guide."
+      og_type: article
+      og_image: /blog/set-high-performance-gpu-for-chrome-edge-on-windows/graphics-settings-chrome-3.png

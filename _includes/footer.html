@@ -1,0 +1,34 @@
+{%- assign locale_data = site.data.locales[include.locale_code] -%}
+<footer class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+  <div class="sm:flex sm:items-center sm:justify-between">
+    <div class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+      <div class="block text-sm text-gray-500 sm:text-center">
+        <nobr>{{ locale_data.footer.copyright }}</nobr>
+        <nobr>{{ locale_data.footer.contact }}</nobr>
+        <nobr>{{ locale_data.footer.payments_label }} <a href="{{ locale_data.footer.paddle_url }}" class="underline">{{ locale_data.footer.paddle_label }}</a>, <a href="{{ locale_data.footer.apple_url }}" class="underline">{{ locale_data.footer.apple_label }}</a>.</nobr>
+      </div>
+    </div>
+    <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0">
+      <li>
+        <a href="{{ locale_data.footer.terms_path | relative_url }}" class="hover:underline me-4 md:me-6">{{ locale_data.footer.terms_label }}</a>
+      </li>
+      <li>
+        <a href="{{ locale_data.footer.refund_path | relative_url }}" class="hover:underline me-4 md:me-6">{{ locale_data.footer.refund_label }}</a>
+      </li>
+      <li>
+        <a href="{{ locale_data.footer.privacy_path | relative_url }}" class="hover:underline me-4 md:me-6">{{ locale_data.footer.privacy_label }}</a>
+      </li>
+    </ul>
+  </div>
+  <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+  <div class="block text-sm text-gray-500 sm:text-left">
+{% for paragraph in locale_data.footer.paragraphs -%}
+    <p class="mb-4">{{ paragraph }}</p>
+{% endfor -%}
+    <p>
+      {{ locale_data.footer.acknowledgements_prefix }}
+      <a href="{{ locale_data.footer.acknowledgements_url }}" class="underline">{{ locale_data.footer.acknowledgements_label }}</a>
+      {{ locale_data.footer.acknowledgements_suffix }}
+    </p>
+  </div>
+</footer>

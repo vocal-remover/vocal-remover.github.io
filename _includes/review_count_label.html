@@ -1,0 +1,22 @@
+{% assign review_count = include.count | plus: 0 %}
+{% assign review_labels = site.data.locales[include.locale_code].get_started.review_count_labels %}
+{% assign review_count_rule = site.data.locales[include.locale_code].get_started.review_count_rule | default: 'one_other' %}
+{% assign review_label_key = "other" %}
+
+{% if review_count_rule == "slavic" %}
+  {% assign review_mod10 = review_count | modulo: 10 %}
+  {% assign review_mod100 = review_count | modulo: 100 %}
+  {% if review_mod10 == 1 and review_mod100 != 11 %}
+    {% assign review_label_key = "one" %}
+  {% elsif review_mod10 >= 2 and review_mod10 <= 4 and review_mod100 != 12 and review_mod100 != 13 and review_mod100 != 14 %}
+    {% assign review_label_key = "few" %}
+  {% else %}
+    {% assign review_label_key = "many" %}
+  {% endif %}
+{% elsif review_count_rule == "invariant" %}
+  {% assign review_label_key = "other" %}
+{% elsif review_count == 1 %}
+  {% assign review_label_key = "one" %}
+{% endif %}
+
+{{ review_labels[review_label_key] }}

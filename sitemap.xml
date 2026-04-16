@@ -1,11 +1,31 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{% for registry_page in site.data.page_registry.pages -%}
+{% if registry_page.sitemap -%}
+{% for locale_code in site.locales -%}
+{% assign page_path = registry_page.paths[locale_code] -%}
+{% if page_path %}
   <url>
-    <loc>https://removevocalsfromasong.com/</loc>
-    <priority>1.0</priority>
+    <loc>{{ page_path | absolute_url }}</loc>
+{% if site.locales.size > 1 -%}
+{% for alternate_code in site.locales -%}
+{% assign alternate_path = registry_page.paths[alternate_code] -%}
+{% if alternate_path %}
+    <xhtml:link rel="alternate" hreflang="{{ site.data.locales[alternate_code].site.lang }}" href="{{ alternate_path | absolute_url }}" />
+{% endif -%}
+{% endfor -%}
+{% assign default_path = registry_page.paths[site.default_locale] -%}
+{% if default_path %}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ default_path | absolute_url }}" />
+{% endif -%}
+{% endif %}
   </url>
-  <url>
-    <loc>https://removevocalsfromasong.com/blog/set-high-performance-gpu-for-chrome-edge-on-windows/</loc>
-    <priority>1.0</priority>
-  </url>
+{% endif -%}
+{% endfor -%}
+{% endif -%}
+{% endfor -%}
 </urlset>

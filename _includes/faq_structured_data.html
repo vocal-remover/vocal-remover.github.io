@@ -1,0 +1,70 @@
+{%- assign faq_key = include.faq_schema_key | default: '' -%}
+{%- assign faq_data = include.locale_data[faq_key] -%}
+{%- assign related_tools = site.data.cross_tool_links.related_tools[include.locale_code] -%}
+{%- assign faq_question_nodes = '' -%}
+{%- assign faq_separator = '' -%}
+{%- if faq_data and faq_data.items -%}
+{%- for item in faq_data.items -%}
+{%- assign question_text = item.question | default: '' | strip -%}
+{%- assign answer_text = '' -%}
+{%- assign answer_separator = '' -%}
+{%- if item.answers -%}
+{%- for answer in item.answers -%}
+{%- assign clean_answer = answer | default: '' | strip -%}
+{%- if clean_answer != '' -%}
+{%- capture answer_text -%}{{ answer_text }}{{ answer_separator }}{{ clean_answer }}{%- endcapture -%}
+{%- assign answer_separator = ' ' -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
+{%- if item.linked_answers -%}
+{%- for linked_answer in item.linked_answers -%}
+{%- assign linked_tool = related_tools[linked_answer.tool_key] -%}
+{%- assign clean_linked_answer = linked_answer.template | replace: 'TOOL_LINK', linked_tool.name | strip -%}
+{%- if clean_linked_answer != '' -%}
+{%- capture answer_text -%}{{ answer_text }}{{ answer_separator }}{{ clean_linked_answer }}{%- endcapture -%}
+{%- assign answer_separator = ' ' -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
+{%- if item.answer_html -%}
+{%- assign clean_html_answer = item.answer_html
+        | replace: '<br /><br />', ' '
+        | replace: '<br><br>', ' '
+        | replace: '<br />', ' '
+        | replace: '<br>', ' '
+        | strip_html
+        | strip_newlines
+        | replace: '  ', ' '
+        | replace: '  ', ' '
+        | strip
+      -%}
+{%- if clean_html_answer != '' -%}
+{%- capture answer_text -%}{{ answer_text }}{{ answer_separator }}{{ clean_html_answer }}{%- endcapture -%}
+{%- endif -%}
+{%- endif -%}
+{%- if question_text != '' and answer_text != '' -%}
+{%- capture faq_question_nodes -%}{{ faq_question_nodes }}{{ faq_separator }}{
+        "@type": "Question",
+        "name": {{ question_text | jsonify }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ answer_text | jsonify }}
+        }
+      }{%- endcapture -%}
+{%- assign faq_separator = ',' -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
+{% if faq_question_nodes != '' %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": {{ include.page_url | append: '#faq' | jsonify }},
+      "url": {{ include.page_url | jsonify }},
+      "inLanguage": {{ include.in_language | jsonify }},
+      "mainEntity": [{{ faq_question_nodes }}]
+    }
+  </script>
+{% endif %}

@@ -1,0 +1,237 @@
+{%- assign locale_data = site.data.locales[include.locale_code] -%}
+{%- assign product_facts = site.data.product_facts.vocal_remover -%}
+{%- assign rating_count = product_facts.online.rating.count | plus: 0 -%}
+{%- assign rating_value_display = product_facts.online.rating.value -%}
+{%- assign decimal_separator = locale_data.formatting.decimal_separator | default: '.' -%}
+{%- assign related_tools = site.data.cross_tool_links.related_tools[include.locale_code] -%}
+{%- assign online_weekly_price = product_facts.online.offers.weekly.price -%}
+{%- assign online_yearly_price = product_facts.online.offers.yearly.price -%}
+{%- assign online_lifetime_price = product_facts.online.offers.lifetime.price -%}
+{%- assign offline_weekly_price = product_facts.offline.offers.weekly.price -%}
+{%- assign offline_yearly_price = product_facts.offline.offers.yearly.price -%}
+{%- if decimal_separator != '.' -%}
+  {%- assign rating_value_display = rating_value_display | replace: '.', decimal_separator -%}
+  {%- assign online_weekly_price = online_weekly_price | replace: '.', decimal_separator -%}
+  {%- assign online_yearly_price = online_yearly_price | replace: '.', decimal_separator -%}
+  {%- assign online_lifetime_price = online_lifetime_price | replace: '.', decimal_separator -%}
+  {%- assign offline_weekly_price = offline_weekly_price | replace: '.', decimal_separator -%}
+  {%- assign offline_yearly_price = offline_yearly_price | replace: '.', decimal_separator -%}
+{%- endif -%}
+{%- capture online_weekly_offer -%}{{ locale_data.online.offer_templates.weekly | replace: 'PRICE_VALUE', online_weekly_price }}{%- endcapture -%}
+{%- capture online_yearly_offer -%}{{ locale_data.online.offer_templates.yearly | replace: 'PRICE_VALUE', online_yearly_price }}{%- endcapture -%}
+{%- capture online_lifetime_offer -%}{{ locale_data.online.offer_templates.lifetime | replace: 'PRICE_VALUE', online_lifetime_price }}{%- endcapture -%}
+{%- capture offline_weekly_offer -%}{{ locale_data.offline.offer_templates.weekly | replace: 'PRICE_VALUE', offline_weekly_price }}{%- endcapture -%}
+{%- capture offline_yearly_offer -%}{{ locale_data.offline.offer_templates.yearly | replace: 'PRICE_VALUE', offline_yearly_price }}{%- endcapture -%}
+{%- capture online_pricing -%}{{ locale_data.online.pricing_template | replace: 'WEEKLY_PRICE', online_weekly_offer | replace: 'YEARLY_PRICE', online_yearly_offer | replace: 'LIFETIME_PRICE', online_lifetime_offer }}{%- endcapture -%}
+{%- capture offline_pricing -%}{{ locale_data.offline.pricing_template | replace: 'WEEKLY_PRICE', offline_weekly_offer | replace: 'YEARLY_PRICE', offline_yearly_offer }}{%- endcapture -%}
+{%- assign rating_count_display = rating_count | append: "" -%}
+{%- capture reviews_label -%}{% include review_count_label.html locale_code=include.locale_code count=rating_count %}{%- endcapture -%}
+{%- assign reviews_label = reviews_label | strip -%}
+{%- capture get_started_rating -%}{{ locale_data.get_started.rating_template | replace: 'RATING_VALUE', rating_value_display | replace: 'REVIEW_COUNT', rating_count_display | replace: 'REVIEW_LABEL', reviews_label }}{%- endcapture -%}
+
+<header class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+  <div class="hero-topbar mb-7 w-full" data-ui-review="hero-topbar">
+    <div aria-hidden="true" class="hero-topbar-spacer"></div>
+    <a
+      target="_blank"
+      href="{{ product_facts.offline.install_url }}"
+      class="hero-topbar-update inline-flex items-center rounded-full bg-gray-100 px-1 py-1 pr-4 text-sm text-gray-700 hover:bg-gray-200"
+      role="alert"
+    >
+      <span class="mr-3 shrink-0 rounded-full bg-blue-600 px-4 py-1.5 text-xs text-white">{{ locale_data.hero.badge_label }}</span>
+      <span class="text-left text-sm font-medium">{{ locale_data.hero.badge_text }}</span>
+      <svg class="ml-2 h-5 w-5 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+      </svg>
+    </a>
+    <div class="hero-topbar-switcher">
+      {% include locale_switcher.html locale_code=include.locale_code %}
+    </div>
+  </div>
+
+  <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
+    {{ locale_data.hero.title }}
+  </h1>
+  <h2 class="mb-6 text-3xl tracking-tight leading-none text-gray-900 md:text-3xl lg:text-4xl">
+    {{ locale_data.hero.subtitle }}
+  </h2>
+
+  <p class="text-2xl mb-4">
+    {{ locale_data.hero.description_line_1 }}<br />
+    {{ locale_data.hero.description_line_2 }}
+  </p>
+  <p class="text-2xl">{{ locale_data.hero.description_line_3 }}</p>
+
+  <div>
+    <a
+      target="_blank"
+      href="{{ product_facts.online.install_url }}"
+      class="mt-10 mr-2 ml-2 inline-flex items-center justify-center px-8 py-8 text-3xl font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300"
+    >
+      <div>
+        <div>{{ locale_data.hero.online_cta_title }}</div>
+        <div class="text-xl">{{ locale_data.hero.online_cta_subtitle }}</div>
+      </div>
+    </a>
+    <a
+      target="_blank"
+      href="{{ product_facts.offline.install_url }}"
+      class="mt-10 mr-2 ml-2 inline-flex items-center justify-center px-8 py-8 text-3xl font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300"
+    >
+      <div>
+        <div>{{ locale_data.hero.offline_cta_title }}</div>
+        <div class="text-xl">{{ locale_data.hero.offline_cta_subtitle }}</div>
+      </div>
+    </a>
+  </div>
+</header>
+
+<nav aria-label="{{ locale_data.nav.aria_label }}" class="text-center text-3xl mb-10 mt-10 px-4">
+  <a class="underline whitespace-nowrap" href="#overview">{{ locale_data.nav.overview }}</a> ·
+  <a class="underline whitespace-nowrap" href="#online">{{ locale_data.nav.online }}</a> ·
+  <a class="underline whitespace-nowrap" href="#offline">{{ locale_data.nav.offline }}</a> ·
+  <a class="underline whitespace-nowrap" href="#use-cases">{{ locale_data.nav.use_cases }}</a> ·
+  <a class="underline whitespace-nowrap" href="#faq">{{ locale_data.nav.faq }}</a>
+</nav>
+
+<section class="py-8 px-4 mx-auto max-w-screen-xl text-left text-xl lg:py-16" id="overview">
+  <h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900">
+    {{ locale_data.overview.title }}
+  </h2>
+{% for paragraph in locale_data.overview.paragraphs %}
+  <p class="mb-4">{{ paragraph }}</p>
+{% endfor -%}
+  <ul class="mb-4 list-disc list-inside space-y-4">
+{% for bullet in locale_data.overview.bullets -%}
+    <li>{{ bullet }}</li>
+{% endfor -%}
+  </ul>
+  <p class="mb-4">
+    {{ locale_data.overview.versions_intro }}
+    <strong><a href="#online" class="underline">{{ locale_data.overview.online_link_label }}</a></strong> {{ locale_data.overview.online_link_suffix }}
+    <strong><a href="#offline" class="underline">{{ locale_data.overview.offline_link_label }}</a></strong> {{ locale_data.overview.offline_link_suffix }}
+  </p>
+</section>
+
+<section class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12" id="online">
+  <div class="mr-auto place-self-center lg:col-span-7">
+    <h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900">
+      <a target="_blank" href="{{ product_facts.online.install_url }}" class="focus:outline-none">
+        {{ locale_data.online.title }}
+      </a>
+    </h2>
+{% for paragraph in locale_data.online.paragraphs -%}
+    <p class="text-xl mb-4">{{ paragraph }}</p>
+{% endfor -%}
+    <ul class="text-xl mb-4 list-disc list-inside space-y-4">
+{% for bullet in locale_data.online.bullets -%}
+      <li>{{ bullet }}</li>
+{% endfor -%}
+    </ul>
+    <p class="text-xl mb-4"><strong>{{ locale_data.online.perfect_for_label }}</strong> {{ locale_data.online.perfect_for_text }}</p>
+    <p class="mb-6 font-light text-gray-500 md:text-sm lg:text-sm">{{ online_pricing | strip }}</p>
+    <a
+      target="_blank"
+      href="{{ product_facts.online.install_url }}"
+      class="inline-flex items-center justify-center px-8 py-8 mr-3 text-3xl font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300"
+    >
+      {{ locale_data.online.cta }}
+    </a>
+  </div>
+  <div class="hidden ml-auto lg:mt-0 lg:col-span-5 lg:flex">
+    <a target="_blank" href="{{ product_facts.online.install_url }}">
+      <img src="{{ '/online.png' | relative_url }}" alt="{{ locale_data.online.image_alt }}" />
+    </a>
+  </div>
+</section>
+
+<section class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12" id="offline">
+  <div class="mr-auto place-self-center lg:col-span-7">
+    <h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900">
+      <a target="_blank" href="{{ product_facts.offline.install_url }}" class="focus:outline-none">
+        {{ locale_data.offline.title }}
+      </a>
+    </h2>
+{% for paragraph in locale_data.offline.paragraphs -%}
+    <p class="text-xl mb-4">{{ paragraph }}</p>
+{% endfor -%}
+    <ul class="text-xl mb-4 list-disc list-inside space-y-4">
+{% for bullet in locale_data.offline.bullets -%}
+      <li>{{ bullet }}</li>
+{% endfor -%}
+    </ul>
+    <p class="text-xl mb-4"><strong>{{ locale_data.offline.perfect_for_label }}</strong> {{ locale_data.offline.perfect_for_text }}</p>
+    <p class="mb-6 font-light text-gray-500 md:text-sm lg:text-sm">{{ offline_pricing | strip }}</p>
+    <a
+      target="_blank"
+      href="{{ product_facts.offline.install_url }}"
+      class="inline-flex items-center justify-center px-8 py-8 mr-3 text-3xl font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300"
+    >
+      {{ locale_data.offline.cta }}
+    </a>
+  </div>
+  <div class="hidden ml-auto lg:mt-0 lg:col-span-5 lg:flex" style="margin-left: 50px; margin-right: -50px">
+    <a target="_blank" href="{{ product_facts.offline.install_url }}">
+      <img src="{{ '/offline.png' | relative_url }}" alt="{{ locale_data.offline.image_alt }}" />
+    </a>
+  </div>
+</section>
+
+<section class="py-8 px-4 mx-auto max-w-screen-xl text-left text-xl lg:py-16" id="use-cases">
+  <h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900">{{ locale_data.use_cases.title }}</h2>
+{% for item in locale_data.use_cases.items -%}
+  <h3 class="mb-4 mt-10 text-3xl tracking-tight">{{ item.title }}</h3>
+  <p class="text-xl mb-4">{{ item.body }}</p>
+{% endfor -%}
+</section>
+
+<section class="py-8 px-4 mx-auto max-w-screen-xl text-left text-xl lg:py-16" id="faq">
+  <h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900">{{ locale_data.faq.title }}</h2>
+{% for item in locale_data.faq.items -%}
+  <h3 class="mb-4 mt-10 text-3xl tracking-tight">{{ item.question }}</h3>
+{% for answer in item.answers -%}
+  <p class="text-xl mb-4">{{ answer }}</p>
+{% endfor -%}
+{% for linked_answer in item.linked_answers -%}
+  {%- assign linked_tool = related_tools[linked_answer.tool_key] -%}
+  {%- capture linked_tool_html -%}<a href="{{ linked_tool.url }}" class="underline">{{ linked_tool.name }}</a>{%- endcapture -%}
+  <p class="text-xl mb-4">{{ linked_answer.template | replace: 'TOOL_LINK', linked_tool_html }}</p>
+{% endfor -%}
+{% if item.answer_html -%}
+  <p class="text-xl mb-4">{{ item.answer_html }}</p>
+{% endif -%}
+{% endfor -%}
+</section>
+
+<section class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12" id="get-started">
+  <h2 class="mb-10 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">{{ locale_data.get_started.title }}</h2>
+  <p class="text-2xl">
+    {{ locale_data.get_started.line_1 }}<br />
+    {{ locale_data.get_started.line_2 }}
+  </p>
+  <div>
+    <a
+      target="_blank"
+      href="{{ product_facts.online.install_url }}"
+      class="mt-10 mr-2 ml-2 inline-flex items-center justify-center px-8 py-8 text-3xl font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300"
+    >
+      <div>
+        <div>{{ locale_data.hero.online_cta_title }}</div>
+        <div class="text-xl">{{ locale_data.hero.online_cta_subtitle }}</div>
+      </div>
+    </a>
+    <a
+      target="_blank"
+      href="{{ product_facts.offline.install_url }}"
+      class="mt-10 mr-2 ml-2 inline-flex items-center justify-center px-8 py-8 text-3xl font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300"
+    >
+      <div>
+        <div>{{ locale_data.hero.offline_cta_title }}</div>
+        <div class="text-xl">{{ locale_data.hero.offline_cta_subtitle }}</div>
+      </div>
+    </a>
+  </div>
+  <p class="mt-10 text-xl text-gray-500">
+    <span class="text-yellow-300">★</span> {{ get_started_rating | strip }}
+  </p>
+</section>

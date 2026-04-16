@@ -1,0 +1,34 @@
+{% if site.locales.size > 1 %}
+<nav aria-label="{{ site.data.locales[include.locale_code].switcher.aria_label }}" class="flex items-center justify-end">
+  <details class="locale-switcher group relative" data-locale-switcher>
+    <summary class="flex cursor-pointer items-center gap-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-semibold text-gray-900 transition hover:border-blue-700 hover:text-blue-700">
+      <span class="sr-only">{{ site.data.locales[include.locale_code].switcher.button_label }}</span>
+      <span>{{ site.data.locales[include.locale_code].site.native_label }}</span>
+      <span class="locale-switcher-abbr">{{ site.data.locales[include.locale_code].site.locale_label }}</span>
+      <svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4 text-gray-500 transition group-open:rotate-180 group-open:text-blue-700" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
+      </svg>
+    </summary>
+
+    <div class="locale-switcher-menu">
+      <ul class="grid gap-1">
+{% for locale_code in site.locales -%}
+        <li>
+          <a
+            href="{{ site.data.locales[locale_code].site.path | relative_url }}"
+            class="locale-switcher-link"
+            lang="{{ site.data.locales[locale_code].site.lang }}"
+            hreflang="{{ site.data.locales[locale_code].site.lang }}"{% if locale_code == include.locale_code %} aria-current="page"{% endif %}
+            data-locale-link
+            data-locale-code="{{ locale_code }}"
+          >
+            <span class="whitespace-nowrap">{{ site.data.locales[locale_code].site.native_label }}</span>
+            <span class="locale-switcher-abbr">{{ site.data.locales[locale_code].site.locale_label }}</span>
+          </a>
+        </li>
+{% endfor -%}
+      </ul>
+    </div>
+  </details>
+</nav>
+{% endif %}
