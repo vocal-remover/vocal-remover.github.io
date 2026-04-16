@@ -231,7 +231,7 @@ pages:
       og_type: article
       og_image: /blog/set-high-performance-gpu-for-chrome-edge-on-windows/graphics-settings-chrome-3.png
     guide:
-      extension_link_label: estensione Vocal Remover
+      extension_link_label: Estensione Vocal Remover
       page_title: Fai usare a Windows la scheda grafica veloce per il browser
       intro_html:
         - "EXTENSION_LINK esegue calcoli pesanti in tempo reale, quindi ha bisogno di una scheda grafica veloce per lavorare in modo fluido. Anche se si parla di audio, i browser moderni usano la grafica dietro le quinte per accelerare i calcoli, e per Vocal Remover e importante."

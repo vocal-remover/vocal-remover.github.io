@@ -25,6 +25,7 @@
 - Treat those `appName` values as SEO-significant inputs, not display-only suggestions. If the `appName` value includes a local-language name, keep that as the primary localized tool name unless there is a strong product reason not to.
 - For non-English locales, localize search-facing canonicals and visible terminology when the locale has stable native musician-facing phrasing. Do not preserve English by default just because the implementation started in English.
 - When translating OS or app walkthroughs, use the real localized UI control names for the target locale whenever you can verify them from official documentation, matching screenshots, or the actual localized product UI.
+- In localized blog and guide intros, capitalize tool labels when they start the sentence or paragraph. Do not begin the first paragraph with a lowercase localized noun such as `extension` or its locale equivalent.
 - Keep internal ids and non-user-facing keys locale-neutral.
 - Translation review should check missing keys, untranslated English strings, grammar, and locale-specific musical terminology conventions.
 - Validate rendered localized pages in context, not just raw locale data, because interpolation and layout can still break otherwise-correct translations.

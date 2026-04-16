@@ -231,7 +231,7 @@ pages:
       og_type: article
       og_image: /blog/set-high-performance-gpu-for-chrome-edge-on-windows/graphics-settings-chrome-3.png
     guide:
-      extension_link_label: розширення Vocal Remover
+      extension_link_label: Розширення Vocal Remover
       page_title: Налаштуйте Windows на швидкий GPU для браузера
       intro_html:
         - "EXTENSION_LINK виконує складні обчислення в реальному часі, тому для плавної роботи йому потрібен швидкий графічний процесор. Хоч ідеться про аудіо, сучасні браузери теж використовують GPU для важких обчислень, і для Vocal Remover це важливо."
