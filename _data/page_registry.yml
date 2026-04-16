@@ -8,6 +8,7 @@ pages:
       it: /it/
       es: /es/
       de: /de/
+      fr: /fr/
       ru: /ru/
   - id: gpu_guide
     sitemap: true
@@ -18,4 +19,5 @@ pages:
       it: /it/blog/scegliere-la-scheda-grafica-ad-alte-prestazioni-per-chrome-edge-su-windows/
       es: /es/blog/elegir-la-grafica-de-alto-rendimiento-para-chrome-edge-en-windows/
       de: /de/blog/leistungsstarke-grafik-fur-chrome-edge-in-windows-auswahlen/
+      fr: /fr/blog/choisir-le-gpu-hautes-performances-pour-chrome-edge-sur-windows/
       ru: /ru/blog/выбрать-высокопроизводительный-графический-процессор-для-chrome-edge-на-windows/

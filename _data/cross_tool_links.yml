@@ -51,6 +51,19 @@ related_tools:
     speed_tool:
       name: Tempo ändern
       url: https://www.musiciantools.online/de/tempo-ändern
+  fr:
+    vocal_remover:
+      name: Vocal Remover
+      url: https://removevocalsfromasong.com/fr/
+    bpm_extension:
+      name: Changer le BPM
+      url: https://chromewebstore.google.com/detail/bpm-changer/klddneocmcmoacnnemmelgeilnedcpjj
+    pitch_changer:
+      name: Pitch Changer
+      url: https://pitch-changer.com/fr/
+    speed_tool:
+      name: Changer le BPM
+      url: https://www.musiciantools.online/fr/changer-le-bpm
   ru:
     vocal_remover:
       name: Vocal Remover
