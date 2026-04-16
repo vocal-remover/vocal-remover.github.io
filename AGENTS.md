@@ -16,6 +16,7 @@
 - Always verify the target locale before translating or reviewing. Do not reuse copy from another language just because the alphabet looks similar.
 - For Ukrainian specifically, treat Russian and Ukrainian as separate languages with separate review passes. Reject Russian-only letters like `ы`, `э`, `ё`, and `ъ` in Ukrainian copy unless the string is intentionally naming another language, locale, or quoted foreign text.
 - When translating tool names into target languages, take localized tool names from the `appName` key in these extension locale files:
+  - Vocal Remover: `~/projects/extensions/vocal-remover/_locales/[LOCALE_NAME]/messages.json`
   - Pitch Changer: `~/projects/extensions/pitch-changer/_locales/[LOCALE_NAME]/messages.json`
   - Tone Generator: `~/projects/extensions/tone-generator/_locales/[LOCALE_NAME]/messages.json`
   - Speed Changer: `~/projects/extensions/bpm-changer/_locales/[LOCALE_NAME]/messages.json`
