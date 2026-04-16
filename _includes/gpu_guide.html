@@ -13,6 +13,10 @@
 </style>
 
 <main class="max-w-4xl mx-auto p-6 sm:p-10">
+  <div class="mb-6 flex justify-end" data-ui-review="article-topbar">
+    {% include locale_switcher.html locale_code=page.locale %}
+  </div>
+
   <header class="mb-8">
     <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">{{ guide.page_title }}</h1>
 {% for paragraph_html in guide.intro_html -%}
