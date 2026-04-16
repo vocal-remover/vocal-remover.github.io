@@ -5,4 +5,5 @@ default_locale: en
 locales:
   - en
   - it
+  - es
   - ru

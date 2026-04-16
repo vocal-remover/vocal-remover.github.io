@@ -25,6 +25,19 @@ related_tools:
     speed_tool:
       name: Cambiatore BPM
       url: https://www.musiciantools.online/it/cambiatore-bpm
+  es:
+    vocal_remover:
+      name: Vocal Remover
+      url: https://removevocalsfromasong.com/es/
+    bpm_extension:
+      name: Cambiador de BPM
+      url: https://chromewebstore.google.com/detail/bpm-changer/klddneocmcmoacnnemmelgeilnedcpjj
+    pitch_changer:
+      name: Pitch Changer
+      url: https://pitch-changer.com/es/
+    speed_tool:
+      name: Cambiador de BPM
+      url: https://www.musiciantools.online/es/cambiador-de-bpm
   ru:
     vocal_remover:
       name: Vocal Remover

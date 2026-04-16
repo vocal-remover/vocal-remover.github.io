@@ -6,6 +6,7 @@ pages:
     paths:
       en: /
       it: /it/
+      es: /es/
       ru: /ru/
   - id: gpu_guide
     sitemap: true
@@ -14,4 +15,5 @@ pages:
     paths:
       en: /blog/set-high-performance-gpu-for-chrome-edge-on-windows/
       it: /it/blog/scegliere-la-scheda-grafica-ad-alte-prestazioni-per-chrome-edge-su-windows/
+      es: /es/blog/elegir-la-grafica-de-alto-rendimiento-para-chrome-edge-en-windows/
       ru: /ru/blog/выбрать-высокопроизводительный-графический-процессор-для-chrome-edge-на-windows/
