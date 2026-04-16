@@ -123,6 +123,13 @@ faq:
       linked_answers:
         - tool_key: pitch_changer
           template: Yes, use TOOL_LINK to shift pitch and change key of songs online or offline. It works great alongside Vocal Remover.
+    - question: How can I change the tempo of a song?
+      answers: []
+      linked_answers:
+        - tool_key: bpm_extension
+          template: If you want to slow down or speed up music on a website while it is already playing, use TOOL_LINK.
+        - tool_key: speed_tool
+          template: If you want to change the tempo of your own file while keeping the pitch steady, use TOOL_LINK.
     - question: Is there a free trial? How does pricing work?
       answers:
         - Both the extension and the iPhone, iPad or Mac app include a free trial period. No card required.

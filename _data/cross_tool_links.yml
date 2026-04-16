@@ -1,5 +1,11 @@
 related_tools:
   en:
+    bpm_extension:
+      name: BPM Changer
+      url: https://chromewebstore.google.com/detail/bpm-changer/klddneocmcmoacnnemmelgeilnedcpjj
     pitch_changer:
       name: Pitch Changer
       url: https://pitch-changer.com/
+    speed_tool:
+      name: Audio Speed Changer
+      url: https://www.musiciantools.online/audio-speed-changer
