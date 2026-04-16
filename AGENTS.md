@@ -13,7 +13,7 @@
 
 ## Localization Rules
 - When translating or reviewing localized copy, preserve domain-specific musical terminology. In Russian, prefer `утилиты для музыкантов` over `музыкальные инструменты` for the product category, translate musical `key` as `тональность` rather than `ключ`, and avoid leaning on `опорные тоны` when a more natural phrase like `эталонный тон` or `устойчивая нота` fits better.
-- In the Russian locale FAQ and related cross-tool references, keep the `Pitch Changer` product name in English. Do not translate that link text into Russian.
+- In localized FAQ and related cross-tool references, keep the `Pitch Changer` product name in English. Do not translate that link text.
 - Always verify the target locale before translating or reviewing. Do not reuse copy from another language just because the alphabet looks similar.
 - For Ukrainian specifically, treat Russian and Ukrainian as separate languages with separate review passes. Reject Russian-only letters like `ы`, `э`, `ё`, and `ъ` in Ukrainian copy unless the string is intentionally naming another language, locale, or quoted foreign text.
 - When translating tool names into target languages, take localized tool names from the `appName` key in these extension locale files:
