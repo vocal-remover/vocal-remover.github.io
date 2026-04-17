@@ -37,6 +37,7 @@
 - Shared assets, legal redirects, and structured data can stay shared across locales unless the feature explicitly needs locale-specific variants.
 
 ## Validation Rules
+- Run `ruby scripts/validate_locales.rb` after locale-related changes before the Jekyll build so type or quoting mistakes in `_data/locales/` fail early.
 - Run `bundle exec jekyll build` after user-visible or metadata-affecting changes.
 - Spot-check generated files in `_site/` when changing localized metadata, canonicals, `hreflang`, sitemap output, or switcher behavior.
 - When changing the locale switcher or redirect logic, verify both `/` and `/ru/` output and make sure the generated HTML still exposes crawlable language links.
