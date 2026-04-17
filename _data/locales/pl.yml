@@ -1,0 +1,325 @@
+site:
+  lang: pl
+  locale_label: PL
+  native_label: Polski
+  path: /pl/
+formatting:
+  decimal_separator: ","
+switcher:
+  aria_label: Przełącznik języka
+  button_label: Wybierz język
+meta:
+  title: "Usuwanie wokalu: usuń wokal z utworu online i offline"
+  description: Usuń wokal z utworu na dowolnej stronie i oddziel głos od muzyki do ćwiczeń, karaoke lub produkcji. Dostępne jako rozszerzenie przeglądarki oraz aplikacja na iPhone'a, iPada i Maca.
+  og_title: "Usuwanie wokalu: usuń wokal z utworu"
+  og_description: Usuń wokal z utworu na dowolnej stronie i oddziel głos od muzyki do ćwiczeń, karaoke lub produkcji. Dostępne jako rozszerzenie przeglądarki oraz aplikacja na iPhone'a, iPada i Maca.
+hero:
+  badge_label: Nowość
+  badge_text: Usuwanie wokalu na iPhone'a i iPada już jest. Zobacz, co nowego
+  title: Usuwanie wokalu
+  subtitle: Usuń wokal z utworu w kilka sekund
+  description_line_1: Usuwanie wokalu ułatwia usuwanie wokalu z dowolnego utworu i oddzielanie głosu od muzyki
+  description_line_2: do karaoke, remiksów, ćwiczeń, podcastów lub nauczania.
+  description_line_3: Używaj go online na ulubionych stronach albo offline na iPhonie, iPadzie lub Macu.
+  online_cta_title: Dodaj Usuwanie wokalu Online
+  online_cta_subtitle: do przeglądarki
+  offline_cta_title: Dodaj Usuwanie wokalu Offline
+  offline_cta_subtitle: na iPhone'a, iPada lub Maca
+nav:
+  aria_label: Sekcje strony
+  overview: Czym jest Usuwanie wokalu?
+  online: Do stron
+  offline: Do plików
+  use_cases: Dla kogo?
+  faq: FAQ
+overview:
+  title: Czym jest Usuwanie wokalu?
+  paragraphs:
+    - Usuwanie wokalu pozwala usuwać wokal z utworu na dowolnej stronie i oddzielać głos od muzyki na komputerze bez skomplikowanych programów audio. To narzędzie stworzone do realnych zadań muzycznych, takich jak karaoke, remiksy, ćwiczenia, nauczanie i tworzenie materiałów.
+    - "Możesz:"
+  bullets:
+    - Usunąć wokal z utworu i otrzymać czysty podkład instrumentalny.
+    - Wyizolować głos, aby analizować frazowanie, harmonie i warstwy.
+    - Przygotować ścieżki karaoke, podkłady i materiały do lekcji.
+    - Oczyścić podcasty i filmy przez usunięcie muzyki w tle.
+  versions_intro: "Usuwanie wokalu jest dostępne w dwóch wersjach:"
+  online_link_label: Usuwanie wokalu Online
+  online_link_suffix: rozszerzenie przeglądarki do stron, oraz
+  offline_link_label: Usuwanie wokalu Offline
+  offline_link_suffix: aplikacja na iPhone'a, iPada i Maca do pracy z plikami.
+online:
+  title: Usuwanie wokalu Online
+  paragraphs:
+    - Używaj Usuwania wokalu, aby oczyścić utwór online i usunąć wokal dzięki separacji głosu opartej na AI.
+    - Usuwanie wokalu Online dodaje inteligentne narzędzie bezpośrednio do przeglądarki. Usuwaj wokal z filmów na YouTube i z wielu innych stron audio w zaledwie kilka kliknięć.
+  bullets:
+    - Usuwaj wokal online bezpośrednio na dowolnej stronie.
+    - Działa jako narzędzie do usuwania wokalu z YouTube i innych platform muzycznych.
+    - Otrzymuj czyste instrumentale bez pobierania ani wysyłania plików.
+    - Separacja wokalu wysokiej jakości wspierana przez AI.
+    - Świetne do karaoke, coverów, remiksów i podkładów.
+  perfect_for_label: "Idealne dla:"
+  perfect_for_text: miłośników karaoke, wokalistów, trenerów wokalnych, nauczycieli, twórców treści i wszystkich, którzy ćwiczą z materiałami online.
+  pricing_template: "Po darmowym okresie próbnym: WEEKLY_PRICE, YEARLY_PRICE lub LIFETIME_PRICE."
+  offer_templates:
+    weekly: "US$PRICE_VALUE tygodniowo"
+    yearly: "US$PRICE_VALUE rocznie"
+    lifetime: "jednorazowa płatność US$PRICE_VALUE"
+  cta: Dodaj Usuwanie wokalu do przeglądarki
+  image_alt: Zainstaluj rozszerzenie Usuwanie wokalu i dodaj je do przeglądarki Chrome w kilka sekund.
+offline:
+  title: Usuwanie wokalu Offline
+  paragraphs:
+    - Błyskawiczne Usuwanie wokalu usuwa wokal z utworów i oddziela głos od muzyki w kilka sekund. Przetwarzaj wsadowo wiele plików jednym kliknięciem i szybko przygotowuj czyste podkłady instrumentalne.
+    - Upuść pojedynczy utwór albo cały folder, a Usuwanie wokalu na iPhone'a, iPada i Maca rozdzieli każdą piosenkę na ścieżkę wokalną i instrumentalną. Stworzone z myślą o szybkości, dokładności i wygodnej pracy offline.
+  bullets:
+    - Usuwanie wokalu z pomocą AI dla precyzyjnej separacji nawet w gęstych miksach.
+    - Tryb wsadowy do przetwarzania setek utworów, gdy pracujesz dalej.
+    - Obsługuje WAV, AIFF, MP3, FLAC, M4A i inne formaty.
+    - Przetwarzanie offline bez kont i bez czekania na wysyłanie plików.
+  perfect_for_label: "Idealne dla:"
+  perfect_for_text: producentów, DJ-ów, podcasterów, nauczycieli i muzyków pracujących z lokalnymi plikami audio.
+  pricing_template: "Po darmowym okresie próbnym: WEEKLY_PRICE lub YEARLY_PRICE."
+  offer_templates:
+    weekly: "US$PRICE_VALUE tygodniowo"
+    yearly: "US$PRICE_VALUE rocznie"
+  cta: Dodaj Usuwanie wokalu na iPhone'a, iPada lub Maca
+  image_alt: Pobierz już dziś i zobacz, dlaczego tak wielu muzyków korzysta z Usuwania wokalu, aby szybko przygotować potrzebne stemsy.
+use_cases:
+  title: Kto korzysta z Usuwania wokalu?
+  items:
+    - title: Wokaliści i miłośnicy karaoke
+      body: Natychmiast zamieniaj dowolny utwór w wersję karaoke. Ćwicz w swojej tonacji, przygotowuj setlisty i powtarzaj materiał bez szukania osobnych podkładów.
+    - title: Producenci i DJ-e
+      body: Wyciągaj czyste instrumentale i wokale do remiksów, editów i mashupów. Przygotowuj stemsy do DAW albo do występów na żywo w zaledwie kilka kliknięć.
+    - title: Nauczyciele i uczniowie
+      body: Twórz uproszczone ścieżki do lekcji, ćwiczenia słuchu i transkrypcji. Izoluj wokal do analizy frazowania albo usuwaj go, by uczniowie mogli śpiewać lub grać na podkładzie.
+    - title: Podcasterzy i twórcy treści
+      body: Usuwaj muzykę spod wypowiedzi, czyść intro i outro oraz przygotowuj przejrzyste stemsy do montażu i ponownego wykorzystania materiału.
+faq:
+  title: Najczęściej zadawane pytania
+  items:
+    - question: Rozszerzenie Usuwanie wokalu działa wolno albo zacina się. Co mogę zrobić?
+      answers:
+        - Na niektórych komputerach z Windows, szczególnie laptopach, system może wybrać dla przeglądarki energooszczędny układ graficzny zamiast wydajnego. Ponieważ rozszerzenie Usuwanie wokalu przetwarza dźwięk w czasie rzeczywistym, może to powodować spowolnienia, zacinanie dźwięku albo całkowicie uniemożliwiać działanie.
+      answer_html: 'Możesz ustawić w Windowsie używanie wysokowydajnego układu graficznego dla przeglądarki. Mamy tutaj instrukcję krok po kroku ze zrzutami ekranu: <a href="/pl/blog/set-high-performance-gpu-for-chrome-edge-on-windows/" class="underline">Wybierz wysokowydajny układ graficzny dla Chrome i Edge w Windows</a>. Jeśli to nie pomoże, możliwe, że komputer albo przeglądarka są po prostu zbyt ograniczone do przetwarzania w czasie rzeczywistym. W takiej sytuacji spróbuj użyć Usuwania wokalu na mocniejszym sprzęcie, jeśli masz taką możliwość.'
+    - question: Jaka jest różnica między Usuwaniem wokalu Online a Usuwaniem wokalu Offline?
+      answers:
+        - Usuwanie wokalu Online to rozszerzenie przeglądarki, które usuwa wokal bezpośrednio na stronach takich jak YouTube i innych platformach audio lub wideo.
+        - Usuwanie wokalu Offline to samodzielna aplikacja na iPhone'a, iPada i Maca, która działa całkowicie offline na własnych plikach audio i pozwala wsadowo przetwarzać całe foldery.
+    - question: Czy muszę wysyłać pliki audio?
+      answers:
+        - Nie, nie trzeba niczego wysyłać.
+        - Rozszerzenie przetwarza dźwięk bezpośrednio w przeglądarce podczas odtwarzania, a aplikacja na iPhone'a, iPada i Maca pracuje lokalnie na plikach bez udziału serwerów.
+    - question: Jakie formaty audio obsługuje Usuwanie wokalu Offline?
+      answers:
+        - Usuwanie wokalu na iPhone'a, iPada i Maca działa z popularnymi formatami, takimi jak WAV, AIFF, MP3, FLAC, M4A i inne, więc możesz rozdzielać pliki, które już masz, bez wcześniejszej konwersji. Możesz też przeciągać wideo, foldery lub regiony z DAW, a aplikacja automatycznie wyodrębni dźwięk.
+    - question: Czy usuwanie wokalu wpływa na jakość dźwięku?
+      answers:
+        - Usuwanie wokalu wykorzystuje separację AI zaprojektowaną tak, aby zachować czyste i muzyczne podkłady instrumentalne.
+        - Wersja offline często daje lepszą jakość, bo analizuje cały utwór podczas przetwarzania i ma do dyspozycji więcej zasobów.
+        - Przy bardzo złożonych albo zaszumionych miksach mogą pojawić się artefakty, ale typowe utwory zwykle rozdzielają się bardzo dobrze.
+    - question: Czy mogę też zmienić tonację utworów?
+      linked_answers:
+        - tool_key: pitch_changer
+          template: Tak, użyj TOOL_LINK, aby przesuwać wysokość i zmieniać tonację utworów online albo offline. To świetnie uzupełnia Usuwanie wokalu.
+    - question: Jak mogę zmienić tempo utworu?
+      answers: []
+      linked_answers:
+        - tool_key: bpm_extension
+          template: Jeśli chcesz zwolnić albo przyspieszyć muzykę na stronie już podczas odtwarzania, użyj TOOL_LINK.
+        - tool_key: speed_tool
+          template: Jeśli chcesz zmienić tempo własnego pliku i zachować wysokość dźwięku, użyj TOOL_LINK.
+    - question: Czy jest darmowy okres próbny? Jak działają ceny?
+      answers:
+        - Zarówno rozszerzenie, jak i aplikacja na iPhone'a, iPada i Maca oferują darmowy okres próbny bez karty.
+        - Po okresie próbnym Usuwanie wokalu Online oferuje subskrypcje tygodniowe, roczne i zakup jednorazowy, a Usuwanie wokalu Offline subskrypcje tygodniowe i roczne, jak pokazano wyżej.
+        - Wszystkie płatności są bezpiecznie obsługiwane przez Paddle w przypadku rozszerzenia albo Apple w przypadku aplikacji.
+    - question: Jak anulować subskrypcję?
+      answers:
+        - Kliknij przycisk Manage Subscription w aplikacji albo rozszerzeniu i postępuj zgodnie z instrukcjami.
+        - Proces jest w pełni automatyczny, więc nie trzeba dzwonić ani pisać maili.
+    - question: Dla kogo jest Usuwanie wokalu?
+      answers:
+        - Usuwanie wokalu jest stworzone dla wokalistów, muzyków, producentów, DJ-ów, nauczycieli, twórców treści i wszystkich, którzy potrzebują oddzielić głos od muzyki.
+        - Niezależnie od tego, czy przygotowujesz karaoke, prowadzisz lekcję, czyścisz dialog czy budujesz remiksy, szybko dostajesz czyste stemsy.
+get_started:
+  title: Zacznij z Usuwaniem wokalu
+  line_1: Niezależnie od tego, czy wolisz pracować w przeglądarce, czy na lokalnych plikach na iPhonie, iPadzie albo Macu,
+  line_2: Usuwanie wokalu pomaga usuwać wokal z utworów, oddzielać głos od muzyki i przygotowywać ścieżki do tego, co chcesz zrobić.
+  rating_template: "RATING_VALUE/5 · REVIEW_COUNT REVIEW_LABEL w Chrome Web Store"
+  review_count_rule: slavic
+  review_count_labels:
+    one: opinia
+    few: opinie
+    many: opinii
+    other: opinii
+footer:
+  copyright: "© 2025 <a href=\"https://extensions.ee/\" class=\"underline\">extensions.ee</a>."
+  contact: "Kontakt: info@extensions.ee."
+  payments_label: "Płatności i zwroty:"
+  paddle_label: Paddle
+  paddle_url: https://paddle.net/
+  apple_label: Apple
+  apple_url: https://support.apple.com/billing
+  terms_label: Regulamin
+  terms_path: /terms-and-conditions.html
+  refund_label: Zasady zwrotów
+  refund_path: /refund-policy.html
+  privacy_label: Polityka prywatności
+  privacy_path: /privacy-policy.html
+  paragraphs:
+    - Zakupy dokonane na naszej stronie są obsługiwane przez internetowego resellera Paddle.com, który pełni rolę Merchant of Record dla tych zamówień. Paddle zapewnia obsługę klienta dla zamówień ze strony oraz zajmuje się zwrotami, rozliczeniami i należnymi podatkami.
+    - Zakupy dokonane przez App Store są obsługiwane bezpośrednio przez Apple, które działa jako Merchant of Record dla zamówień z App Store. Apple zarządza płatnościami, rachunkami, podatkami, zwrotami i wszystkimi powiązanymi zgłoszeniami.
+    - Jeśli nie masz pewności, gdzie dokonano zakupu, sprawdź wiadomość z potwierdzeniem zamówienia albo rachunek od Paddle lub Apple.
+  acknowledgements_prefix: Znaki towarowe i komponenty stron trzecich są wymienione na stronie
+  acknowledgements_label: Acknowledgements
+  acknowledgements_url: https://extensions.ee/acknowledgements.html?from=removevocalsfromasong.com
+  acknowledgements_suffix: .
+structured_data:
+  online:
+    name: Usuwanie wokalu
+    alternateName: Usuwanie wokalu Online
+    applicationCategory: MultimediaApplication
+    operatingSystem: Chromium-based browser on Windows and macOS
+    description: Usuwanie wokalu to rozszerzenie przeglądarki, które pozwala usuwać wokal z utworu bezpośrednio w przeglądarce. Użyj separacji wokalu wspieranej przez AI, aby od razu tworzyć instrumentale z YouTube i innych platform audio lub wideo.
+    inLanguage: pl
+    publisher:
+      "@type": Organization
+      name: extensions.ee
+      url: https://extensions.ee
+    offer_names:
+      weekly: Plan tygodniowy
+      yearly: Plan roczny
+      lifetime: Płatność jednorazowa
+  offline:
+    name: Usuwanie wokalu
+    alternateName: Usuwanie wokalu na iPhone'a, iPada i Maca
+    applicationCategory: MultimediaApplication
+    operatingSystem: macOS 15.0 or iOS 18.0
+    description: Usuwanie wokalu na Maca oddziela głos i ścieżki instrumentalne w kilka sekund. Upuść jeden utwór albo cały folder, aby wsadowo przygotować podkłady gotowe do karaoke i czyste ścieżki wokalne offline.
+    inLanguage: pl
+    publisher:
+      "@type": Organization
+      name: extensions.ee
+      url: https://extensions.ee
+    offer_names:
+      weekly: Plan tygodniowy
+      yearly: Plan roczny
+llms:
+  languages_heading: Dostępne języki
+  home_link_label: Strona główna
+  link_label: LLMS
+  lead: Usuwanie wokalu pomaga wokalistom, producentom, nauczycielom, podcasterom i miłośnikom karaoke oddzielać wokal od muzyki na stronach internetowych albo we własnych plikach.
+  intro: To zestawienie zbiera strony Usuwania wokalu dostępne w tym języku i skupia się na zadaniach muzycznych, pracy z plikami oraz wyborze między rozszerzeniem przeglądarki do stron i aplikacją offline do plików.
+  versions_heading: Wybierz odpowiednią wersję
+  sections:
+    site: Strona
+    guides: Poradniki
+  pages:
+    home:
+      title: Usuwanie wokalu
+      summary: Zacznij tutaj, aby zobaczyć, jak Usuwanie wokalu pomaga tworzyć podkłady instrumentalne, izolować wokale, porównywać rozszerzenie przeglądarki z aplikacją offline i wybrać właściwą wersję do stron albo plików.
+    gpu_guide:
+      title: Wybierz wysokowydajny układ graficzny dla Chrome i Edge w Windows
+      summary: Skorzystaj z tego poradnika, jeśli rozszerzenie przeglądarki zacina się albo ma trudności z pracą w czasie rzeczywistym w Windows, szczególnie na laptopach domyślnie używających energooszczędnego układu graficznego.
+pages:
+  gpu_guide:
+    meta:
+      title: "Wybierz wysokowydajny układ graficzny dla Chrome i Edge (Windows)"
+      description: "Jeśli Usuwanie wokalu działa wolno albo niestabilnie w Windows, ustaw Chrome lub Edge tak, aby używały wysokowydajnego układu graficznego, korzystając z tego poradnika krok po kroku."
+      og_title: "Wybierz wysokowydajny układ graficzny dla Chrome i Edge (Windows)"
+      og_description: "Jeśli Usuwanie wokalu działa wolno albo niestabilnie w Windows, ustaw Chrome lub Edge tak, aby używały wysokowydajnego układu graficznego, korzystając z tego poradnika krok po kroku."
+      og_type: article
+      og_image: /blog/set-high-performance-gpu-for-chrome-edge-on-windows/graphics-settings-chrome-3.png
+    guide:
+      extension_link_label: Rozszerzenie Usuwanie wokalu
+      page_title: Ustaw w Windowsie szybki układ graficzny dla przeglądarki
+      intro_html:
+        - EXTENSION_LINK wykonuje złożone obliczenia w czasie rzeczywistym, więc potrzebuje szybkiego układu graficznego, aby działać płynnie. Chociaż chodzi o dźwięk, nowoczesne przeglądarki wykorzystują układ graficzny w tle do przyspieszania ciężkich obliczeń i Usuwanie wokalu również tego potrzebuje.
+        - Na niektórych komputerach, szczególnie laptopach, Windows może wybrać dla przeglądarki energooszczędny układ graficzny. To może powodować spowolnienia, zacinanie dźwięku albo całkowicie uniemożliwiać działanie rozszerzenia Usuwanie wokalu. Ten poradnik ustawia dla przeglądarki wysokowydajny układ graficzny.
+      detected_browser_label: Wykryta przeglądarka
+      unknown_browser_label: Nieznana
+      back_home_label: Wróć do strony głównej
+      copy_button:
+        idle: Kopiuj
+        success: Skopiowano!
+      browsers:
+        chrome:
+          tab_label: Google Chrome
+          detected_label: Google Chrome
+          tab_accent: blue
+          title: Ustaw Chrome tak, aby używał wysokowydajnego układu graficznego
+          steps:
+            - number: 1
+              title: Otwórz ustawienia Grafika
+              paragraphs_html:
+                - 'Otwórz ustawienia, <a href="ms-settings:display-advancedgraphics" class="underline">klikając tutaj</a>, albo przejdź do <span class="font-medium">Ustawienia → System → Ekran → Grafika</span>.'
+                - 'Na liście znajdź <span class="font-medium">Google Chrome</span> (może być potrzebne przewinięcie). Jeśli już go widzisz, przejdź od razu do <a href="#step3-chrome" class="underline">kroku 3</a>.'
+              images:
+                - src: graphics-settings.png
+                  alt: Ekran Ustawienia → System → Ekran → Grafika
+            - number: 2
+              title: Dodaj Chrome, jeśli nie ma go na liście
+              paragraphs_html:
+                - 'Jeśli Chrome nie ma na liście, kliknij <span class="font-medium">Dodaj aplikację klasyczną</span> i wybierz <span class="font-medium">Google Chrome</span>.'
+                - 'W razie potrzeby wklej tę ścieżkę i naciśnij <span class="font-medium">Enter</span>:'
+              copy_value: "%ProgramFiles%\\Google\\Chrome\\Application\\chrome.exe"
+              images:
+                - src: graphics-settings-chrome-1.png
+                  alt: Dodawanie Google Chrome w ustawieniach grafiki Windows
+            - number: 3
+              id: step3-chrome
+              title: Otwórz Opcje dla Chrome
+              paragraphs_html:
+                - 'Kliknij <span class="font-medium">Google Chrome</span> na liście, a potem wybierz <span class="font-medium">Opcje</span>.'
+              images:
+                - src: graphics-settings-chrome-2.png
+                  alt: Przycisk Opcje dla Google Chrome w ustawieniach grafiki Windows
+            - number: 4
+              title: Wybierz opcję Wysoka wydajność
+              paragraphs_html:
+                - 'Wybierz <span class="font-medium">Wysoka wydajność</span>, a potem kliknij <span class="font-medium">Zapisz</span>.'
+                - 'Jeśli widzisz więcej niż jeden układ graficzny, opcja wysokiej wydajności zwykle pokazuje mocniejszy układ dedykowany. Powinno pojawić się oznaczenie <span class="font-medium">Current: High performance</span>.'
+              images:
+                - src: graphics-settings-chrome-3.png
+                  alt: Wybór opcji Wysoka wydajność dla Google Chrome w Windows
+        edge:
+          tab_label: Microsoft Edge
+          detected_label: Microsoft Edge
+          tab_accent: cyan
+          title: Ustaw Edge tak, aby używał wysokowydajnego układu graficznego
+          steps:
+            - number: 1
+              title: Otwórz ustawienia Grafika
+              paragraphs_html:
+                - 'Otwórz ustawienia, <a href="ms-settings:display-advancedgraphics" class="underline">klikając tutaj</a>, albo przejdź do <span class="font-medium">Ustawienia → System → Ekran → Grafika</span>.'
+                - 'Na liście znajdź <span class="font-medium">Microsoft Edge</span> (może być potrzebne przewinięcie). Jeśli już go widzisz, przejdź od razu do <a href="#step3-edge" class="underline">kroku 3</a>.'
+              images:
+                - src: graphics-settings.png
+                  alt: Ekran Ustawienia → System → Ekran → Grafika
+            - number: 2
+              title: Dodaj Edge, jeśli nie ma go na liście
+              paragraphs_html:
+                - 'Jeśli Edge nie ma na liście, kliknij <span class="font-medium">Dodaj aplikację klasyczną</span> i wybierz <span class="font-medium">Microsoft Edge</span>.'
+                - 'W razie potrzeby wklej tę ścieżkę i naciśnij <span class="font-medium">Enter</span>:'
+              copy_value: "%ProgramFiles(x86)%\\Microsoft\\Edge\\Application\\msedge.exe"
+              images:
+                - src: graphics-settings-edge-1.png
+                  alt: Dodawanie Microsoft Edge w ustawieniach grafiki Windows
+            - number: 3
+              id: step3-edge
+              title: Otwórz Opcje dla Edge
+              paragraphs_html:
+                - 'Kliknij <span class="font-medium">Microsoft Edge</span> na liście, a potem wybierz <span class="font-medium">Opcje</span>.'
+              images:
+                - src: graphics-settings-edge-2.png
+                  alt: Przycisk Opcje dla Microsoft Edge w ustawieniach grafiki Windows
+            - number: 4
+              title: Wybierz opcję Wysoka wydajność
+              paragraphs_html:
+                - 'Wybierz <span class="font-medium">Wysoka wydajność</span>, a potem kliknij <span class="font-medium">Zapisz</span>.'
+                - 'Jeśli widzisz więcej niż jeden układ graficzny, opcja wysokiej wydajności zwykle pokazuje mocniejszy układ dedykowany. Powinno pojawić się oznaczenie <span class="font-medium">Current: High performance</span>.'
+              images:
+                - src: graphics-settings-edge-3.png
+                  alt: Wybór opcji Wysoka wydajność dla Microsoft Edge w Windows

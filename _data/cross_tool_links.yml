@@ -181,3 +181,16 @@ related_tools:
     speed_tool:
       name: Ændr lydhastighed
       url: https://www.musiciantools.online/en/audio-speed-changer
+  pl:
+    vocal_remover:
+      name: Usuwanie wokalu
+      url: https://removevocalsfromasong.com/pl/
+    bpm_extension:
+      name: Zmieniacz BPM
+      url: https://chromewebstore.google.com/detail/bpm-changer/klddneocmcmoacnnemmelgeilnedcpjj
+    pitch_changer:
+      name: Zmieniacz tonacji
+      url: https://pitch-changer.com/pl/
+    speed_tool:
+      name: Zmiana prędkości audio
+      url: https://www.musiciantools.online/en/audio-speed-changer

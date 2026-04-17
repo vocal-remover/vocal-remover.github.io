@@ -17,6 +17,7 @@ pages:
       sv: /sv/
       nl: /nl/
       ko: /ko/
+      pl: /pl/
       "zh-TW": /zh-TW/
   - id: gpu_guide
     sitemap: true
@@ -36,4 +37,5 @@ pages:
       sv: /sv/blog/set-high-performance-gpu-for-chrome-edge-on-windows/
       nl: /nl/blog/set-high-performance-gpu-for-chrome-edge-on-windows/
       ko: /ko/blog/set-high-performance-gpu-for-chrome-edge-on-windows/
+      pl: /pl/blog/set-high-performance-gpu-for-chrome-edge-on-windows/
       "zh-TW": /zh-TW/blog/set-high-performance-gpu-for-chrome-edge-on-windows/
