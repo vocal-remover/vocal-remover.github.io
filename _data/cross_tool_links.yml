@@ -142,3 +142,16 @@ related_tools:
     speed_tool:
       name: Audio snelheid aanpassen
       url: https://www.musiciantools.online/en/audio-speed-changer
+  sv:
+    vocal_remover:
+      name: Vocal Remover
+      url: https://removevocalsfromasong.com/sv/
+    bpm_extension:
+      name: BPM Changer
+      url: https://chromewebstore.google.com/detail/bpm-changer/klddneocmcmoacnnemmelgeilnedcpjj
+    pitch_changer:
+      name: Ändra tonart
+      url: https://pitch-changer.com/sv/
+    speed_tool:
+      name: Ändra ljudhastighet
+      url: https://www.musiciantools.online/en/audio-speed-changer

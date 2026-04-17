@@ -1,0 +1,352 @@
+site:
+  lang: sv
+  locale_label: SV
+  native_label: Svenska
+  path: /sv/
+formatting:
+  decimal_separator: ","
+switcher:
+  aria_label: Språkväljare
+  button_label: Välj språk
+meta:
+  title: "Vocal Remover: ta bort sång från en låt online och offline"
+  description: "Ta bort sång från en låt på vilken webbplats som helst och separera röst från musik för övning, karaoke eller produktion. Finns som webbläsartillägg och app för iPhone, iPad och Mac."
+  og_title: "Vocal Remover: ta bort sång från en låt"
+  og_description: "Ta bort sång från en låt på vilken webbplats som helst och separera röst från musik för övning, karaoke eller produktion. Finns som webbläsartillägg och app för iPhone, iPad och Mac."
+hero:
+  badge_label: Nyhet
+  badge_text: Vocal Remover för iPhone och iPad är ute. Se vad som är nytt
+  title: Vocal Remover
+  subtitle: Ta bort sång från en låt på några sekunder
+  description_line_1: Vocal Remover gör det enkelt att ta bort sång ur vilken låt som helst och separera röst från musik
+  description_line_2: för karaoke, remixer, övning, poddar eller undervisning.
+  description_line_3: Använd den online på dina favoritwebbplatser eller offline på din iPhone, iPad eller Mac.
+  online_cta_title: Lägg till Vocal Remover Online
+  online_cta_subtitle: i webbläsaren
+  offline_cta_title: Lägg till Vocal Remover Offline
+  offline_cta_subtitle: på din iPhone, iPad eller Mac
+nav:
+  aria_label: Sidavsnitt
+  overview: Vad är Vocal Remover?
+  online: För webbplatser
+  offline: För filer
+  use_cases: Vem är det för?
+  faq: FAQ
+overview:
+  title: Vad är Vocal Remover?
+  paragraphs:
+    - Med Vocal Remover kan du ta bort sång från en låt på vilken webbplats som helst och separera röst från musik på datorn utan krånglig ljudprogramvara. Den är byggd för verkliga behov som karaoke, remixer, övning, undervisning och innehållsproduktion.
+    - "Du kan:"
+  bullets:
+    - Ta bort sång från en låt och få en ren instrumental version.
+    - Isolera rösten för att studera frasering, harmonier och lager.
+    - Förbereda karaokespår, backing tracks och undervisningsmaterial.
+    - Rensa upp poddar och videor genom att ta bort bakgrundsmusik.
+  versions_intro: "Vocal Remover finns i två versioner:"
+  online_link_label: Vocal Remover Online
+  online_link_suffix: ett webbläsartillägg för webbplatser, och
+  offline_link_label: Vocal Remover Offline
+  offline_link_suffix: en app för iPhone, iPad och Mac för filer.
+online:
+  title: Vocal Remover Online
+  paragraphs:
+    - Använd Vocal Remover för att rensa upp ditt spår online och ta bort sång från en låt med AI-baserad röstsplittning.
+    - Med Vocal Remover Online lägger du till ett smart tillägg direkt i webbläsaren. Ta bort sång från YouTube-videor och många andra ljudwebbplatser med bara några klick.
+  bullets:
+    - Ta bort sång online direkt på vilken webbplats som helst.
+    - Fungerar som ett YouTube-tillägg för att ta bort sång och även på andra musikplattformar.
+    - Få rena instrumentaler utan att ladda ner eller ladda upp filer.
+    - AI-teknik för sångseparering med hög kvalitet.
+    - Perfekt för karaoke, covers, remixer och backing tracks.
+  perfect_for_label: "Perfekt för:"
+  perfect_for_text: karaokeälskare, sångare, sångpedagoger, lärare, innehållsskapare och alla som övar med videor online.
+  pricing_template: "Efter gratisperioden: WEEKLY_PRICE, YEARLY_PRICE abonnemang eller LIFETIME_PRICE."
+  offer_templates:
+    weekly: "US$PRICE_VALUE per vecka"
+    yearly: "US$PRICE_VALUE per år"
+    lifetime: "engångsbetalning på US$PRICE_VALUE"
+  cta: Lägg till Vocal Remover i webbläsaren
+  image_alt: Installera Vocal Remover-tillägget och lägg till det i Chrome på några sekunder.
+offline:
+  title: Vocal Remover Offline
+  paragraphs:
+    - Snabba Vocal Remover tar bort sång från låtar och separerar röst från musik på några sekunder. Batchbearbeta flera filer med ett klick och få rena instrumentaler.
+    - Släpp in ett spår eller en hel mapp så delar Vocal Remover för iPhone, iPad och Mac upp varje låt i sång- och instrumentalstems. Byggd för snabbhet, precision och ett smidigt offlineflöde.
+  bullets:
+    - AI-baserad sångborttagning för exakt separering, även i täta mixar.
+    - Batchläge för att bearbeta hundratals låtar medan du fortsätter jobba.
+    - Fungerar med WAV, AIFF, MP3, FLAC, M4A och fler format.
+    - Offlinebearbetning utan konton och utan väntan på uppladdningar.
+  perfect_for_label: "Perfekt för:"
+  perfect_for_text: producenter, DJ:er, poddare, lärare och musiker som arbetar med lokala ljudfiler.
+  pricing_template: "Efter gratisperioden: WEEKLY_PRICE eller YEARLY_PRICE abonnemang."
+  offer_templates:
+    weekly: "US$PRICE_VALUE per vecka"
+    yearly: "US$PRICE_VALUE per år"
+  cta: Lägg till Vocal Remover på din iPhone, iPad eller Mac
+  image_alt: Ladda ner idag och se varför så många musiker använder Vocal Remover för att snabbt få fram rätt stems.
+use_cases:
+  title: Vem använder Vocal Remover?
+  items:
+    - title: Sångare och karaokeälskare
+      body: Förvandla direkt vilken låt som helst till en karaokeversion. Öva i din egen tonart, förbered setlistor och repetera utan att jaga separata instrumentaler.
+    - title: Producenter och DJ:er
+      body: Extrahera rena instrumentaler och vocals för remixer, edits och mashups. Förbered stems för din DAW eller liveset med bara några klick.
+    - title: Lärare och elever
+      body: Skapa avskalade spår för lektioner, gehörsträning och transkription. Isolera sången för att studera frasering eller ta bort den så att elever kan framföra ovanpå.
+    - title: Poddare och innehållsskapare
+      body: Ta bort bakgrundsmusik under tal, rensa intro och outro och förbered tydliga stems för redigering och återanvändning.
+faq:
+  title: Vanliga frågor
+  items:
+    - question: Vocal Remover-tillägget är långsamt eller hackar. Vad kan jag göra?
+      answers:
+        - På vissa Windows-datorer, särskilt bärbara, kan Windows välja det strömsnåla grafikchipet för webbläsaren i stället för det snabba. Eftersom Vocal Remover-tillägget bearbetar ljud i realtid kan det orsaka fördröjningar, hackigt ljud eller att det slutar fungera helt.
+      answer_html: 'Du kan ställa in Windows så att webbläsaren använder det högpresterande grafikchipet. Vi har en steg-för-steg-guide med skärmbilder här: <a href="/sv/blog/set-high-performance-gpu-for-chrome-edge-on-windows/" class="underline">Välj det högpresterande grafikchipet för Chrome &amp; Edge på Windows</a>. Hjälper inte det, kan datorn eller webbläsaren helt enkelt vara för begränsad för realtidsbearbetning. Prova i så fall Vocal Remover på ett kraftfullare system om du kan.'
+    - question: Vad är skillnaden mellan Vocal Remover Online och Vocal Remover Offline?
+      answers:
+        - Vocal Remover Online är ett webbläsartillägg som tar bort sång direkt på webbplatser som YouTube och andra ljud- eller videoplattformar.
+        - Vocal Remover Offline är en fristående app för iPhone, iPad och Mac som fungerar helt offline med dina egna ljudfiler och kan batchbearbeta hela mappar.
+    - question: Behöver jag ladda upp ljudfiler?
+      answers:
+        - Nej, inga uppladdningar behövs.
+        - Tillägget bearbetar ljud direkt i webbläsaren medan det spelas upp, och appen för iPhone, iPad och Mac arbetar lokalt med dina filer utan inblandning av servrar.
+    - question: Vilka ljudformat stöder Vocal Remover Offline?
+      answers:
+        - Vocal Remover för iPhone, iPad och Mac fungerar med vanliga format som WAV, AIFF, MP3, FLAC, M4A och fler, så du kan splitta de filer du redan har utan att konvertera dem först. Du kan också släppa in videor, mappar eller regioner från din DAW, så extraherar appen ljudet automatiskt.
+    - question: Påverkar borttagning av sång ljudkvaliteten?
+      answers:
+        - Vocal Remover använder AI-separering som är utformad för att hålla instrumentaler rena och musikaliska.
+        - Offlineversionen ger ofta bättre kvalitet eftersom den ser hela låten under bearbetningen och har mer resurser att arbeta med.
+        - Mycket komplicerade eller brusiga mixar kan fortfarande ge artefakter, men vanliga låtar separeras oftast väldigt bra.
+    - question: Kan jag också ändra tonarten på låtar?
+      linked_answers:
+        - tool_key: pitch_changer
+          template: Ja, använd TOOL_LINK för att flytta pitch och ändra tonart på låtar online eller offline. Det fungerar väldigt bra tillsammans med Vocal Remover.
+    - question: Hur kan jag ändra tempot på en låt?
+      answers: []
+      linked_answers:
+        - tool_key: bpm_extension
+          template: Om du vill sakta ner eller snabba upp musik på en webbplats medan den redan spelar, använd TOOL_LINK.
+        - tool_key: speed_tool
+          template: Om du vill ändra tempot på din egen fil men behålla samma pitch, använd TOOL_LINK.
+    - question: Finns det en gratis provperiod? Hur fungerar priset?
+      answers:
+        - Både tillägget och appen för iPhone, iPad och Mac har en gratis provperiod utan kort.
+        - Efter provperioden erbjuder Vocal Remover Online veckovisa, årliga och engångsköp, medan Vocal Remover Offline erbjuder veckovisa och årliga abonnemang, enligt ovan.
+        - Alla betalningar hanteras säkert via Paddle för tillägget eller Apple för appen.
+    - question: Hur säger jag upp min prenumeration?
+      answers:
+        - Klicka på knappen Manage Subscription i appen eller tillägget och följ instruktionerna där.
+        - Processen är helt automatisk, så du behöver inte ringa eller skicka e-post.
+    - question: Vem är Vocal Remover till för?
+      answers:
+        - Vocal Remover är gjort för sångare, musiker, producenter, DJ:er, lärare, innehållsskapare och alla som behöver separera röst och musik.
+        - Oavsett om du förbereder karaoke, undervisar, städar dialog eller bygger remixer får du snabbt fram rena stems.
+get_started:
+  title: Kom igång med Vocal Remover
+  line_1: Oavsett om du föredrar att arbeta i webbläsaren eller med lokala filer på din iPhone, iPad eller Mac,
+  line_2: hjälper Vocal Remover dig att ta bort sång ur låtar, separera röst från musik och forma spår så att de passar det du vill göra.
+  rating_template: "RATING_VALUE/5 · REVIEW_COUNT REVIEW_LABEL på Chrome Web Store"
+  review_count_rule: one_other
+  review_count_labels:
+    one: omdöme
+    other: omdömen
+footer:
+  copyright: "© 2025 <a href=\"https://extensions.ee/\" class=\"underline\">extensions.ee</a>."
+  contact: "Kontakt: info@extensions.ee."
+  payments_label: "Betalningar och återbetalningar:"
+  paddle_label: Paddle
+  paddle_url: https://paddle.net/
+  apple_label: Apple
+  apple_url: https://support.apple.com/billing
+  terms_label: Användarvillkor
+  terms_path: /terms-and-conditions.html
+  refund_label: Återbetalningspolicy
+  refund_path: /refund-policy.html
+  privacy_label: Integritetspolicy
+  privacy_path: /privacy-policy.html
+  paragraphs:
+    - Köp som görs på vår webbplats behandlas av vår onlineåterförsäljare Paddle.com, som är Merchant of Record för dessa beställningar. Paddle hanterar kundservice för webbplatsbeställningar, återbetalningar, fakturering och tillämpliga skatter.
+    - Köp som görs via App Store behandlas direkt av Apple, som fungerar som Merchant of Record för App Store-beställningar. Apple hanterar fakturering, kvitton, skatter, återbetalningar och alla relaterade supportärenden.
+    - Om du är osäker på var du köpte, kontrollera orderbekräftelsen eller kvittot från Paddle eller Apple.
+  acknowledgements_prefix: Tredjepartsvarumärken och komponenter listas på
+  acknowledgements_label: Acknowledgements
+  acknowledgements_url: https://extensions.ee/acknowledgements.html?from=removevocalsfromasong.com
+  acknowledgements_suffix: sidan.
+structured_data:
+  online:
+    name: Vocal Remover
+    alternateName: Vocal Remover Online
+    applicationCategory: MultimediaApplication
+    operatingSystem: Chromium-based browser on Windows and macOS
+    description: Vocal Remover är ett webbläsartillägg som låter dig ta bort sång från en låt direkt i webbläsaren. Använd AI-baserad sångseparering för att skapa instrumentaler direkt från YouTube och andra ljud- eller videoplattformar.
+    inLanguage: sv
+    publisher:
+      "@type": Organization
+      name: extensions.ee
+      url: https://extensions.ee
+    offer_names:
+      weekly: Veckoabonnemang
+      yearly: Årsabonnemang
+      lifetime: Engångsbetalning
+  offline:
+    name: Vocal Remover
+    alternateName: Vocal Remover for iPhone, iPad or Mac
+    applicationCategory: MultimediaApplication
+    operatingSystem: macOS 15.0 or iOS 18.0
+    description: Vocal Remover för Mac separerar röst och instrumentalstems på några sekunder. Släpp in ett spår eller en hel mapp för att batchbearbeta karaokeklare instrumentaler och rena vocal-stems offline.
+    inLanguage: sv
+    publisher:
+      "@type": Organization
+      name: extensions.ee
+      url: https://extensions.ee
+    offer_names:
+      weekly: Veckoabonnemang
+      yearly: Årsabonnemang
+llms:
+  languages_heading: Tillgängliga språk
+  home_link_label: Hem
+  link_label: LLMS
+  lead: Vocal Remover hjälper sångare, producenter, lärare, poddare och karaokeälskare att separera sång från musik på webbplatser eller i sina egna filer.
+  intro: Den här referensen samlar de Vocal Remover-sidor som finns på det här språket och håller fokus på musikaliska uppgifter, filhantering och valet mellan webbläsartillägget för webbplatser och offlineappen för filer.
+  versions_heading: Välj rätt version
+  sections:
+    site: Webbplats
+    guides: Guider
+  pages:
+    home:
+      title: Vocal Remover
+      summary: Börja här för att se hur Vocal Remover hjälper dig att skapa instrumentaler, isolera vocals, jämföra webbläsartillägget med offlineappen och välja rätt version för webbplatser eller filer.
+    gpu_guide:
+      title: Välj det högpresterande grafikchipet för Chrome & Edge på Windows
+      summary: Följ den här guiden om webbläsartillägget hackar eller kämpar i realtid på Windows, särskilt på bärbara datorer som standardmässigt använder det strömsnåla grafikchipet.
+pages:
+  gpu_guide:
+    meta:
+      title: "Välj det högpresterande grafikchipet för Chrome & Edge på Windows"
+      description: "Om Vocal Remover känns långsam eller instabil på Windows kan du låta Chrome eller Edge använda det högpresterande grafikchipet med den här steg-för-steg-guiden."
+      og_title: "Välj det högpresterande grafikchipet för Chrome & Edge på Windows"
+      og_description: "Om Vocal Remover känns långsam eller instabil på Windows kan du låta Chrome eller Edge använda det högpresterande grafikchipet med den här steg-för-steg-guiden."
+      og_type: article
+      og_image: /blog/set-high-performance-gpu-for-chrome-edge-on-windows/graphics-settings-chrome-3.png
+    guide:
+      extension_link_label: Vocal Remover-tillägget
+      page_title: Få Windows att använda det snabba grafikchipet för din webbläsare
+      intro_html:
+        - EXTENSION_LINK utför tunga beräkningar i realtid och behöver därför ett snabbt grafikchip för att fungera smidigt. Även om det handlar om ljud använder moderna webbläsare grafikchipet i bakgrunden för att snabba upp tung beräkning, och Vocal Remover behöver också den kraften.
+        - På vissa datorer, särskilt bärbara, kan Windows välja det strömsnåla grafikchipet för din webbläsare. Det kan orsaka fördröjning, hackigt ljud eller att Vocal Remover-tillägget slutar fungera helt. Den här guiden får Windows att använda det högpresterande grafikchipet för webbläsaren.
+      detected_browser_label: Upptäckt webbläsare
+      unknown_browser_label: Okänd
+      back_home_label: Tillbaka till startsidan
+      copy_button:
+        idle: Kopiera
+        success: Kopierat!
+      browsers:
+        chrome:
+          tab_label: Google Chrome
+          detected_label: Google Chrome
+          tab_accent: blue
+          title: Låt Chrome använda det högpresterande grafikchipet
+          steps:
+            - number: 1
+              title: Öppna Graphics-inställningar
+              paragraphs_html:
+                - 'Öppna inställningarna genom att <a href="ms-settings:display-advancedgraphics" class="underline">klicka här</a>, eller gå till <span class="font-medium">Settings → System → Display → Graphics</span>.'
+                - 'Leta efter <span class="font-medium">Google Chrome</span> i listan (du kan behöva skrolla). Om du ser den, gå direkt till <a href="#step3-chrome" class="underline">steg 3</a>.'
+              images:
+                - src: graphics-settings.png
+                  alt: Skärmen Settings → System → Display → Graphics
+            - number: 2
+              title: Lägg till Chrome i listan (bara om den saknas)
+              paragraphs_html:
+                - "Om du inte ser Chrome där:"
+              instructions_html:
+                - 'Klicka på <span class="font-medium">Add desktop app</span>.'
+                - 'Klistra in en av raderna nedan i rutan <span class="font-medium">File name</span> längst ned.'
+                - 'Tryck på <span class="font-medium">Enter</span> eller klicka på <span class="font-medium">Add</span>.'
+              note_html: Om första raden ger ett fel, prova nästa.
+              copy_paths:
+                - '%LocalAppData%\Google\Chrome\Application\chrome.exe'
+                - 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+                - 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+              images:
+                - src: graphics-settings-2.png
+                  alt: Skärmen Settings → System → Display → Graphics med markerad Add desktop app-knapp
+                - src: file-picker-2.png
+                  alt: Filväljare med markerad filnamnsruta och knapp
+            - number: 3
+              anchor_id: step3-chrome
+              title_html: Välj <em>High Performance</em> för Chrome
+              paragraphs_html:
+                - 'Hitta <span class="font-medium">Google Chrome</span> i listan (du kan behöva skrolla). Klicka på den och sätt <span class="font-medium whitespace-nowrap">GPU preference</span> till <span class="font-medium whitespace-nowrap">High Performance</span>.'
+              images:
+                - src: graphics-settings-chrome-3.png
+                  alt: Skärmen Settings → System → Display → Graphics med Chrome markerat
+            - number: 4
+              title: Starta om webbläsaren och vid behov även datorn
+              paragraphs_html:
+                - Stäng Chrome och öppna den igen. Hjälper inte det, prova att starta om datorn.
+              images: []
+          troubleshooting:
+            title: Om du inte märker någon skillnad
+            items:
+              - label: Bärbar dator på batteri?
+                body_html: Vissa bärbara datorer prioriterar fortfarande det strömsnåla grafikchipet när de kör på batteri. Prova att ansluta laddaren.
+              - label: Uppdatera grafikdrivrutiner
+                body_html: via appen från tillverkaren av ditt grafikchip (NVIDIA / AMD / Intel) eller via Windows Update.
+              - label: Återställ
+                body_html: 'Ställ tillbaka Chrome till <em>Let Windows decide</em> i Graphics-inställningar och gör sedan om stegen.'
+        edge:
+          tab_label: Microsoft Edge
+          detected_label: Microsoft Edge
+          tab_accent: violet
+          title: Låt Edge använda det högpresterande grafikchipet
+          steps:
+            - number: 1
+              title: Öppna Graphics-inställningar
+              paragraphs_html:
+                - 'Öppna inställningarna genom att <a href="ms-settings:display-advancedgraphics" class="underline">klicka här</a>, eller gå till <span class="font-medium">Settings → System → Display → Graphics</span>.'
+                - 'Leta efter <span class="font-medium">Microsoft Edge</span> i listan (du kan behöva skrolla). Om du ser den, gå direkt till <a href="#step3-edge" class="underline">steg 3</a>.'
+              images:
+                - src: graphics-settings.png
+                  alt: Skärmen Settings → System → Display → Graphics
+            - number: 2
+              title: Lägg till Edge i listan (bara om den saknas)
+              paragraphs_html:
+                - "Om du inte ser Edge där:"
+              instructions_html:
+                - 'Klicka på <span class="font-medium">Add desktop app</span>.'
+                - 'Klistra in en av raderna nedan i rutan <span class="font-medium">File name</span> längst ned.'
+                - 'Tryck på <span class="font-medium">Enter</span> eller klicka på <span class="font-medium">Add</span>.'
+              note_html: Om första raden ger ett fel, prova nästa.
+              copy_paths:
+                - 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'
+                - 'C:\Program Files\Microsoft\Edge\Application\msedge.exe'
+              images:
+                - src: graphics-settings-2.png
+                  alt: Skärmen Settings → System → Display → Graphics med markerad Add desktop app-knapp
+                - src: file-picker-2.png
+                  alt: Filväljare med markerad filnamnsruta och knapp
+            - number: 3
+              anchor_id: step3-edge
+              title_html: Välj <em>High Performance</em> för Edge
+              paragraphs_html:
+                - 'Hitta <span class="font-medium">Microsoft Edge</span> i listan (du kan behöva skrolla). Klicka på den och sätt <span class="font-medium whitespace-nowrap">GPU preference</span> till <span class="font-medium whitespace-nowrap">High Performance</span>.'
+              images:
+                - src: graphics-settings-edge-3.png
+                  alt: Skärmen Settings → System → Display → Graphics med Edge markerat
+            - number: 4
+              title: Starta om webbläsaren och vid behov även datorn
+              paragraphs_html:
+                - Stäng Edge och öppna den igen. Hjälper inte det, prova att starta om datorn.
+              images: []
+          troubleshooting:
+            title: Om du inte märker någon skillnad
+            items:
+              - label: Bärbar dator på batteri?
+                body_html: Vissa bärbara datorer prioriterar fortfarande det strömsnåla grafikchipet när de kör på batteri. Prova att ansluta laddaren.
+              - label: Uppdatera grafikdrivrutiner
+                body_html: via appen från tillverkaren av ditt grafikchip (NVIDIA / AMD / Intel) eller via Windows Update.
+              - label: Återställ
+                body_html: 'Ställ tillbaka Edge till <em>Let Windows decide</em> i Graphics-inställningar och gör sedan om stegen.'
