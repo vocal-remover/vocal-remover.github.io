@@ -1,0 +1,352 @@
+site:
+  lang: ko
+  locale_label: KO
+  native_label: 한국어
+  path: /ko/
+formatting:
+  decimal_separator: "."
+switcher:
+  aria_label: 언어 전환기
+  button_label: 언어 선택
+meta:
+  title: "보컬 리무버: 온라인과 오프라인으로 노래에서 보컬 제거"
+  description: "어떤 웹사이트에서든 노래에서 보컬을 제거하고 반주와 보컬을 분리해 연습, 노래방, 프로덕션에 활용하세요. 브라우저 확장 프로그램과 iPhone, iPad, Mac 앱으로 제공됩니다."
+  og_title: "보컬 리무버: 노래에서 보컬 제거"
+  og_description: "어떤 웹사이트에서든 노래에서 보컬을 제거하고 반주와 보컬을 분리해 연습, 노래방, 프로덕션에 활용하세요. 브라우저 확장 프로그램과 iPhone, iPad, Mac 앱으로 제공됩니다."
+hero:
+  badge_label: 새 소식
+  badge_text: iPhone 및 iPad용 Vocal Remover가 출시되었습니다. 새로운 내용을 확인해 보세요
+  title: 보컬 리무버
+  subtitle: 몇 초 만에 노래에서 보컬을 제거하세요
+  description_line_1: 보컬 리무버를 사용하면 어떤 곡에서든 보컬을 쉽게 빼고 목소리와 반주를 분리할 수 있습니다
+  description_line_2: 노래방, 리믹스, 연습, 팟캐스트, 레슨 준비에 잘 맞습니다.
+  description_line_3: 즐겨 찾는 웹사이트에서는 온라인으로, iPhone, iPad, Mac에서는 오프라인으로 사용할 수 있습니다.
+  online_cta_title: 보컬 리무버 Online 추가
+  online_cta_subtitle: 브라우저에
+  offline_cta_title: 보컬 리무버 Offline 추가
+  offline_cta_subtitle: iPhone, iPad 또는 Mac에
+nav:
+  aria_label: 페이지 섹션
+  overview: 보컬 리무버란?
+  online: 웹사이트용
+  offline: 파일용
+  use_cases: 어떤 사람에게 맞을까요?
+  faq: FAQ
+overview:
+  title: 보컬 리무버란?
+  paragraphs:
+    - 보컬 리무버를 사용하면 복잡한 오디오 소프트웨어 없이 어떤 웹사이트에서든 노래에서 보컬을 제거하고 컴퓨터에서 목소리와 반주를 분리할 수 있습니다. 노래방, 리믹스, 연습, 교육, 콘텐츠 제작처럼 실제로 자주 겪는 작업을 위해 만들어졌습니다.
+    - "이런 작업을 할 수 있습니다:"
+  bullets:
+    - 보컬을 제거해 깔끔한 반주 버전 만들기.
+    - 보컬만 따로 들어서 발음, 화성, 레이어를 분석하기.
+    - 노래방 트랙, 반주 트랙, 레슨 자료 준비하기.
+    - 배경 음악을 제거해 팟캐스트와 영상 음성 정리하기.
+  versions_intro: "보컬 리무버는 두 가지 버전으로 제공됩니다:"
+  online_link_label: 보컬 리무버 Online
+  online_link_suffix: 웹사이트용 브라우저 확장 프로그램이고,
+  offline_link_label: 보컬 리무버 Offline
+  offline_link_suffix: 파일 작업을 위한 iPhone, iPad, Mac 앱입니다.
+online:
+  title: 보컬 리무버 Online
+  paragraphs:
+    - 보컬 리무버를 사용하면 온라인에서 트랙을 정리하고 AI 기반 보컬 분리 기능으로 노래에서 보컬을 제거할 수 있습니다.
+    - 보컬 리무버 Online은 브라우저 안에 똑똑한 보컬 제거 도구를 바로 추가합니다. YouTube와 다양한 오디오 웹사이트에서 몇 번의 클릭만으로 보컬을 분리할 수 있습니다.
+  bullets:
+    - 어떤 웹사이트에서든 바로 온라인으로 보컬 제거.
+    - YouTube 보컬 제거 확장 프로그램처럼 작동하며 다른 음악 플랫폼도 지원.
+    - 파일을 다운로드하거나 업로드하지 않고 깔끔한 반주 얻기.
+    - 고품질 분리를 위한 AI 보컬 제거 기술.
+    - 노래방, 커버, 리믹스, 반주 준비에 특히 유용함.
+  perfect_for_label: "이런 분께 잘 맞습니다:"
+  perfect_for_text: 노래방을 즐기는 사람, 가수, 보컬 코치, 교사, 콘텐츠 제작자, 그리고 온라인 영상으로 연습하는 모든 사람.
+  pricing_template: "무료 체험 후: WEEKLY_PRICE, YEARLY_PRICE 구독 또는 LIFETIME_PRICE."
+  offer_templates:
+    weekly: "주당 US$PRICE_VALUE"
+    yearly: "연간 US$PRICE_VALUE"
+    lifetime: "한 번에 US$PRICE_VALUE 결제"
+  cta: 보컬 리무버를 브라우저에 추가
+  image_alt: Vocal Remover 확장 프로그램을 설치하고 몇 초 만에 Chrome 브라우저에 추가하세요.
+offline:
+  title: 보컬 리무버 Offline
+  paragraphs:
+    - 빠르게 동작하는 보컬 리무버는 몇 초 안에 노래에서 보컬을 분리해 깔끔한 반주를 만들어 줍니다. 여러 파일도 한 번에 배치 처리할 수 있습니다.
+    - 한 곡이든 폴더 전체든 드롭하면 iPhone, iPad, Mac용 보컬 리무버가 각 곡을 보컬 스템과 반주 스템으로 나눠 줍니다. 빠른 처리, 정확도, 오프라인 작업 흐름을 모두 고려해 설계되었습니다.
+  bullets:
+    - 복잡한 믹스에서도 정밀한 분리를 위한 AI 보컬 제거.
+    - 작업을 계속하면서 수백 곡을 처리할 수 있는 배치 모드.
+    - WAV, AIFF, MP3, FLAC, M4A 등 다양한 포맷 지원.
+    - 계정 없이 오프라인에서 처리하고 업로드 대기 시간도 없음.
+  perfect_for_label: "이런 분께 잘 맞습니다:"
+  perfect_for_text: 로컬 오디오 파일을 다루는 프로듀서, DJ, 팟캐스터, 교사, 뮤지션.
+  pricing_template: "무료 체험 후: WEEKLY_PRICE 또는 YEARLY_PRICE 구독."
+  offer_templates:
+    weekly: "주당 US$PRICE_VALUE"
+    yearly: "연간 US$PRICE_VALUE"
+  cta: 보컬 리무버를 iPhone, iPad 또는 Mac에 추가
+  image_alt: 지금 다운로드하고 많은 뮤지션이 Vocal Remover로 필요한 스템을 빠르게 준비하는 이유를 확인해 보세요.
+use_cases:
+  title: 누가 보컬 리무버를 사용할까요?
+  items:
+    - title: 가수와 노래방 애호가
+      body: 어떤 곡이든 바로 노래방 버전으로 바꿔 보세요. 내 키에 맞춰 연습하고, 세트리스트를 준비하고, 따로 반주를 찾지 않아도 리허설할 수 있습니다.
+    - title: 프로듀서와 DJ
+      body: 리믹스, 편집, 매시업을 위한 깔끔한 반주와 보컬을 추출하세요. 몇 번의 클릭으로 DAW나 라이브 셋에 쓸 스템을 준비할 수 있습니다.
+    - title: 교사와 학습자
+      body: 수업, 청음, 채보를 위한 깔끔한 트랙을 만들 수 있습니다. 보컬만 따로 들어 프레이징을 분석하거나, 보컬을 제거해 학생이 반주 위에서 연주하거나 노래하게 할 수 있습니다.
+    - title: 팟캐스터와 콘텐츠 제작자
+      body: 말소리 아래 깔린 배경 음악을 제거하고, 인트로와 아웃트로를 정리하며, 편집과 재활용에 쓰기 좋은 깨끗한 분리 트랙을 준비할 수 있습니다.
+faq:
+  title: 자주 묻는 질문
+  items:
+    - question: 보컬 리무버 확장 프로그램이 느리거나 자주 끊깁니다. 어떻게 해야 하나요?
+      answers:
+        - 일부 Windows 컴퓨터, 특히 노트북에서는 브라우저가 빠른 그래픽 칩 대신 절전용 그래픽 칩을 사용하도록 잡히는 경우가 있습니다. 보컬 리무버 확장 프로그램은 소리를 실시간으로 처리하기 때문에 이런 경우 지연, 끊김, 심하면 동작 불가가 발생할 수 있습니다.
+      answer_html: '브라우저가 고성능 그래픽 칩을 사용하도록 설정할 수 있습니다. 스크린샷과 함께 단계별로 설명한 안내는 여기 있습니다: <a href="/ko/blog/set-high-performance-gpu-for-chrome-edge-on-windows/" class="underline">Windows에서 Chrome과 Edge에 고성능 그래픽 칩 선택하기</a>. 가이드를 따라도 개선되지 않는다면 현재 컴퓨터나 브라우저가 실시간 처리에 충분하지 않을 수 있습니다. 가능하다면 성능이 더 좋은 시스템에서 보컬 리무버를 사용해 보세요.'
+    - question: 보컬 리무버 Online과 보컬 리무버 Offline의 차이는 무엇인가요?
+      answers:
+        - 보컬 리무버 Online은 YouTube 같은 웹사이트와 다른 오디오 또는 비디오 플랫폼에서 보컬을 바로 제거하는 브라우저 확장 프로그램입니다.
+        - 보컬 리무버 Offline은 iPhone, iPad, Mac용 독립 앱으로, 내 오디오 파일을 완전히 오프라인에서 다루며 폴더 전체를 일괄 처리할 수 있습니다.
+    - question: 오디오 파일을 업로드해야 하나요?
+      answers:
+        - 업로드는 필요하지 않습니다.
+        - 확장 프로그램은 브라우저 안에서 바로 실시간으로 소리를 처리하고, iPhone, iPad, Mac 앱은 컴퓨터에 있는 파일을 직접 다루므로 별도의 서버를 거치지 않습니다.
+    - question: 보컬 리무버 Offline은 어떤 오디오 포맷을 지원하나요?
+      answers:
+        - iPhone, iPad, Mac용 보컬 리무버는 WAV, AIFF, MP3, FLAC, M4A 같은 일반적인 포맷을 지원하므로 이미 가진 파일을 변환 없이 바로 분리할 수 있습니다. 비디오, 폴더, DAW의 구간도 드롭하면 앱이 오디오를 자동으로 추출합니다.
+    - question: 보컬을 제거하면 음질에 영향이 있나요?
+      answers:
+        - 보컬 리무버는 반주가 깨끗하고 음악적으로 자연스럽게 남도록 AI 분리 알고리즘을 설계했습니다.
+        - 오프라인 버전은 곡 전체를 한 번에 분석하고 더 많은 연산 자원을 쓸 수 있어서 보통 품질이 더 좋습니다.
+        - 매우 복잡하거나 노이즈가 많은 믹스는 일부 아티팩트가 남을 수 있지만, 대부분의 곡은 좋은 결과를 얻을 수 있습니다.
+    - question: 곡의 키도 바꿀 수 있나요?
+      linked_answers:
+        - tool_key: pitch_changer
+          template: 가능합니다. TOOL_LINK를 사용하면 온라인과 오프라인에서 곡의 피치와 키를 조절할 수 있습니다. 보컬 리무버와 함께 사용하기에도 좋습니다.
+    - question: 곡의 템포는 어떻게 바꿀 수 있나요?
+      answers: []
+      linked_answers:
+        - tool_key: bpm_extension
+          template: 이미 재생 중인 웹사이트 음악을 느리게 하거나 빠르게 하고 싶다면 TOOL_LINK를 사용하세요.
+        - tool_key: speed_tool
+          template: 내 파일의 템포를 바꾸면서 피치는 유지하고 싶다면 TOOL_LINK를 사용하세요.
+    - question: 무료 체험이 있나요? 가격은 어떻게 되나요?
+      answers:
+        - 확장 프로그램과 iPhone, iPad, Mac 앱 모두 카드 없이 시작할 수 있는 무료 체험 기간이 있습니다.
+        - 체험 후에는 보컬 리무버 Online에서 주간, 연간, 일회성 구매 옵션을 제공하고, 보컬 리무버 Offline에서는 주간 및 연간 구독을 제공합니다.
+        - 모든 결제는 확장 프로그램은 Paddle, 앱은 Apple을 통해 안전하게 처리됩니다.
+    - question: 구독은 어떻게 취소하나요?
+      answers:
+        - 앱이나 확장 프로그램 안의 Manage Subscription 버튼을 누르고 안내를 따라가세요.
+        - 절차는 완전히 자동이므로 전화나 이메일을 보낼 필요가 없습니다.
+    - question: 보컬 리무버는 어떤 사람을 위한 도구인가요?
+      answers:
+        - 보컬 리무버는 가수, 뮤지션, 프로듀서, DJ, 교사, 콘텐츠 제작자, 그리고 목소리와 음악을 분리해야 하는 모든 사람을 위해 만들어졌습니다.
+        - 노래방 트랙을 준비하든, 수업을 하든, 대사를 정리하든, 리믹스를 만들든 빠르게 깨끗한 스템을 만들 수 있게 도와줍니다.
+get_started:
+  title: 보컬 리무버 시작하기
+  line_1: 브라우저에서 작업하든 iPhone, iPad, Mac의 로컬 파일로 작업하든,
+  line_2: 보컬 리무버는 노래에서 보컬을 제거하고 목소리와 음악을 분리해 내 작업에 맞는 트랙을 만드는 데 도움을 줍니다.
+  rating_template: "Chrome 웹 스토어 평점 RATING_VALUE/5 · REVIEW_COUNT REVIEW_LABEL"
+  review_count_rule: invariant
+  review_count_labels:
+    one: 리뷰
+    other: 리뷰
+footer:
+  copyright: "© 2025 <a href=\"https://extensions.ee/\" class=\"underline\">extensions.ee</a>."
+  contact: "문의: info@extensions.ee."
+  payments_label: "결제 및 환불:"
+  paddle_label: Paddle
+  paddle_url: https://paddle.net/
+  apple_label: Apple
+  apple_url: https://support.apple.com/billing
+  terms_label: 이용 약관
+  terms_path: /terms-and-conditions.html
+  refund_label: 환불 정책
+  refund_path: /refund-policy.html
+  privacy_label: 개인정보 처리방침
+  privacy_path: /privacy-policy.html
+  paragraphs:
+    - 웹사이트에서 이루어진 구매는 온라인 리셀러인 Paddle.com이 처리하며, 해당 주문의 Merchant of Record 역할을 맡습니다. Paddle은 웹사이트 주문의 고객 지원, 환불, 청구 및 관련 세금 처리를 담당합니다.
+    - App Store에서 이루어진 구매는 Apple이 직접 처리하며, App Store 주문의 Merchant of Record 역할을 맡습니다. Apple은 청구, 영수증, 세금, 환불 및 관련 고객 지원 문의를 관리합니다.
+    - 어디에서 구매했는지 확실하지 않다면 Paddle 또는 Apple이 보낸 주문 확인 이메일이나 영수증을 확인해 주세요.
+  acknowledgements_prefix: 제3자 상표와 구성 요소는
+  acknowledgements_label: Acknowledgements
+  acknowledgements_url: https://extensions.ee/acknowledgements.html?from=removevocalsfromasong.com
+  acknowledgements_suffix: 페이지에 정리되어 있습니다.
+structured_data:
+  online:
+    name: 보컬 리무버
+    alternateName: Vocal Remover Online
+    applicationCategory: MultimediaApplication
+    operatingSystem: Chromium-based browser on Windows and macOS
+    description: 보컬 리무버는 브라우저 안에서 바로 노래에서 보컬을 제거할 수 있게 해 주는 브라우저 확장 프로그램입니다. AI 기반 보컬 분리 기능으로 YouTube와 다른 오디오 및 비디오 플랫폼에서 즉시 반주를 만들어 보세요.
+    inLanguage: ko
+    publisher:
+      "@type": Organization
+      name: extensions.ee
+      url: https://extensions.ee
+    offer_names:
+      weekly: 주간 구독
+      yearly: 연간 구독
+      lifetime: 일회성 결제
+  offline:
+    name: 보컬 리무버
+    alternateName: Vocal Remover for iPhone, iPad or Mac
+    applicationCategory: MultimediaApplication
+    operatingSystem: macOS 15.0 or iOS 18.0
+    description: iPhone, iPad, Mac용 보컬 리무버는 몇 초 안에 보컬과 반주 스템을 분리해 줍니다. 한 곡이든 폴더 전체든 드롭해서 노래방용 반주와 깨끗한 보컬 스템을 오프라인으로 배치 처리할 수 있습니다.
+    inLanguage: ko
+    publisher:
+      "@type": Organization
+      name: extensions.ee
+      url: https://extensions.ee
+    offer_names:
+      weekly: 주간 구독
+      yearly: 연간 구독
+llms:
+  languages_heading: 지원 언어
+  home_link_label: 홈
+  link_label: LLMS
+  lead: 보컬 리무버는 가수, 프로듀서, 교사, 팟캐스터, 노래방 애호가가 웹사이트나 자신의 파일에서 보컬과 음악을 분리할 수 있도록 도와줍니다.
+  intro: 이 안내문은 이 언어로 제공되는 보컬 리무버 페이지를 모아 보여 주며, 음악 작업, 파일 처리, 그리고 웹사이트용 확장 프로그램과 파일용 오프라인 앱 중 무엇을 고를지에 초점을 맞춥니다.
+  versions_heading: 나에게 맞는 버전 고르기
+  sections:
+    site: 사이트
+    guides: 가이드
+  pages:
+    home:
+      title: 보컬 리무버
+      summary: 여기서 시작하면 보컬 리무버가 반주 만들기, 보컬 분리하기, 브라우저 확장 프로그램과 오프라인 앱 비교하기, 웹사이트용과 파일용 버전 고르기에 어떻게 도움이 되는지 빠르게 볼 수 있습니다.
+    gpu_guide:
+      title: Windows에서 Chrome과 Edge에 고성능 그래픽 칩 선택하기
+      summary: Windows에서 브라우저 확장 프로그램이 실시간 처리 중 끊기거나 버벅일 때, 특히 노트북이 절전용 그래픽 칩을 기본으로 잡는 경우 이 가이드를 따라 보세요.
+pages:
+  gpu_guide:
+    meta:
+      title: "Windows에서 Chrome과 Edge에 고성능 그래픽 칩 선택하기"
+      description: "Windows에서 Vocal Remover가 느리거나 버벅인다면, 단계별 가이드를 따라 Chrome 또는 Edge가 고성능 그래픽 칩을 사용하도록 설정해 보세요."
+      og_title: "Windows에서 Chrome과 Edge에 고성능 그래픽 칩 선택하기"
+      og_description: "Windows에서 Vocal Remover가 느리거나 버벅인다면, 단계별 가이드를 따라 Chrome 또는 Edge가 고성능 그래픽 칩을 사용하도록 설정해 보세요."
+      og_type: article
+      og_image: /blog/set-high-performance-gpu-for-chrome-edge-on-windows/graphics-settings-chrome-3.png
+    guide:
+      extension_link_label: Vocal Remover 확장 프로그램
+      page_title: Windows에서 브라우저가 더 빠른 그래픽 칩을 사용하게 만들기
+      intro_html:
+        - EXTENSION_LINK는 실시간으로 많은 계산을 수행하기 때문에 부드럽게 작동하려면 빠른 그래픽 칩이 필요합니다. 오디오 처리처럼 보여도 최신 브라우저는 무거운 계산을 가속하기 위해 뒤에서 그래픽 칩을 활용하며, Vocal Remover도 그 성능이 필요합니다.
+        - 일부 컴퓨터, 특히 노트북에서는 Windows가 브라우저에 절전용 그래픽 칩을 할당할 수 있습니다. 이 경우 속도 저하, 소리 끊김, 또는 Vocal Remover 확장 프로그램의 완전한 오작동이 생길 수 있습니다. 이 가이드는 브라우저가 고성능 그래픽 칩을 사용하도록 설정하는 방법을 설명합니다.
+      detected_browser_label: 감지된 브라우저
+      unknown_browser_label: 알 수 없음
+      back_home_label: 홈으로 돌아가기
+      copy_button:
+        idle: 복사
+        success: 복사됨!
+      browsers:
+        chrome:
+          tab_label: Google Chrome
+          detected_label: Google Chrome
+          tab_accent: blue
+          title: Chrome이 고성능 그래픽 칩을 사용하도록 설정하기
+          steps:
+            - number: 1
+              title: Graphics 설정 열기
+              paragraphs_html:
+                - '<a href="ms-settings:display-advancedgraphics" class="underline">여기를 클릭</a>해 설정을 열거나, <span class="font-medium">Settings → System → Display → Graphics</span>로 이동하세요.'
+                - '목록에서 <span class="font-medium">Google Chrome</span>를 찾으세요(스크롤이 필요할 수 있습니다). 보이면 <a href="#step3-chrome" class="underline">3단계</a>로 바로 이동하세요.'
+              images:
+                - src: graphics-settings.png
+                  alt: Settings → System → Display → Graphics 화면
+            - number: 2
+              title: 목록에 Chrome 추가하기(없을 때만)
+              paragraphs_html:
+                - "목록에 Chrome이 없다면:"
+              instructions_html:
+                - '<span class="font-medium">Add desktop app</span>을 클릭하세요.'
+                - '하단 <span class="font-medium">File name</span> 입력란에 아래 줄 중 하나를 붙여 넣으세요.'
+                - '<span class="font-medium">Enter</span>를 누르거나 <span class="font-medium">Add</span>를 클릭하세요.'
+              note_html: 첫 번째 줄에서 오류가 나오면 다음 줄을 시도하세요.
+              copy_paths:
+                - '%LocalAppData%\Google\Chrome\Application\chrome.exe'
+                - 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+                - 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+              images:
+                - src: graphics-settings-2.png
+                  alt: Add desktop app 버튼이 강조된 Settings → System → Display → Graphics 화면
+                - src: file-picker-2.png
+                  alt: 파일 이름 입력란과 버튼이 강조된 파일 선택 창
+            - number: 3
+              anchor_id: step3-chrome
+              title_html: Chrome에 <em>High Performance</em> 선택하기
+              paragraphs_html:
+                - '목록에서 <span class="font-medium">Google Chrome</span>를 찾으세요(스크롤이 필요할 수 있습니다). 항목을 클릭한 뒤 <span class="font-medium whitespace-nowrap">GPU preference</span>를 <span class="font-medium whitespace-nowrap">High Performance</span>로 설정하세요.'
+              images:
+                - src: graphics-settings-chrome-3.png
+                  alt: Chrome이 강조된 Settings → System → Display → Graphics 화면
+            - number: 4
+              title: 브라우저를 다시 시작하고, 필요하면 컴퓨터도 재부팅하기
+              paragraphs_html:
+                - Chrome을 닫았다가 다시 열어 보세요. 그래도 해결되지 않으면 컴퓨터를 재시작해 보세요.
+              images: []
+          troubleshooting:
+            title: 차이가 없다면
+            items:
+              - label: 배터리 모드의 노트북인가요?
+                body_html: 일부 노트북은 배터리 사용 중 여전히 절전용 그래픽 칩을 우선합니다. 전원을 연결해 보세요.
+              - label: 그래픽 드라이버 업데이트
+                body_html: 그래픽 칩 제조사 앱(NVIDIA / AMD / Intel) 또는 Windows Update를 통해 업데이트해 보세요.
+              - label: 재설정
+                body_html: 'Graphics 설정에서 Chrome을 다시 <em>Let Windows decide</em>로 돌린 다음, 위 단계를 다시 따라 해 보세요.'
+        edge:
+          tab_label: Microsoft Edge
+          detected_label: Microsoft Edge
+          tab_accent: violet
+          title: Edge가 고성능 그래픽 칩을 사용하도록 설정하기
+          steps:
+            - number: 1
+              title: Graphics 설정 열기
+              paragraphs_html:
+                - '<a href="ms-settings:display-advancedgraphics" class="underline">여기를 클릭</a>해 설정을 열거나, <span class="font-medium">Settings → System → Display → Graphics</span>로 이동하세요.'
+                - '목록에서 <span class="font-medium">Microsoft Edge</span>를 찾으세요(스크롤이 필요할 수 있습니다). 보이면 <a href="#step3-edge" class="underline">3단계</a>로 바로 이동하세요.'
+              images:
+                - src: graphics-settings.png
+                  alt: Settings → System → Display → Graphics 화면
+            - number: 2
+              title: 목록에 Edge 추가하기(없을 때만)
+              paragraphs_html:
+                - "목록에 Edge가 없다면:"
+              instructions_html:
+                - '<span class="font-medium">Add desktop app</span>을 클릭하세요.'
+                - '하단 <span class="font-medium">File name</span> 입력란에 아래 줄 중 하나를 붙여 넣으세요.'
+                - '<span class="font-medium">Enter</span>를 누르거나 <span class="font-medium">Add</span>를 클릭하세요.'
+              note_html: 첫 번째 줄에서 오류가 나오면 다음 줄을 시도하세요.
+              copy_paths:
+                - 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'
+                - 'C:\Program Files\Microsoft\Edge\Application\msedge.exe'
+              images:
+                - src: graphics-settings-2.png
+                  alt: Add desktop app 버튼이 강조된 Settings → System → Display → Graphics 화면
+                - src: file-picker-2.png
+                  alt: 파일 이름 입력란과 버튼이 강조된 파일 선택 창
+            - number: 3
+              anchor_id: step3-edge
+              title_html: Edge에 <em>High Performance</em> 선택하기
+              paragraphs_html:
+                - '목록에서 <span class="font-medium">Microsoft Edge</span>를 찾으세요(스크롤이 필요할 수 있습니다). 항목을 클릭한 뒤 <span class="font-medium whitespace-nowrap">GPU preference</span>를 <span class="font-medium whitespace-nowrap">High Performance</span>로 설정하세요.'
+              images:
+                - src: graphics-settings-edge-3.png
+                  alt: Edge가 강조된 Settings → System → Display → Graphics 화면
+            - number: 4
+              title: 브라우저를 다시 시작하고, 필요하면 컴퓨터도 재부팅하기
+              paragraphs_html:
+                - Edge를 닫았다가 다시 열어 보세요. 그래도 해결되지 않으면 컴퓨터를 재시작해 보세요.
+              images: []
+          troubleshooting:
+            title: 차이가 없다면
+            items:
+              - label: 배터리 모드의 노트북인가요?
+                body_html: 일부 노트북은 배터리 사용 중 여전히 절전용 그래픽 칩을 우선합니다. 전원을 연결해 보세요.
+              - label: 그래픽 드라이버 업데이트
+                body_html: 그래픽 칩 제조사 앱(NVIDIA / AMD / Intel) 또는 Windows Update를 통해 업데이트해 보세요.
+              - label: 재설정
+                body_html: 'Graphics 설정에서 Edge를 다시 <em>Let Windows decide</em>로 돌린 다음, 위 단계를 다시 따라 해 보세요.'

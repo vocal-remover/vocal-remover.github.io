@@ -116,3 +116,16 @@ related_tools:
     speed_tool:
       name: 音訊速度調整器
       url: https://www.musiciantools.online/en/audio-speed-changer
+  ko:
+    vocal_remover:
+      name: 보컬 리무버
+      url: https://removevocalsfromasong.com/ko/
+    bpm_extension:
+      name: BPM changer
+      url: https://chromewebstore.google.com/detail/bpm-changer/klddneocmcmoacnnemmelgeilnedcpjj
+    pitch_changer:
+      name: 음정 변조기
+      url: https://pitch-changer.com/ko/
+    speed_tool:
+      name: 오디오 속도 변경기
+      url: https://www.musiciantools.online/en/audio-speed-changer
