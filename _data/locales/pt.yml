@@ -1,0 +1,323 @@
+site:
+  lang: pt
+  locale_label: PT
+  native_label: Português
+  path: /pt/
+formatting:
+  decimal_separator: ","
+switcher:
+  aria_label: Seletor de idioma
+  button_label: Escolher idioma
+meta:
+  title: "Removedor Vocal: remova vocais de uma música online e offline"
+  description: Remova vocais de uma música em qualquer site e separe voz da música para estudo, karaokê ou produção. Disponível como extensão de navegador e app para iPhone, iPad e Mac.
+  og_title: "Removedor Vocal: remova vocais de uma música"
+  og_description: Remova vocais de uma música em qualquer site e separe voz da música para estudo, karaokê ou produção. Disponível como extensão de navegador e app para iPhone, iPad e Mac.
+hero:
+  badge_label: Novo
+  badge_text: O Removedor Vocal para iPhone e iPad já chegou. Veja o que há de novo
+  title: Removedor Vocal
+  subtitle: Remova vocais de uma música em segundos
+  description_line_1: O Removedor Vocal facilita tirar vocais de qualquer música e separar voz da música
+  description_line_2: para karaokê, remixes, estudo, podcasts ou ensino.
+  description_line_3: Use online nos seus sites favoritos ou offline no iPhone, iPad ou Mac.
+  online_cta_title: Adicionar Removedor Vocal Online
+  online_cta_subtitle: ao navegador
+  offline_cta_title: Adicionar Removedor Vocal Offline
+  offline_cta_subtitle: ao iPhone, iPad ou Mac
+nav:
+  aria_label: Seções da página
+  overview: O que é o Removedor Vocal?
+  online: Para sites
+  offline: Para arquivos
+  use_cases: Para quem é?
+  faq: FAQ
+overview:
+  title: O que é o Removedor Vocal?
+  paragraphs:
+    - O Removedor Vocal permite remover vocais de uma música em qualquer site e separar voz da música no computador sem software de áudio complicado. Ele foi feito para tarefas musicais do mundo real, como karaokê, remixes, estudo, ensino e criação de conteúdo.
+    - "Você pode:"
+  bullets:
+    - Remover vocais de uma música e obter uma versão instrumental limpa.
+    - Isolar a voz para estudar fraseado, harmonias e camadas.
+    - Preparar faixas de karaokê, backing tracks e material de aula.
+    - Limpar podcasts e vídeos removendo a música de fundo.
+  versions_intro: "O Removedor Vocal está disponível em duas versões:"
+  online_link_label: Removedor Vocal Online
+  online_link_suffix: uma extensão de navegador para sites, e
+  offline_link_label: Removedor Vocal Offline
+  offline_link_suffix: um app para iPhone, iPad e Mac voltado para arquivos.
+online:
+  title: Removedor Vocal Online
+  paragraphs:
+    - Use o Removedor Vocal para limpar sua faixa online e remover vocais de uma música com separação de voz baseada em IA.
+    - O Removedor Vocal Online adiciona uma ferramenta inteligente diretamente ao navegador. Remova vocais de vídeos do YouTube e de muitos outros sites de áudio em apenas alguns cliques.
+  bullets:
+    - Remova vocais online diretamente em qualquer site.
+    - Funciona como removedor vocal para YouTube e também em outras plataformas musicais.
+    - Obtenha instrumentais limpos sem baixar nem enviar arquivos.
+    - Separação vocal de alta qualidade com tecnologia de IA.
+    - Perfeito para karaokê, covers, remixes e backing tracks.
+  perfect_for_label: "Perfeito para:"
+  perfect_for_text: amantes de karaokê, cantores, professores de canto, docentes, criadores de conteúdo e qualquer pessoa que pratique com vídeos online.
+  pricing_template: "Depois do teste grátis: WEEKLY_PRICE, YEARLY_PRICE ou LIFETIME_PRICE."
+  offer_templates:
+    weekly: "US$PRICE_VALUE por semana"
+    yearly: "US$PRICE_VALUE por ano"
+    lifetime: "pagamento único de US$PRICE_VALUE"
+  cta: Adicionar Removedor Vocal ao navegador
+  image_alt: Instale a extensão Removedor Vocal e adicione ao navegador Chrome em segundos.
+offline:
+  title: Removedor Vocal Offline
+  paragraphs:
+    - O rápido Removedor Vocal remove vocais de músicas e separa voz da música em segundos. Processe vários arquivos em lote com um clique e obtenha instrumentais limpos rapidamente.
+    - Solte uma faixa ou uma pasta inteira, e o Removedor Vocal para iPhone, iPad e Mac vai dividir cada música em stems vocais e instrumentais. Feito para velocidade, precisão e um fluxo de trabalho offline sem atrito.
+  bullets:
+    - Remoção vocal com IA para separação precisa mesmo em mixes densas.
+    - Modo em lote para processar centenas de músicas enquanto você continua trabalhando.
+    - Funciona com WAV, AIFF, MP3, FLAC, M4A e outros formatos.
+    - Processamento offline sem contas e sem demora de upload.
+  perfect_for_label: "Perfeito para:"
+  perfect_for_text: produtores, DJs, podcasters, professores e músicos que trabalham com arquivos de áudio locais.
+  pricing_template: "Depois do teste grátis: WEEKLY_PRICE ou YEARLY_PRICE."
+  offer_templates:
+    weekly: "US$PRICE_VALUE por semana"
+    yearly: "US$PRICE_VALUE por ano"
+  cta: Adicionar Removedor Vocal ao iPhone, iPad ou Mac
+  image_alt: Baixe hoje e veja por que tantos músicos usam o Removedor Vocal para conseguir os stems certos com rapidez.
+use_cases:
+  title: Quem usa o Removedor Vocal?
+  items:
+    - title: Cantores e fãs de karaokê
+      body: Transforme qualquer música em versão de karaokê na hora. Estude na sua tonalidade, monte repertórios e ensaie sem sair procurando versões instrumentais separadas.
+    - title: Produtores e DJs
+      body: Extraia instrumentais e vocais limpos para remixes, edits e mashups. Prepare stems para a sua DAW ou para sets ao vivo em poucos cliques.
+    - title: Professores e alunos
+      body: Crie faixas simplificadas para aulas, treino de ouvido e transcrição. Isole o vocal para estudar fraseado ou remova-o para deixar os alunos cantarem ou tocarem por cima.
+    - title: Podcasters e criadores de conteúdo
+      body: Remova música por baixo da fala, limpe intros e outros, e prepare stems claros para edição e reaproveitamento do conteúdo.
+faq:
+  title: Perguntas frequentes
+  items:
+    - question: A extensão Removedor Vocal está lenta ou falhando. O que eu posso fazer?
+      answers:
+        - Em alguns computadores com Windows, especialmente notebooks, o Windows pode escolher o chip gráfico econômico para o navegador em vez do mais rápido. Como a extensão Removedor Vocal processa áudio em tempo real, isso pode causar lentidão, áudio engasgando ou até impedir o funcionamento.
+      answer_html: 'Você pode configurar o Windows para usar o chip gráfico de alto desempenho no navegador. Temos um guia passo a passo com capturas de tela aqui: <a href="/pt/blog/set-high-performance-gpu-for-chrome-edge-on-windows/" class="underline">Escolha o chip gráfico de alto desempenho para Chrome e Edge no Windows</a>. Se isso não resolver, o seu computador ou navegador pode ser limitado demais para processamento em tempo real. Nesse caso, tente usar o Removedor Vocal em um sistema mais potente, se tiver acesso a um.'
+    - question: Qual é a diferença entre Removedor Vocal Online e Removedor Vocal Offline?
+      answers:
+        - O Removedor Vocal Online é uma extensão de navegador que remove vocais diretamente em sites como YouTube e outras plataformas de áudio ou vídeo.
+        - O Removedor Vocal Offline é um app independente para iPhone, iPad e Mac que funciona totalmente offline com seus próprios arquivos de áudio e permite processar pastas inteiras em lote.
+    - question: Eu preciso enviar arquivos de áudio?
+      answers:
+        - Não, não é necessário enviar nada.
+        - A extensão processa o áudio diretamente no navegador enquanto ele toca, e o app para iPhone, iPad e Mac trabalha localmente com seus arquivos, sem envolver servidores.
+    - question: Quais formatos de áudio o Removedor Vocal Offline suporta?
+      answers:
+        - O Removedor Vocal para iPhone, iPad e Mac funciona com formatos comuns como WAV, AIFF, MP3, FLAC, M4A e outros, então você pode separar os arquivos que já tem sem converter antes. Você também pode soltar vídeos, pastas ou regiões da sua DAW, e o app extrai o áudio automaticamente.
+    - question: Remover vocais afeta a qualidade do áudio?
+      answers:
+        - O Removedor Vocal usa separação por IA projetada para manter os instrumentais limpos e musicais.
+        - A versão offline costuma oferecer qualidade melhor porque analisa a música inteira durante o processamento e conta com mais recursos.
+        - Mixes muito complexas ou ruidosas ainda podem gerar artefatos, mas músicas comuns normalmente se separam muito bem.
+    - question: Eu também posso mudar a tonalidade das músicas?
+      linked_answers:
+        - tool_key: pitch_changer
+          template: Sim, use TOOL_LINK para mudar o pitch e a tonalidade das músicas online ou offline. Ele funciona muito bem junto com o Removedor Vocal.
+    - question: Como posso mudar o tempo de uma música?
+      answers: []
+      linked_answers:
+        - tool_key: bpm_extension
+          template: Se você quer desacelerar ou acelerar a música em um site enquanto ela já está tocando, use TOOL_LINK.
+        - tool_key: speed_tool
+          template: Se você quer mudar o tempo do seu próprio arquivo mantendo o pitch estável, use TOOL_LINK.
+    - question: Existe teste grátis? Como funciona o preço?
+      answers:
+        - Tanto a extensão quanto o app para iPhone, iPad e Mac incluem um período de teste grátis sem cartão.
+        - Depois do teste, o Removedor Vocal Online oferece opções semanais, anuais e compra única, enquanto o Removedor Vocal Offline oferece assinaturas semanais e anuais, como mostrado acima.
+        - Todos os pagamentos são processados com segurança via Paddle para a extensão ou Apple para o app.
+    - question: Como cancelo minha assinatura?
+      answers:
+        - Clique no botão Manage Subscription dentro do app ou da extensão e siga as instruções.
+        - O processo é totalmente automático, então não é preciso telefonar nem mandar e-mails.
+    - question: Para quem o Removedor Vocal foi feito?
+      answers:
+        - O Removedor Vocal foi feito para cantores, músicos, produtores, DJs, professores, criadores de conteúdo e qualquer pessoa que precise separar voz e música.
+        - Seja para preparar karaokê, dar aula, limpar diálogo ou montar remixes, ele entrega stems limpos rapidamente.
+get_started:
+  title: Comece com o Removedor Vocal
+  line_1: Seja trabalhando no navegador ou com arquivos locais no iPhone, iPad ou Mac,
+  line_2: o Removedor Vocal ajuda você a remover vocais de músicas, separar voz da música e moldar faixas para o que você quer criar.
+  rating_template: "RATING_VALUE/5 · REVIEW_COUNT REVIEW_LABEL na Chrome Web Store"
+  review_count_rule: one_other
+  review_count_labels:
+    one: avaliação
+    other: avaliações
+footer:
+  copyright: "© 2025 <a href=\"https://extensions.ee/\" class=\"underline\">extensions.ee</a>."
+  contact: "Contato: info@extensions.ee."
+  payments_label: "Pagamentos e reembolsos:"
+  paddle_label: Paddle
+  paddle_url: https://paddle.net/
+  apple_label: Apple
+  apple_url: https://support.apple.com/billing
+  terms_label: Termos e Condições
+  terms_path: /terms-and-conditions.html
+  refund_label: Política de Reembolso
+  refund_path: /refund-policy.html
+  privacy_label: Política de Privacidade
+  privacy_path: /privacy-policy.html
+  paragraphs:
+    - As compras feitas em nosso site são processadas pela nossa revendedora online Paddle.com, que atua como Merchant of Record para esses pedidos. A Paddle fornece atendimento ao cliente para pedidos do site e cuida de reembolsos, cobrança e impostos aplicáveis.
+    - As compras feitas na App Store são processadas diretamente pela Apple, que atua como Merchant of Record para pedidos da App Store. A Apple gerencia cobrança, recibos, impostos, reembolsos e todo o atendimento relacionado.
+    - Se você não tiver certeza de onde comprou, verifique o e-mail de confirmação do pedido ou o recibo enviado pela Paddle ou pela Apple.
+  acknowledgements_prefix: Marcas e componentes de terceiros estão listados na página
+  acknowledgements_label: Acknowledgements
+  acknowledgements_url: https://extensions.ee/acknowledgements.html?from=removevocalsfromasong.com
+  acknowledgements_suffix: .
+structured_data:
+  online:
+    name: Removedor Vocal
+    alternateName: Removedor Vocal Online
+    applicationCategory: MultimediaApplication
+    operatingSystem: Chromium-based browser on Windows and macOS
+    description: Removedor Vocal é uma extensão de navegador que permite remover vocais de uma música diretamente no navegador. Use separação vocal com IA para criar instrumentais instantâneos no YouTube e em outras plataformas de áudio ou vídeo.
+    inLanguage: pt
+    publisher:
+      "@type": Organization
+      name: extensions.ee
+      url: https://extensions.ee
+    offer_names:
+      weekly: Plano semanal
+      yearly: Plano anual
+      lifetime: Pagamento único
+  offline:
+    name: Removedor Vocal
+    alternateName: Removedor Vocal para iPhone, iPad e Mac
+    applicationCategory: MultimediaApplication
+    operatingSystem: macOS 15.0 or iOS 18.0
+    description: Removedor Vocal para Mac separa voz e stems instrumentais em segundos. Solte uma faixa ou uma pasta inteira para processar instrumentais prontos para karaokê e stems vocais limpos offline.
+    inLanguage: pt
+    publisher:
+      "@type": Organization
+      name: extensions.ee
+      url: https://extensions.ee
+    offer_names:
+      weekly: Plano semanal
+      yearly: Plano anual
+llms:
+  languages_heading: Idiomas disponíveis
+  home_link_label: Início
+  link_label: LLMS
+  lead: O Removedor Vocal ajuda cantores, produtores, professores, podcasters e fãs de karaokê a separar vocais da música em sites ou nos próprios arquivos.
+  intro: Esta referência reúne as páginas do Removedor Vocal disponíveis neste idioma e mantém o foco em tarefas musicais, trabalho com arquivos e escolha entre a extensão de navegador para sites e o app offline para arquivos.
+  versions_heading: Escolha a versão certa
+  sections:
+    site: Site
+    guides: Guias
+  pages:
+    home:
+      title: Removedor Vocal
+      summary: Comece aqui para ver como o Removedor Vocal ajuda você a criar instrumentais, isolar vocais, comparar a extensão de navegador com o app offline e escolher a versão certa para sites ou arquivos.
+    gpu_guide:
+      title: Escolha o chip gráfico de alto desempenho para Chrome e Edge no Windows
+      summary: Use este guia quando a extensão do navegador engasgar ou tiver dificuldade em tempo real no Windows, especialmente em notebooks que usam por padrão o chip gráfico econômico.
+pages:
+  gpu_guide:
+    meta:
+      title: "Escolha o chip gráfico de alto desempenho para Chrome e Edge (Windows)"
+      description: "Se o Removedor Vocal estiver lento ou instável no Windows, configure o Chrome ou o Edge para usar o chip gráfico de alto desempenho com este guia passo a passo."
+      og_title: "Escolha o chip gráfico de alto desempenho para Chrome e Edge (Windows)"
+      og_description: "Se o Removedor Vocal estiver lento ou instável no Windows, configure o Chrome ou o Edge para usar o chip gráfico de alto desempenho com este guia passo a passo."
+      og_type: article
+      og_image: /blog/set-high-performance-gpu-for-chrome-edge-on-windows/graphics-settings-chrome-3.png
+    guide:
+      extension_link_label: Extensão Removedor Vocal
+      page_title: Faça o Windows usar o chip gráfico rápido no navegador
+      intro_html:
+        - EXTENSION_LINK faz cálculos pesados em tempo real, por isso precisa de um chip gráfico rápido para funcionar de forma fluida. Mesmo sendo um assunto de áudio, os navegadores modernos usam o chip gráfico nos bastidores para acelerar o processamento pesado, e o Removedor Vocal também precisa desse desempenho.
+        - Em alguns computadores, especialmente notebooks, o Windows pode escolher o chip gráfico econômico para o navegador. Isso pode causar lentidão, áudio engasgando ou até impedir completamente o funcionamento da extensão Removedor Vocal. Este guia faz o Windows usar o chip gráfico de alto desempenho no navegador.
+      detected_browser_label: Navegador detectado
+      unknown_browser_label: Desconhecido
+      back_home_label: Voltar para a página inicial
+      copy_button:
+        idle: Copiar
+        success: Copiado!
+      browsers:
+        chrome:
+          tab_label: Google Chrome
+          detected_label: Google Chrome
+          tab_accent: blue
+          title: Configure o Chrome para usar o chip gráfico de alto desempenho
+          steps:
+            - number: 1
+              title: Abra as configurações de Gráficos
+              paragraphs_html:
+                - 'Abra as configurações <a href="ms-settings:display-advancedgraphics" class="underline">clicando aqui</a>, ou vá em <span class="font-medium">Configurações → Sistema → Tela → Gráficos</span>.'
+                - 'Na lista, procure por <span class="font-medium">Google Chrome</span> (talvez seja preciso rolar). Se ele já estiver lá, vá direto para a <a href="#step3-chrome" class="underline">etapa 3</a>.'
+              images:
+                - src: graphics-settings.png
+                  alt: Tela Configurações → Sistema → Tela → Gráficos
+            - number: 2
+              title: Adicione o Chrome se ele não aparecer
+              paragraphs_html:
+                - 'Se o Chrome não estiver na lista, clique em <span class="font-medium">Adicionar aplicativo da área de trabalho</span> e selecione <span class="font-medium">Google Chrome</span>.'
+                - 'Se precisar, cole este caminho e pressione <span class="font-medium">Enter</span>:'
+              copy_value: "%ProgramFiles%\\Google\\Chrome\\Application\\chrome.exe"
+              images:
+                - src: graphics-settings-chrome-1.png
+                  alt: Adicionando o Google Chrome nas configurações de gráficos do Windows
+            - number: 3
+              id: step3-chrome
+              title: Abra as Opções do Chrome
+              paragraphs_html:
+                - 'Clique em <span class="font-medium">Google Chrome</span> na lista e depois em <span class="font-medium">Opções</span>.'
+              images:
+                - src: graphics-settings-chrome-2.png
+                  alt: Botão Opções do Google Chrome nas configurações de gráficos do Windows
+            - number: 4
+              title: Escolha Alto desempenho
+              paragraphs_html:
+                - 'Selecione <span class="font-medium">Alto desempenho</span> e depois clique em <span class="font-medium">Salvar</span>.'
+                - 'Se você vir mais de um chip gráfico, a opção de alto desempenho normalmente mostra o chip dedicado mais forte. Deve aparecer a indicação <span class="font-medium">Current: High performance</span>.'
+              images:
+                - src: graphics-settings-chrome-3.png
+                  alt: Escolhendo Alto desempenho para o Google Chrome no Windows
+        edge:
+          tab_label: Microsoft Edge
+          detected_label: Microsoft Edge
+          tab_accent: cyan
+          title: Configure o Edge para usar o chip gráfico de alto desempenho
+          steps:
+            - number: 1
+              title: Abra as configurações de Gráficos
+              paragraphs_html:
+                - 'Abra as configurações <a href="ms-settings:display-advancedgraphics" class="underline">clicando aqui</a>, ou vá em <span class="font-medium">Configurações → Sistema → Tela → Gráficos</span>.'
+                - 'Na lista, procure por <span class="font-medium">Microsoft Edge</span> (talvez seja preciso rolar). Se ele já estiver lá, vá direto para a <a href="#step3-edge" class="underline">etapa 3</a>.'
+              images:
+                - src: graphics-settings.png
+                  alt: Tela Configurações → Sistema → Tela → Gráficos
+            - number: 2
+              title: Adicione o Edge se ele não aparecer
+              paragraphs_html:
+                - 'Se o Edge não estiver na lista, clique em <span class="font-medium">Adicionar aplicativo da área de trabalho</span> e selecione <span class="font-medium">Microsoft Edge</span>.'
+                - 'Se precisar, cole este caminho e pressione <span class="font-medium">Enter</span>:'
+              copy_value: "%ProgramFiles(x86)%\\Microsoft\\Edge\\Application\\msedge.exe"
+              images:
+                - src: graphics-settings-edge-1.png
+                  alt: Adicionando o Microsoft Edge nas configurações de gráficos do Windows
+            - number: 3
+              id: step3-edge
+              title: Abra as Opções do Edge
+              paragraphs_html:
+                - 'Clique em <span class="font-medium">Microsoft Edge</span> na lista e depois em <span class="font-medium">Opções</span>.'
+              images:
+                - src: graphics-settings-edge-2.png
+                  alt: Botão Opções do Microsoft Edge nas configurações de gráficos do Windows
+            - number: 4
+              title: Escolha Alto desempenho
+              paragraphs_html:
+                - 'Selecione <span class="font-medium">Alto desempenho</span> e depois clique em <span class="font-medium">Salvar</span>.'
+                - 'Se você vir mais de um chip gráfico, a opção de alto desempenho normalmente mostra o chip dedicado mais forte. Deve aparecer a indicação <span class="font-medium">Current: High performance</span>.'
+              images:
+                - src: graphics-settings-edge-3.png
+                  alt: Escolhendo Alto desempenho para o Microsoft Edge no Windows
