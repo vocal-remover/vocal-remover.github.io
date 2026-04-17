@@ -103,3 +103,16 @@ related_tools:
     speed_tool:
       name: Изменить темп песни
       url: https://www.musiciantools.online/ru/изменить-темп-песни
+  zh-TW:
+    vocal_remover:
+      name: Vocal Remover
+      url: https://removevocalsfromasong.com/zh-TW/
+    bpm_extension:
+      name: BPM 變換器
+      url: https://chromewebstore.google.com/detail/bpm-changer/klddneocmcmoacnnemmelgeilnedcpjj
+    pitch_changer:
+      name: 音高變換器
+      url: https://pitch-changer.com/zh-TW/
+    speed_tool:
+      name: 音訊速度調整器
+      url: https://www.musiciantools.online/en/audio-speed-changer

@@ -12,6 +12,7 @@ pages:
       ja: /ja/
       ru: /ru/
       uk: /uk/
+      "zh-TW": /zh-TW/
   - id: gpu_guide
     sitemap: true
     llms_level: concise
@@ -25,3 +26,4 @@ pages:
       ja: /ja/blog/set-high-performance-gpu-for-chrome-edge-on-windows/
       ru: /ru/blog/set-high-performance-gpu-for-chrome-edge-on-windows/
       uk: /uk/blog/set-high-performance-gpu-for-chrome-edge-on-windows/
+      "zh-TW": /zh-TW/blog/set-high-performance-gpu-for-chrome-edge-on-windows/

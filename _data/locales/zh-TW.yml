@@ -1,0 +1,352 @@
+site:
+  lang: zh-TW
+  locale_label: 繁中
+  native_label: 繁體中文
+  path: /zh-TW/
+formatting:
+  decimal_separator: "."
+switcher:
+  aria_label: 語言切換器
+  button_label: 選擇語言
+meta:
+  title: "Vocal Remover：線上與離線移除歌曲人聲"
+  description: "在任何網站上從歌曲移除人聲，並把人聲與伴奏分開，方便練習、卡拉 OK 或製作使用。提供瀏覽器擴充功能，以及 iPhone、iPad、Mac App。"
+  og_title: "Vocal Remover：從歌曲移除人聲"
+  og_description: "在任何網站上從歌曲移除人聲，並把人聲與伴奏分開，方便練習、卡拉 OK 或製作使用。提供瀏覽器擴充功能，以及 iPhone、iPad、Mac App。"
+hero:
+  badge_label: 新功能
+  badge_text: iPhone 與 iPad 版 Vocal Remover 已推出，看看有什麼新內容
+  title: Vocal Remover
+  subtitle: 幾秒內從歌曲移除人聲
+  description_line_1: Vocal Remover 讓你輕鬆從任何歌曲拿掉人聲，並把人聲與音樂分開
+  description_line_2: 適合卡拉 OK、混音、練習、Podcast 或教學使用。
+  description_line_3: 你可以在喜歡的網站上線上使用，也能在 iPhone、iPad 或 Mac 上離線處理檔案。
+  online_cta_title: 加入 Vocal Remover Online
+  online_cta_subtitle: 到瀏覽器
+  offline_cta_title: 加入 Vocal Remover Offline
+  offline_cta_subtitle: 到 iPhone、iPad 或 Mac
+nav:
+  aria_label: 頁面區塊
+  overview: Vocal Remover 是什麼？
+  online: 網站用
+  offline: 檔案用
+  use_cases: 適合誰使用？
+  faq: FAQ
+overview:
+  title: Vocal Remover 是什麼？
+  paragraphs:
+    - Vocal Remover 可讓你在任何網站上從歌曲移除人聲，也能在電腦上把人聲與伴奏分開，不需要複雜的音訊軟體。它是為真實場景打造的工具，像是卡拉 OK、混音、練習、教學與內容製作。
+    - "你可以："
+  bullets:
+    - 從歌曲移除人聲，得到乾淨的伴奏版本。
+    - 單獨聽人聲，研究咬字、和聲與層次。
+    - 準備卡拉 OK 音軌、伴奏帶與教學素材。
+    - 透過移除背景音樂，整理 Podcast 與影片聲音。
+  versions_intro: "Vocal Remover 有兩個版本："
+  online_link_label: Vocal Remover Online
+  online_link_suffix: 是網站用的瀏覽器擴充功能，而
+  offline_link_label: Vocal Remover Offline
+  offline_link_suffix: 是 iPhone、iPad 和 Mac 的檔案處理 App。
+online:
+  title: Vocal Remover Online
+  paragraphs:
+    - 使用 Vocal Remover，你可以在線上快速整理音軌，透過 AI 人聲分離把歌曲裡的人聲拿掉。
+    - Vocal Remover Online 會把智慧人聲移除工具直接加進瀏覽器。你可以在 YouTube 與許多音訊網站上，用幾下點擊就把人聲從歌曲裡分開。
+  bullets:
+    - 直接在任何網站上線上移除歌曲人聲。
+    - 可作為 YouTube 人聲移除擴充功能，也支援其他音樂平台。
+    - 不用下載或上傳檔案，就能得到乾淨伴奏。
+    - 透過 AI 人聲分離技術提供高品質結果。
+    - 很適合卡拉 OK、翻唱、混音與伴奏準備。
+  perfect_for_label: "很適合："
+  perfect_for_text: 卡拉 OK 愛好者、歌手、聲樂老師、教師、內容創作者，以及所有會跟著線上影片練習的人。
+  pricing_template: "免費試用後：WEEKLY_PRICE、YEARLY_PRICE 訂閱，或 LIFETIME_PRICE。"
+  offer_templates:
+    weekly: "每週 US$PRICE_VALUE"
+    yearly: "每年 US$PRICE_VALUE"
+    lifetime: "一次付費 US$PRICE_VALUE"
+  cta: 將 Vocal Remover 加入瀏覽器
+  image_alt: 安裝 Vocal Remover 擴充功能，幾秒內就能加入 Chrome 瀏覽器。
+offline:
+  title: Vocal Remover Offline
+  paragraphs:
+    - 高速的 Vocal Remover 能在幾秒內把歌曲中的人聲與伴奏分開。你也可以一鍵批次處理多個檔案，快速得到乾淨伴奏。
+    - 不論是一首歌還是一整個資料夾，只要拖進來，iPhone、iPad 或 Mac 版 Vocal Remover 就會把每首歌曲分成 vocal 與 instrumental stems，兼顧速度、準確度與離線處理的便利性。
+  bullets:
+    - AI 人聲移除技術，面對厚實編曲也能精準分離。
+    - 批次模式可一次處理上百首歌，同時不耽誤你的其他工作。
+    - 支援 WAV、AIFF、MP3、FLAC、M4A 等常見格式。
+    - 離線處理，不需要帳號，也不用等待上傳。
+  perfect_for_label: "很適合："
+  perfect_for_text: 使用本機音訊檔的製作人、DJ、Podcaster、教師與音樂人。
+  pricing_template: "免費試用後：WEEKLY_PRICE 或 YEARLY_PRICE 訂閱。"
+  offer_templates:
+    weekly: "每週 US$PRICE_VALUE"
+    yearly: "每年 US$PRICE_VALUE"
+  cta: 將 Vocal Remover 加入 iPhone、iPad 或 Mac
+  image_alt: 立即下載，看看為什麼那麼多音樂人都靠 Vocal Remover 快速做出需要的音軌。
+use_cases:
+  title: 誰會使用 Vocal Remover？
+  items:
+    - title: 歌手與卡拉 OK 愛好者
+      body: 立刻把任何歌曲變成卡拉 OK 版本。你可以依自己的音域練習、準備歌單，也能排練時不必再辛苦找伴奏版。
+    - title: 製作人與 DJ
+      body: 擷取乾淨的伴奏與人聲，拿來做混音、編輯與 mashup。幾下點擊就能替 DAW 或現場 set 準備 stems。
+    - title: 教師與學習者
+      body: 為課堂、聽寫與採譜準備更乾淨的音軌。你可以單獨研究人聲，也能把人聲拿掉，讓學生直接跟伴奏練習。
+    - title: Podcaster 與內容創作者
+      body: 去掉講話底下的背景音樂，整理片頭片尾，並為剪輯與二次利用準備更清楚的分軌素材。
+faq:
+  title: 常見問題
+  items:
+    - question: Vocal Remover 擴充功能很慢或常常卡頓，我該怎麼辦？
+      answers:
+        - 在某些 Windows 電腦上，尤其是筆電，Windows 可能會替瀏覽器選到省電的顯示晶片，而不是速度較快的那顆。因為 Vocal Remover 擴充功能需要即時處理聲音，這可能造成延遲、爆音，甚至完全無法運作。
+      answer_html: '你可以把瀏覽器改成使用高效能顯示晶片。我們整理了一份附圖的步驟說明：<a href="/zh-TW/blog/set-high-performance-gpu-for-chrome-edge-on-windows/" class="underline">在 Windows 為 Chrome 與 Edge 選擇高效能顯示晶片</a>。如果照著做之後還是沒有改善，可能是你的電腦或瀏覽器本身不適合即時處理。若方便的話，可以改用效能更高的系統。'
+    - question: Vocal Remover Online 和 Vocal Remover Offline 有什麼差別？
+      answers:
+        - Vocal Remover Online 是瀏覽器擴充功能，可直接在 YouTube 等網站以及其他音訊或影片平台上移除人聲。
+        - Vocal Remover Offline 是 iPhone、iPad 和 Mac 的獨立 App，可完全離線搭配自己的音訊檔使用，也能一次批次處理整個資料夾。
+    - question: 我需要上傳音訊檔嗎？
+      answers:
+        - 不需要上傳。
+        - 擴充功能會直接在瀏覽器裡即時處理聲音，而 iPhone、iPad、Mac App 會直接處理你電腦上的檔案，不需要經過任何伺服器。
+    - question: Vocal Remover Offline 支援哪些音訊格式？
+      answers:
+        - iPhone、iPad 和 Mac 版 Vocal Remover 支援 WAV、AIFF、MP3、FLAC、M4A 等常見格式，所以你可以直接分離現有檔案，不必先轉檔。你也可以拖入影片、資料夾或 DAW 區段，App 會自動擷取音訊。
+    - question: 移除人聲會影響音質嗎？
+      answers:
+        - Vocal Remover 的 AI 分離演算法是以維持伴奏乾淨、自然與有音樂性為目標。
+        - 離線版本通常品質更好，因為它能分析整首歌，也有更多計算資源可用。
+        - 非常複雜或噪訊很多的混音仍可能出現些微殘留，但大多數歌曲都能得到很好的分離效果。
+    - question: 我也可以改變歌曲的調性嗎？
+      linked_answers:
+        - tool_key: pitch_changer
+          template: 可以，使用 TOOL_LINK 就能在線上或離線移動音高並改變歌曲調性。和 Vocal Remover 搭配使用也很方便。
+    - question: 我要怎麼改變歌曲速度？
+      answers: []
+      linked_answers:
+        - tool_key: bpm_extension
+          template: 如果你想在網站上讓正在播放的音樂變慢或變快，請使用 TOOL_LINK。
+        - tool_key: speed_tool
+          template: 如果你想改變自己檔案的速度，同時保持音高穩定，請使用 TOOL_LINK。
+    - question: 有免費試用嗎？價格怎麼算？
+      answers:
+        - 擴充功能和 iPhone、iPad、Mac App 都有免綁卡的免費試用期。
+        - 試用之後，Vocal Remover Online 提供每週、每年與一次買斷方案，Vocal Remover Offline 則提供每週與每年的訂閱方案，如上所示。
+        - 所有付款都會透過 Paddle（擴充功能）或 Apple（App）安全處理。
+    - question: 我要怎麼取消訂閱？
+      answers:
+        - 在 App 或擴充功能裡點選「Manage Subscription」按鈕，然後依照步驟操作。
+        - 整個流程都是自動化的，所以不需要打電話或寄信。
+    - question: Vocal Remover 適合誰？
+      answers:
+        - Vocal Remover 是為歌手、音樂人、製作人、DJ、教師、內容創作者，以及所有需要把人聲與音樂分開的人打造的。
+        - 不管你是在準備卡拉 OK、教學、整理對白，還是做混音，它都能讓你快速取得乾淨分軌。
+get_started:
+  title: 開始使用 Vocal Remover
+  line_1: 不論你喜歡在瀏覽器裡工作，還是在 iPhone、iPad 或 Mac 上處理本機檔案，
+  line_2: Vocal Remover 都能幫你從歌曲移除人聲、把人聲與音樂分開，讓音軌更貼近你的創作需要。
+  rating_template: "Chrome 線上應用程式商店評分 RATING_VALUE/5 · REVIEW_COUNT REVIEW_LABEL"
+  review_count_rule: invariant
+  review_count_labels:
+    one: 則評論
+    other: 則評論
+footer:
+  copyright: "© 2025 <a href=\"https://extensions.ee/\" class=\"underline\">extensions.ee</a>。"
+  contact: "聯絡方式：info@extensions.ee。"
+  payments_label: "付款與退款："
+  paddle_label: Paddle
+  paddle_url: https://paddle.net/
+  apple_label: Apple
+  apple_url: https://support.apple.com/billing
+  terms_label: 條款與條件
+  terms_path: /terms-and-conditions.html
+  refund_label: 退款政策
+  refund_path: /refund-policy.html
+  privacy_label: 隱私權政策
+  privacy_path: /privacy-policy.html
+  paragraphs:
+    - 在我們網站上完成的購買會由線上轉售商 Paddle.com 處理，並由其擔任這些訂單的 Merchant of Record。Paddle 會負責網站訂單的客服、退款、帳務與相關稅務處理。
+    - App Store 的購買則由 Apple 直接處理，並由其擔任 App Store 訂單的 Merchant of Record。Apple 會管理付款、收據、稅金、退款以及所有相關客服問題。
+    - 如果你不確定自己是在哪裡購買，請查看 Paddle 或 Apple 寄出的訂單確認信或收據。
+  acknowledgements_prefix: 第三方商標與元件列在
+  acknowledgements_label: Acknowledgements
+  acknowledgements_url: https://extensions.ee/acknowledgements.html?from=removevocalsfromasong.com
+  acknowledgements_suffix: 頁面。
+structured_data:
+  online:
+    name: Vocal Remover
+    alternateName: Vocal Remover Online
+    applicationCategory: MultimediaApplication
+    operatingSystem: Chromium-based browser on Windows and macOS
+    description: Vocal Remover 是瀏覽器擴充功能，可讓你直接在瀏覽器裡從歌曲移除人聲。透過 AI 人聲分離，在 YouTube 與其他音訊或影片平台快速取得伴奏版本。
+    inLanguage: zh-TW
+    publisher:
+      "@type": Organization
+      name: extensions.ee
+      url: https://extensions.ee
+    offer_names:
+      weekly: 週方案
+      yearly: 年方案
+      lifetime: 一次付費
+  offline:
+    name: Vocal Remover
+    alternateName: Vocal Remover for iPhone, iPad or Mac
+    applicationCategory: MultimediaApplication
+    operatingSystem: macOS 15.0 or iOS 18.0
+    description: iPhone、iPad 與 Mac 版 Vocal Remover 可在幾秒內把人聲與伴奏分開。你可以匯入單首音軌或整個資料夾，離線批次處理出適合卡拉 OK 的伴奏與乾淨人聲分軌。
+    inLanguage: zh-TW
+    publisher:
+      "@type": Organization
+      name: extensions.ee
+      url: https://extensions.ee
+    offer_names:
+      weekly: 週方案
+      yearly: 年方案
+llms:
+  languages_heading: 可用語言
+  home_link_label: 首頁
+  link_label: LLMS
+  lead: Vocal Remover 能幫助歌手、製作人、教師、Podcaster 與卡拉 OK 愛好者，在網站或自己的檔案裡把人聲與音樂分開。
+  intro: 這份參考整理了此語言可用的 Vocal Remover 頁面，重點放在音樂工作、檔案處理，以及如何在網站用擴充功能與檔案用離線 App 之間做選擇。
+  versions_heading: 選擇適合你的版本
+  sections:
+    site: 網站
+    guides: 指南
+  pages:
+    home:
+      title: Vocal Remover
+      summary: 從這裡開始，你可以快速了解 Vocal Remover 如何幫你做伴奏、單獨聽人聲、比較瀏覽器擴充功能與離線 App，並選擇適合網站或檔案的版本。
+    gpu_guide:
+      title: 在 Windows 為 Chrome 與 Edge 選擇高效能顯示晶片
+      summary: 如果瀏覽器擴充功能在 Windows 上即時處理時卡頓、延遲或不順，尤其是筆電常被分配到省電顯示晶片時，請參考這份指南。
+pages:
+  gpu_guide:
+    meta:
+      title: "在 Windows 為 Chrome 與 Edge 選擇高效能顯示晶片"
+      description: "如果 Vocal Remover 在 Windows 上很慢或常常卡頓，按照這份逐步指南把 Chrome 或 Edge 改成使用高效能顯示晶片。"
+      og_title: "在 Windows 為 Chrome 與 Edge 選擇高效能顯示晶片"
+      og_description: "如果 Vocal Remover 在 Windows 上很慢或常常卡頓，按照這份逐步指南把 Chrome 或 Edge 改成使用高效能顯示晶片。"
+      og_type: article
+      og_image: /blog/set-high-performance-gpu-for-chrome-edge-on-windows/graphics-settings-chrome-3.png
+    guide:
+      extension_link_label: Vocal Remover 擴充功能
+      page_title: 讓 Windows 替瀏覽器使用速度更快的顯示晶片
+      intro_html:
+        - EXTENSION_LINK 需要即時做大量運算，所以要靠效能較好的顯示晶片才會順暢。雖然這是音訊處理，但現代瀏覽器會在背後使用顯示晶片來加速重度運算，而 Vocal Remover 也需要這部分效能。
+        - 在某些電腦上，尤其是筆電，Windows 可能會替瀏覽器選到省電顯示晶片。這會造成延遲、爆音，甚至讓 Vocal Remover 擴充功能完全無法運作。這份指南會帶你把瀏覽器改成使用高效能顯示晶片。
+      detected_browser_label: 偵測到的瀏覽器
+      unknown_browser_label: 未知
+      back_home_label: 返回首頁
+      copy_button:
+        idle: 複製
+        success: 已複製！
+      browsers:
+        chrome:
+          tab_label: Google Chrome
+          detected_label: Google Chrome
+          tab_accent: blue
+          title: 設定 Chrome 使用高效能顯示晶片
+          steps:
+            - number: 1
+              title: 開啟 Graphics 設定
+              paragraphs_html:
+                - '可<a href="ms-settings:display-advancedgraphics" class="underline">按這裡直接開啟</a>，或依序進入 <span class="font-medium">Settings → System → Display → Graphics</span>。'
+                - '在清單中找到 <span class="font-medium">Google Chrome</span>（可能需要往下捲動）。如果已經看得到，請直接跳到 <a href="#step3-chrome" class="underline">步驟 3</a>。'
+              images:
+                - src: graphics-settings.png
+                  alt: Settings → System → Display → Graphics 畫面
+            - number: 2
+              title: 把 Chrome 加進清單（僅在找不到時）
+              paragraphs_html:
+                - 如果清單裡沒有 Chrome：
+              instructions_html:
+                - '點選 <span class="font-medium">Add desktop app</span>。'
+                - '在底部的 <span class="font-medium">File name</span> 欄位中，貼上下面其中一行路徑。'
+                - '按下 <span class="font-medium">Enter</span>，或點選 <span class="font-medium">Add</span>。'
+              note_html: 如果第一行出現錯誤，就試下一行。
+              copy_paths:
+                - '%LocalAppData%\Google\Chrome\Application\chrome.exe'
+                - 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+                - 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+              images:
+                - src: graphics-settings-2.png
+                  alt: Settings → System → Display → Graphics 畫面，已標出 Add desktop app 按鈕
+                - src: file-picker-2.png
+                  alt: 已標出檔名欄位與按鈕的檔案選擇視窗
+            - number: 3
+              anchor_id: step3-chrome
+              title_html: 為 Chrome 選擇 <em>High Performance</em>
+              paragraphs_html:
+                - '在清單中找到 <span class="font-medium">Google Chrome</span>（可能需要往下捲動），點一下後把 <span class="font-medium whitespace-nowrap">GPU preference</span> 設成 <span class="font-medium whitespace-nowrap">High Performance</span>。'
+              images:
+                - src: graphics-settings-chrome-3.png
+                  alt: Settings → System → Display → Graphics 畫面，已標出 Chrome
+            - number: 4
+              title: 重新啟動瀏覽器，必要時也重新開機
+              paragraphs_html:
+                - 關閉 Chrome 再重新開啟。如果還是沒改善，試著重新啟動電腦。
+              images: []
+          troubleshooting:
+            title: 如果還是沒有改善
+            items:
+              - label: 筆電正在使用電池？
+                body_html: 有些筆電在使用電池時仍會偏向省電顯示晶片。試著接上電源。
+              - label: 更新顯示卡驅動程式
+                body_html: 可透過顯示晶片廠商的 App（NVIDIA / AMD / Intel）或 Windows Update 進行更新。
+              - label: 重設
+                body_html: '在 Graphics 設定中把 Chrome 改回 <em>Let Windows decide</em>，然後重新照著步驟設定一次。'
+        edge:
+          tab_label: Microsoft Edge
+          detected_label: Microsoft Edge
+          tab_accent: violet
+          title: 設定 Edge 使用高效能顯示晶片
+          steps:
+            - number: 1
+              title: 開啟 Graphics 設定
+              paragraphs_html:
+                - '可<a href="ms-settings:display-advancedgraphics" class="underline">按這裡直接開啟</a>，或依序進入 <span class="font-medium">Settings → System → Display → Graphics</span>。'
+                - '在清單中找到 <span class="font-medium">Microsoft Edge</span>（可能需要往下捲動）。如果已經看得到，請直接跳到 <a href="#step3-edge" class="underline">步驟 3</a>。'
+              images:
+                - src: graphics-settings.png
+                  alt: Settings → System → Display → Graphics 畫面
+            - number: 2
+              title: 把 Edge 加進清單（僅在找不到時）
+              paragraphs_html:
+                - 如果清單裡沒有 Edge：
+              instructions_html:
+                - '點選 <span class="font-medium">Add desktop app</span>。'
+                - '在底部的 <span class="font-medium">File name</span> 欄位中，貼上下面其中一行路徑。'
+                - '按下 <span class="font-medium">Enter</span>，或點選 <span class="font-medium">Add</span>。'
+              note_html: 如果第一行出現錯誤，就試下一行。
+              copy_paths:
+                - 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'
+                - 'C:\Program Files\Microsoft\Edge\Application\msedge.exe'
+              images:
+                - src: graphics-settings-2.png
+                  alt: Settings → System → Display → Graphics 畫面，已標出 Add desktop app 按鈕
+                - src: file-picker-2.png
+                  alt: 已標出檔名欄位與按鈕的檔案選擇視窗
+            - number: 3
+              anchor_id: step3-edge
+              title_html: 為 Edge 選擇 <em>High Performance</em>
+              paragraphs_html:
+                - '在清單中找到 <span class="font-medium">Microsoft Edge</span>（可能需要往下捲動），點一下後把 <span class="font-medium whitespace-nowrap">GPU preference</span> 設成 <span class="font-medium whitespace-nowrap">High Performance</span>。'
+              images:
+                - src: graphics-settings-edge-3.png
+                  alt: Settings → System → Display → Graphics 畫面，已標出 Edge
+            - number: 4
+              title: 重新啟動瀏覽器，必要時也重新開機
+              paragraphs_html:
+                - 關閉 Edge 再重新開啟。如果還是沒改善，試著重新啟動電腦。
+              images: []
+          troubleshooting:
+            title: 如果還是沒有改善
+            items:
+              - label: 筆電正在使用電池？
+                body_html: 有些筆電在使用電池時仍會偏向省電顯示晶片。試著接上電源。
+              - label: 更新顯示卡驅動程式
+                body_html: 可透過顯示晶片廠商的 App（NVIDIA / AMD / Intel）或 Windows Update 進行更新。
+              - label: 重設
+                body_html: '在 Graphics 設定中把 Edge 改回 <em>Let Windows decide</em>，然後重新照著步驟設定一次。'
