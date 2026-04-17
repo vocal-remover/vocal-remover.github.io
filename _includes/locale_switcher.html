@@ -9,11 +9,11 @@
 {%- endif -%}
 <nav aria-label="{{ site.data.locales[include.locale_code].switcher.aria_label }}" class="flex items-center justify-end">
   <details class="locale-switcher group relative" data-locale-switcher>
-    <summary class="flex cursor-pointer items-center gap-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-semibold text-gray-900 transition hover:border-blue-700 hover:text-blue-700">
+    <summary class="flex cursor-pointer items-center gap-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-semibold text-gray-900 transition hover:border-blue-700 hover:text-blue-700 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-100 dark:hover:border-blue-400 dark:hover:text-blue-300">
       <span class="sr-only">{{ site.data.locales[include.locale_code].switcher.button_label }}</span>
       <span>{{ site.data.locales[include.locale_code].site.native_label }}</span>
       <span class="locale-switcher-abbr">{{ site.data.locales[include.locale_code].site.locale_label }}</span>
-      <svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4 text-gray-500 transition group-open:rotate-180 group-open:text-blue-700" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4 text-gray-500 transition group-open:rotate-180 group-open:text-blue-700 dark:text-gray-400 dark:group-open:text-blue-300" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
       </svg>
     </summary>

@@ -43,7 +43,7 @@
     <a
       target="_blank"
       href="{{ product_facts.offline.install_url }}"
-      class="hero-topbar-update inline-flex items-center rounded-full bg-gray-100 px-1 py-1 pr-4 text-sm text-gray-700 hover:bg-gray-200"
+      class="hero-topbar-update inline-flex items-center rounded-full bg-gray-100 px-1 py-1 pr-4 text-sm text-gray-700 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700"
       role="alert"
     >
       <span class="mr-3 shrink-0 rounded-full bg-blue-600 px-4 py-1.5 text-xs text-white">{{ locale_data.hero.badge_label }}</span>
@@ -57,10 +57,10 @@
     </div>
   </div>
 
-  <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
+  <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
     {{ locale_data.hero.title }}
   </h1>
-  <h2 class="mb-6 text-3xl tracking-tight leading-none text-gray-900 md:text-3xl lg:text-4xl">
+  <h2 class="mb-6 text-3xl tracking-tight leading-none text-gray-900 dark:text-gray-100 md:text-3xl lg:text-4xl">
     {{ locale_data.hero.subtitle }}
   </h2>
 
@@ -103,7 +103,7 @@
 </nav>
 
 <section class="py-8 px-4 mx-auto max-w-screen-xl text-left text-xl lg:py-16" id="overview">
-  <h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900">
+  <h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900 dark:text-white">
     {{ locale_data.overview.title }}
   </h2>
 {% for paragraph in locale_data.overview.paragraphs %}
@@ -123,7 +123,7 @@
 
 <section class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12" id="online">
   <div class="mr-auto place-self-center lg:col-span-7">
-    <h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900">
+    <h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900 dark:text-white">
       <a target="_blank" href="{{ product_facts.online.install_url }}" class="focus:outline-none">
         {{ locale_data.online.title }}
       </a>
@@ -138,7 +138,7 @@
     </ul>
     <p class="text-xl mb-4"><strong>{{ locale_data.online.perfect_for_label }}</strong> {{ locale_data.online.perfect_for_text }}</p>
 {% if show_prices -%}
-    <p class="mb-6 font-light text-gray-500 md:text-sm lg:text-sm">{{ online_pricing | strip }}</p>
+    <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-sm lg:text-sm">{{ online_pricing | strip }}</p>
 {% endif -%}
     <a
       target="_blank"
@@ -157,7 +157,7 @@
 
 <section class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12" id="offline">
   <div class="mr-auto place-self-center lg:col-span-7">
-    <h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900">
+    <h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900 dark:text-white">
       <a target="_blank" href="{{ product_facts.offline.install_url }}" class="focus:outline-none">
         {{ locale_data.offline.title }}
       </a>
@@ -172,7 +172,7 @@
     </ul>
     <p class="text-xl mb-4"><strong>{{ locale_data.offline.perfect_for_label }}</strong> {{ locale_data.offline.perfect_for_text }}</p>
 {% if show_prices -%}
-    <p class="mb-6 font-light text-gray-500 md:text-sm lg:text-sm">{{ offline_pricing | strip }}</p>
+    <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-sm lg:text-sm">{{ offline_pricing | strip }}</p>
 {% endif -%}
     <a
       target="_blank"
@@ -190,17 +190,17 @@
 </section>
 
 <section class="py-8 px-4 mx-auto max-w-screen-xl text-left text-xl lg:py-16" id="use-cases">
-  <h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900">{{ locale_data.use_cases.title }}</h2>
+  <h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900 dark:text-white">{{ locale_data.use_cases.title }}</h2>
 {% for item in locale_data.use_cases.items -%}
-  <h3 class="mb-4 mt-10 text-3xl tracking-tight">{{ item.title }}</h3>
+  <h3 class="mb-4 mt-10 text-3xl tracking-tight text-gray-900 dark:text-gray-100">{{ item.title }}</h3>
   <p class="text-xl mb-4">{{ item.body }}</p>
 {% endfor -%}
 </section>
 
 <section class="py-8 px-4 mx-auto max-w-screen-xl text-left text-xl lg:py-16" id="faq">
-  <h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900">{{ locale_data.faq.title }}</h2>
+  <h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900 dark:text-white">{{ locale_data.faq.title }}</h2>
 {% for item in locale_data.faq.items -%}
-  <h3 class="mb-4 mt-10 text-3xl tracking-tight">{{ item.question }}</h3>
+  <h3 class="mb-4 mt-10 text-3xl tracking-tight text-gray-900 dark:text-gray-100">{{ item.question }}</h3>
 {% for answer in item.answers -%}
   <p class="text-xl mb-4">{{ answer }}</p>
 {% endfor -%}
@@ -216,7 +216,7 @@
 </section>
 
 <section class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12" id="get-started">
-  <h2 class="mb-10 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">{{ locale_data.get_started.title }}</h2>
+  <h2 class="mb-10 text-4xl font-extrabold tracking-tight leading-none text-gray-900 dark:text-white md:text-5xl lg:text-6xl">{{ locale_data.get_started.title }}</h2>
   <p class="text-2xl">
     {{ locale_data.get_started.line_1 }}<br />
     {{ locale_data.get_started.line_2 }}
@@ -243,7 +243,7 @@
       </div>
     </a>
   </div>
-  <p class="mt-10 text-xl text-gray-500">
+  <p class="mt-10 text-xl text-gray-500 dark:text-gray-400">
     <span class="text-yellow-300">★</span> {{ get_started_rating | strip }}
   </p>
 </section>

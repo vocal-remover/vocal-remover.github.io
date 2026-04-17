@@ -20,6 +20,10 @@
 {%- if page_meta.og_image -%}
   {%- assign page_og_image = page_meta.og_image | absolute_url -%}
 {%- endif -%}
+{%- assign body_class = page.body_class | default: 'bg-white' -%}
+{%- unless body_class contains 'text-' -%}
+  {%- assign body_class = body_class | append: ' text-gray-900' -%}
+{%- endunless -%}
 <!DOCTYPE html>
 <html lang="{{ locale_data.site.lang }}">
   <head>
@@ -32,6 +36,39 @@
     <meta property="og:url" content="{{ page_absolute_url }}" />
     <meta property="og:type" content="{{ page_meta.og_type | default: 'website' }}" />
     <meta property="og:image" content="{{ page_og_image }}" />
+    <script>
+      (function() {
+        var root = document.documentElement;
+        var hasManualDark = root.classList.contains("dark");
+
+        if (typeof window.matchMedia !== "function") {
+          return;
+        }
+
+        var mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+
+        function applyTheme(isDark) {
+          if (hasManualDark) {
+            root.classList.add("dark");
+            return;
+          }
+
+          root.classList.toggle("dark", isDark);
+        }
+
+        applyTheme(mediaQuery.matches);
+
+        function handleThemeChange(event) {
+          applyTheme(event.matches);
+        }
+
+        if (typeof mediaQuery.addEventListener === "function") {
+          mediaQuery.addEventListener("change", handleThemeChange);
+        } else if (typeof mediaQuery.addListener === "function") {
+          mediaQuery.addListener(handleThemeChange);
+        }
+      })();
+    </script>
     <link rel="icon" sizes="32x32" type="image/png" href="{{ '/icons/32.png' | relative_url }}" />
     <link rel="icon" sizes="16x16" type="image/png" href="{{ '/icons/16.png' | relative_url }}" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
@@ -139,6 +176,31 @@
         font-weight: 600;
         letter-spacing: 0.14em;
         text-transform: uppercase;
+      }
+
+      html.dark .locale-switcher-menu {
+        border-color: #374151;
+        background: #111827;
+        box-shadow: 0 18px 60px rgba(0, 0, 0, 0.55);
+      }
+
+      html.dark .locale-switcher-link {
+        color: #f3f4f6;
+      }
+
+      html.dark .locale-switcher-link:hover,
+      html.dark .locale-switcher-link:focus-visible {
+        background: #1f2937;
+        color: #93c5fd;
+      }
+
+      html.dark .locale-switcher-link[aria-current="true"] {
+        background: #1e3a8a;
+        color: #dbeafe;
+      }
+
+      html.dark .locale-switcher-abbr {
+        color: #9ca3af;
       }
 
       @media (max-width: 640px) {
@@ -257,7 +319,7 @@
 %}
 {% endif -%}
   </head>
-  <body class="{{ page.body_class | default: 'bg-white' }}">
+  <body class="{{ body_class }} dark:bg-gray-900 dark:text-gray-100">
 {{ content }}
 {% unless page.hide_footer %}
 {% include footer.html locale_code=locale_code %}
