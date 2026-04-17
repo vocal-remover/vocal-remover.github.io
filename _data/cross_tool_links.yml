@@ -207,3 +207,16 @@ related_tools:
     speed_tool:
       name: Alterar velocidade do áudio
       url: https://www.musiciantools.online/en/audio-speed-changer
+  tr:
+    vocal_remover:
+      name: Vocal Remover
+      url: https://removevocalsfromasong.com/tr/
+    bpm_extension:
+      name: BPM changer
+      url: https://chromewebstore.google.com/detail/bpm-changer/klddneocmcmoacnnemmelgeilnedcpjj
+    pitch_changer:
+      name: Tonu Değiştirici
+      url: https://pitch-changer.com/tr/
+    speed_tool:
+      name: Ses Hızı Değiştirici
+      url: https://www.musiciantools.online/en/audio-speed-changer
