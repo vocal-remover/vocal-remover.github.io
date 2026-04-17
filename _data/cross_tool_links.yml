@@ -129,3 +129,16 @@ related_tools:
     speed_tool:
       name: 오디오 속도 변경기
       url: https://www.musiciantools.online/en/audio-speed-changer
+  nl:
+    vocal_remover:
+      name: Stemverwijderaar
+      url: https://removevocalsfromasong.com/nl/
+    bpm_extension:
+      name: BPM changer
+      url: https://chromewebstore.google.com/detail/bpm-changer/klddneocmcmoacnnemmelgeilnedcpjj
+    pitch_changer:
+      name: Toonhoogte veranderen
+      url: https://pitch-changer.com/nl/
+    speed_tool:
+      name: Audio snelheid aanpassen
+      url: https://www.musiciantools.online/en/audio-speed-changer

@@ -1,0 +1,352 @@
+site:
+  lang: nl
+  locale_label: NL
+  native_label: Nederlands
+  path: /nl/
+formatting:
+  decimal_separator: ","
+switcher:
+  aria_label: Taalkiezer
+  button_label: Kies taal
+meta:
+  title: "Stemverwijderaar: verwijder zang uit een nummer online en offline"
+  description: "Verwijder zang uit een nummer op elke website en splits stem en muziek voor oefenen, karaoke of productie. Beschikbaar als browserextensie en als app voor iPhone, iPad en Mac."
+  og_title: "Stemverwijderaar: verwijder zang uit een nummer"
+  og_description: "Verwijder zang uit een nummer op elke website en splits stem en muziek voor oefenen, karaoke of productie. Beschikbaar als browserextensie en als app voor iPhone, iPad en Mac."
+hero:
+  badge_label: Nieuw
+  badge_text: Vocal Remover voor iPhone en iPad is uit. Bekijk wat er nieuw is
+  title: Stemverwijderaar
+  subtitle: Verwijder in seconden zang uit een nummer
+  description_line_1: Stemverwijderaar maakt het makkelijk om zang uit elk nummer te halen en stem van muziek te scheiden
+  description_line_2: voor karaoke, remixes, oefenen, podcasts of lesgeven.
+  description_line_3: Gebruik het online op je favoriete websites of offline op je iPhone, iPad of Mac.
+  online_cta_title: Stemverwijderaar Online toevoegen
+  online_cta_subtitle: aan je browser
+  offline_cta_title: Stemverwijderaar Offline toevoegen
+  offline_cta_subtitle: aan je iPhone, iPad of Mac
+nav:
+  aria_label: Paginadelen
+  overview: Wat is Stemverwijderaar?
+  online: Voor websites
+  offline: Voor bestanden
+  use_cases: Voor wie is het?
+  faq: FAQ
+overview:
+  title: Wat is Stemverwijderaar?
+  paragraphs:
+    - Met Stemverwijderaar kun je op elke website zang uit een nummer halen en op je computer stem en muziek scheiden zonder ingewikkelde audiosoftware. Het is gemaakt voor echte taken zoals karaoke, remixes, oefenen, lesgeven en content maken.
+    - "Je kunt:"
+  bullets:
+    - Zang uit een nummer halen om een schone instrumentale versie te krijgen.
+    - Alleen de stem beluisteren om frasering, harmonieën en lagen te bestuderen.
+    - Karaoketracks, backingtracks en lesmateriaal voorbereiden.
+    - Podcasts en video's opschonen door achtergrondmuziek te verwijderen.
+  versions_intro: "Stemverwijderaar is beschikbaar in twee versies:"
+  online_link_label: Stemverwijderaar Online
+  online_link_suffix: een browserextensie voor websites, en
+  offline_link_label: Stemverwijderaar Offline
+  offline_link_suffix: een iPhone-, iPad- en Mac-app voor bestanden.
+online:
+  title: Stemverwijderaar Online
+  paragraphs:
+    - Gebruik Stemverwijderaar om je track online op te schonen en met AI zang uit een nummer te verwijderen.
+    - Met Stemverwijderaar Online voeg je een slimme stemverwijderings-extensie direct toe aan je browser. Verwijder zang uit YouTube-video's en veel andere audiosites in maar een paar klikken.
+  bullets:
+    - Zang online direct verwijderen op elke website.
+    - Werkt als YouTube-zangverwijderaar en ook op andere muziekplatforms.
+    - Krijg schone instrumentals zonder bestanden te downloaden of uploaden.
+    - AI-stemscheiding voor resultaten met hoge kwaliteit.
+    - Handig voor karaoke, covers, remixes en backingtracks.
+  perfect_for_label: "Perfect voor:"
+  perfect_for_text: karaokeliefhebbers, zangers, zangcoaches, docenten, contentmakers en iedereen die oefent met online video's.
+  pricing_template: "Na de gratis proefperiode: WEEKLY_PRICE, YEARLY_PRICE abonnementen of LIFETIME_PRICE."
+  offer_templates:
+    weekly: "US$PRICE_VALUE per week"
+    yearly: "US$PRICE_VALUE per jaar"
+    lifetime: "eenmalige betaling van US$PRICE_VALUE"
+  cta: Stemverwijderaar aan je browser toevoegen
+  image_alt: Installeer de Vocal Remover-extensie en voeg die in enkele seconden toe aan je Chrome-browser.
+offline:
+  title: Stemverwijderaar Offline
+  paragraphs:
+    - Razendsnelle Stemverwijderaar verwijdert in seconden zang uit nummers en splitst stem en muziek. Verwerk meerdere bestanden tegelijk voor schone instrumentals.
+    - Sleep één track of een hele map naar binnen en Vocal Remover voor iPhone, iPad of Mac maakt van elk nummer losse vocal- en instrumental-stems. Gemaakt voor snelheid, nauwkeurigheid en prettig offline werken.
+  bullets:
+    - AI-stemverwijdering voor nauwkeurige scheiding, ook bij volle mixen.
+    - Batchmodus om honderden nummers te verwerken terwijl jij verder werkt.
+    - Werkt met WAV, AIFF, MP3, FLAC, M4A en meer.
+    - Offline verwerking zonder accounts en zonder wachttijd voor uploads.
+  perfect_for_label: "Perfect voor:"
+  perfect_for_text: producers, dj's, podcasters, docenten en muzikanten die met lokale audiobestanden werken.
+  pricing_template: "Na de gratis proefperiode: WEEKLY_PRICE of YEARLY_PRICE abonnementen."
+  offer_templates:
+    weekly: "US$PRICE_VALUE per week"
+    yearly: "US$PRICE_VALUE per jaar"
+  cta: Stemverwijderaar toevoegen aan je iPhone, iPad of Mac
+  image_alt: Download vandaag nog en ontdek waarom zoveel muzikanten op Vocal Remover vertrouwen voor snelle stems.
+use_cases:
+  title: Wie gebruikt Stemverwijderaar?
+  items:
+    - title: Zangers en karaokeliefhebbers
+      body: Maak van elk nummer meteen een karaokeversie. Oefen in je eigen toonsoort, bereid setlijsten voor en repeteer zonder te zoeken naar losse instrumentals.
+    - title: Producers en dj's
+      body: Haal schone instrumentals en vocals uit tracks voor remixes, edits en mashups. Bereid in een paar klikken stems voor je DAW of liveset voor.
+    - title: Docenten en leerlingen
+      body: Maak uitgeklede tracks voor lessen, gehoortraining en transcriptie. Isoleer vocals om frasering te bestuderen of verwijder ze zodat leerlingen eroverheen kunnen spelen of zingen.
+    - title: Podcasters en contentmakers
+      body: Verwijder achtergrondmuziek onder spraak, maak intro's en outro's schoner en bereid duidelijke stems voor om te editen en opnieuw te gebruiken.
+faq:
+  title: Veelgestelde vragen
+  items:
+    - question: De Vocal Remover-extensie is traag of hapert. Wat kan ik doen?
+      answers:
+        - Op sommige Windows-computers, vooral laptops, kiest Windows soms de zuinige grafische chip voor je browser in plaats van de snelle. Omdat de Vocal Remover-extensie geluid in realtime verwerkt, kan dat vertraging, haperingen of complete uitval veroorzaken.
+      answer_html: 'Je kunt Windows instellen om de krachtige grafische chip voor je browser te gebruiken. We hebben hier een stap-voor-stapgids met screenshots: <a href="/nl/blog/set-high-performance-gpu-for-chrome-edge-on-windows/" class="underline">Kies de krachtige grafische chip voor Chrome &amp; Edge op Windows</a>. Helpt dat niet, dan is je computer of browser mogelijk simpelweg te beperkt voor realtime verwerking. Probeer Vocal Remover dan op een krachtiger systeem als je dat kunt.'
+    - question: Wat is het verschil tussen Stemverwijderaar Online en Stemverwijderaar Offline?
+      answers:
+        - Stemverwijderaar Online is een browserextensie die zang direct verwijdert op websites zoals YouTube en andere audio- of videoplatforms.
+        - Stemverwijderaar Offline is een zelfstandige iPhone-, iPad- en Mac-app die volledig offline werkt met je eigen audiobestanden en hele mappen batchgewijs kan verwerken.
+    - question: Moet ik audiobestanden uploaden?
+      answers:
+        - Uploaden is niet nodig.
+        - De extensie verwerkt audio direct in je browser terwijl het afspeelt, en de iPhone-, iPad- en Mac-app werkt lokaal met bestanden op je computer, zonder servers ertussen.
+    - question: Welke audioformaten ondersteunt Stemverwijderaar Offline?
+      answers:
+        - Vocal Remover voor iPhone, iPad of Mac werkt met gangbare formaten zoals WAV, AIFF, MP3, FLAC, M4A en meer, zodat je bestanden die je al hebt direct kunt splitsen zonder eerst te converteren. Je kunt ook video's, mappen of regio's uit je DAW slepen; de app haalt het geluid er automatisch uit.
+    - question: Heeft het verwijderen van zang invloed op de audiokwaliteit?
+      answers:
+        - Stemverwijderaar gebruikt AI-scheiding die erop is gericht instrumentals schoon en muzikaal te houden.
+        - De offline versie geeft meestal betere kwaliteit omdat die het hele nummer tegelijk ziet en meer rekenruimte heeft.
+        - Zeer drukke of ruizige mixen kunnen nog artefacten laten horen, maar bij normale nummers is de scheiding meestal erg goed.
+    - question: Kan ik ook de toonsoort van nummers veranderen?
+      linked_answers:
+        - tool_key: pitch_changer
+          template: Ja, gebruik TOOL_LINK om pitch te verschuiven en de toonsoort van nummers online of offline te veranderen. Het werkt heel goed naast Vocal Remover.
+    - question: Hoe kan ik het tempo van een nummer veranderen?
+      answers: []
+      linked_answers:
+        - tool_key: bpm_extension
+          template: Als je muziek op een website wilt vertragen of versnellen terwijl die al speelt, gebruik dan TOOL_LINK.
+        - tool_key: speed_tool
+          template: Als je het tempo van je eigen bestand wilt veranderen terwijl de toonhoogte gelijk blijft, gebruik dan TOOL_LINK.
+    - question: Is er een gratis proefperiode? Hoe werkt de prijs?
+      answers:
+        - Zowel de extensie als de iPhone-, iPad- en Mac-app hebben een gratis proefperiode waarvoor geen kaart nodig is.
+        - Na de proefperiode biedt Stemverwijderaar Online wekelijkse, jaarlijkse en eenmalige aankoopopties, en Stemverwijderaar Offline wekelijkse en jaarlijkse abonnementen, zoals hierboven vermeld.
+        - Alle betalingen worden veilig verwerkt via Paddle voor de extensie of Apple voor de app.
+    - question: Hoe zeg ik mijn abonnement op?
+      answers:
+        - Klik op de knop Manage Subscription in de app of extensie en volg daar de instructies.
+        - Het proces verloopt volledig automatisch, dus je hoeft niet te bellen of e-mails te sturen.
+    - question: Voor wie is Stemverwijderaar bedoeld?
+      answers:
+        - Stemverwijderaar is gemaakt voor zangers, muzikanten, producers, dj's, docenten, contentmakers en iedereen die stem en muziek van elkaar wil scheiden.
+        - Of je nu karaoke voorbereidt, lesgeeft, dialogen opschoont of remixes bouwt, je krijgt snel schone stems.
+get_started:
+  title: Begin met Stemverwijderaar
+  line_1: Of je nu liever in de browser werkt of met lokale bestanden op je iPhone, iPad of Mac,
+  line_2: Stemverwijderaar helpt je zang uit nummers te halen, stem en muziek te scheiden en tracks passend te maken voor wat jij wilt doen.
+  rating_template: "RATING_VALUE/5 · REVIEW_COUNT REVIEW_LABEL in de Chrome Web Store"
+  review_count_rule: one_other
+  review_count_labels:
+    one: beoordeling
+    other: beoordelingen
+footer:
+  copyright: "© 2025 <a href=\"https://extensions.ee/\" class=\"underline\">extensions.ee</a>."
+  contact: "Contact: info@extensions.ee."
+  payments_label: "Betalingen en terugbetalingen:"
+  paddle_label: Paddle
+  paddle_url: https://paddle.net/
+  apple_label: Apple
+  apple_url: https://support.apple.com/billing
+  terms_label: Algemene voorwaarden
+  terms_path: /terms-and-conditions.html
+  refund_label: Restitutiebeleid
+  refund_path: /refund-policy.html
+  privacy_label: Privacybeleid
+  privacy_path: /privacy-policy.html
+  paragraphs:
+    - Aankopen via onze website worden verwerkt door onze online reseller Paddle.com, die voor deze bestellingen de Merchant of Record is. Paddle verzorgt klantenservice voor websitebestellingen en handelt retouren, facturatie en toepasselijke belastingen af.
+    - Aankopen via de App Store worden rechtstreeks door Apple verwerkt, dat voor App Store-bestellingen optreedt als Merchant of Record. Apple beheert facturatie, bonnetjes, belastingen, terugbetalingen en alle bijbehorende supportvragen.
+    - Als je niet zeker weet waar je hebt gekocht, controleer dan je orderbevestiging of bon van Paddle of Apple.
+  acknowledgements_prefix: Handelsmerken en componenten van derden staan op de
+  acknowledgements_label: Acknowledgements
+  acknowledgements_url: https://extensions.ee/acknowledgements.html?from=removevocalsfromasong.com
+  acknowledgements_suffix: pagina.
+structured_data:
+  online:
+    name: Stemverwijderaar
+    alternateName: Vocal Remover Online
+    applicationCategory: MultimediaApplication
+    operatingSystem: Chromium-based browser on Windows and macOS
+    description: Stemverwijderaar is een browserextensie waarmee je direct in je browser zang uit een nummer kunt verwijderen. Gebruik AI-stemscheiding om meteen instrumentals te maken van YouTube en andere audio- of videoplatforms.
+    inLanguage: nl
+    publisher:
+      "@type": Organization
+      name: extensions.ee
+      url: https://extensions.ee
+    offer_names:
+      weekly: Wekelijks abonnement
+      yearly: Jaarlijks abonnement
+      lifetime: Eenmalige betaling
+  offline:
+    name: Stemverwijderaar
+    alternateName: Vocal Remover for iPhone, iPad or Mac
+    applicationCategory: MultimediaApplication
+    operatingSystem: macOS 15.0 or iOS 18.0
+    description: Vocal Remover voor Mac splitst in seconden stem en instrumentale stems. Sleep één track of een hele map naar binnen om offline karaokeklare instrumentals en schone vocal-stems batchgewijs te verwerken.
+    inLanguage: nl
+    publisher:
+      "@type": Organization
+      name: extensions.ee
+      url: https://extensions.ee
+    offer_names:
+      weekly: Wekelijks abonnement
+      yearly: Jaarlijks abonnement
+llms:
+  languages_heading: Beschikbare talen
+  home_link_label: Home
+  link_label: LLMS
+  lead: Stemverwijderaar helpt zangers, producers, docenten, podcasters en karaokeliefhebbers om vocals van muziek te scheiden op websites of uit hun eigen bestanden.
+  intro: Deze referentie bundelt de beschikbare Stemverwijderaar-pagina's in deze taal en houdt de focus op muzikale taken, bestandsverwerking en het kiezen tussen de browserextensie voor websites en de offline app voor bestanden.
+  versions_heading: Kies de juiste versie
+  sections:
+    site: Site
+    guides: Gidsen
+  pages:
+    home:
+      title: Stemverwijderaar
+      summary: Begin hier om te zien hoe Stemverwijderaar je helpt instrumentals te maken, vocals te isoleren, de browserextensie te vergelijken met de offline app en de juiste versie voor websites of bestanden te kiezen.
+    gpu_guide:
+      title: Kies de krachtige grafische chip voor Chrome & Edge op Windows
+      summary: Volg deze gids als de browserextensie op Windows hapert of moeite heeft met realtime verwerking, vooral op laptops die standaard de zuinige grafische chip gebruiken.
+pages:
+  gpu_guide:
+    meta:
+      title: "Kies de krachtige grafische chip voor Chrome & Edge op Windows"
+      description: "Als Vocal Remover op Windows traag of instabiel voelt, laat Chrome of Edge dan de krachtige grafische chip gebruiken met deze stap-voor-stapgids."
+      og_title: "Kies de krachtige grafische chip voor Chrome & Edge op Windows"
+      og_description: "Als Vocal Remover op Windows traag of instabiel voelt, laat Chrome of Edge dan de krachtige grafische chip gebruiken met deze stap-voor-stapgids."
+      og_type: article
+      og_image: /blog/set-high-performance-gpu-for-chrome-edge-on-windows/graphics-settings-chrome-3.png
+    guide:
+      extension_link_label: Vocal Remover-extensie
+      page_title: Laat Windows de snelle grafische chip gebruiken voor je browser
+      intro_html:
+        - EXTENSION_LINK voert in realtime zware berekeningen uit en heeft daarom een snelle grafische chip nodig om soepel te werken. Ook al gaat het om audio, moderne browsers gebruiken de grafische chip op de achtergrond om veel rekenwerk te versnellen, en Vocal Remover heeft die kracht ook nodig.
+        - Op sommige computers, vooral laptops, kiest Windows voor je browser de zuinige grafische chip. Dat kan vertraging, haperend geluid of complete uitval van de Vocal Remover-extensie veroorzaken. Deze gids laat Windows de krachtige grafische chip voor je browser gebruiken.
+      detected_browser_label: Gedetecteerde browser
+      unknown_browser_label: Onbekend
+      back_home_label: Terug naar de homepagina
+      copy_button:
+        idle: Kopiëren
+        success: Gekopieerd!
+      browsers:
+        chrome:
+          tab_label: Google Chrome
+          detected_label: Google Chrome
+          tab_accent: blue
+          title: Laat Chrome de krachtige grafische chip gebruiken
+          steps:
+            - number: 1
+              title: Open Graphics-instellingen
+              paragraphs_html:
+                - 'Open de instellingen door <a href="ms-settings:display-advancedgraphics" class="underline">hier te klikken</a>, of ga naar <span class="font-medium">Settings → System → Display → Graphics</span>.'
+                - 'Zoek in de lijst naar <span class="font-medium">Google Chrome</span> (mogelijk moet je scrollen). Zie je het al staan, ga dan meteen naar <a href="#step3-chrome" class="underline">stap 3</a>.'
+              images:
+                - src: graphics-settings.png
+                  alt: Scherm Settings → System → Display → Graphics
+            - number: 2
+              title: Voeg Chrome toe aan de lijst (alleen als het ontbreekt)
+              paragraphs_html:
+                - "Als je Chrome daar niet ziet:"
+              instructions_html:
+                - 'Klik op <span class="font-medium">Add desktop app</span>.'
+                - 'Plak onderaan in het vak <span class="font-medium">File name</span> een van de onderstaande regels.'
+                - 'Druk op <span class="font-medium">Enter</span> of klik op <span class="font-medium">Add</span>.'
+              note_html: Geeft de eerste regel een fout, probeer dan de volgende.
+              copy_paths:
+                - '%LocalAppData%\Google\Chrome\Application\chrome.exe'
+                - 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+                - 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+              images:
+                - src: graphics-settings-2.png
+                  alt: Scherm Settings → System → Display → Graphics met gemarkeerde Add desktop app-knop
+                - src: file-picker-2.png
+                  alt: Bestandskiezer met gemarkeerd veld voor bestandsnaam en knop
+            - number: 3
+              anchor_id: step3-chrome
+              title_html: Kies <em>High Performance</em> voor Chrome
+              paragraphs_html:
+                - 'Zoek <span class="font-medium">Google Chrome</span> in de lijst (mogelijk moet je scrollen). Klik erop en zet <span class="font-medium whitespace-nowrap">GPU preference</span> op <span class="font-medium whitespace-nowrap">High Performance</span>.'
+              images:
+                - src: graphics-settings-chrome-3.png
+                  alt: Scherm Settings → System → Display → Graphics met Chrome gemarkeerd
+            - number: 4
+              title: Start de browser opnieuw en zo nodig ook je computer
+              paragraphs_html:
+                - Sluit Chrome en open het opnieuw. Helpt dat niet, probeer dan je computer opnieuw op te starten.
+              images: []
+          troubleshooting:
+            title: Als je geen verschil ziet
+            items:
+              - label: Laptop op batterij?
+                body_html: Sommige laptops geven op batterij alsnog voorrang aan de zuinige grafische chip. Probeer de stroomadapter aan te sluiten.
+              - label: Update grafische drivers
+                body_html: via de app van de maker van je grafische chip (NVIDIA / AMD / Intel) of via Windows Update.
+              - label: Reset
+                body_html: 'Zet Chrome in Graphics-instellingen terug op <em>Let Windows decide</em> en doorloop daarna de stappen opnieuw.'
+        edge:
+          tab_label: Microsoft Edge
+          detected_label: Microsoft Edge
+          tab_accent: violet
+          title: Laat Edge de krachtige grafische chip gebruiken
+          steps:
+            - number: 1
+              title: Open Graphics-instellingen
+              paragraphs_html:
+                - 'Open de instellingen door <a href="ms-settings:display-advancedgraphics" class="underline">hier te klikken</a>, of ga naar <span class="font-medium">Settings → System → Display → Graphics</span>.'
+                - 'Zoek in de lijst naar <span class="font-medium">Microsoft Edge</span> (mogelijk moet je scrollen). Zie je het al staan, ga dan meteen naar <a href="#step3-edge" class="underline">stap 3</a>.'
+              images:
+                - src: graphics-settings.png
+                  alt: Scherm Settings → System → Display → Graphics
+            - number: 2
+              title: Voeg Edge toe aan de lijst (alleen als het ontbreekt)
+              paragraphs_html:
+                - "Als je Edge daar niet ziet:"
+              instructions_html:
+                - 'Klik op <span class="font-medium">Add desktop app</span>.'
+                - 'Plak onderaan in het vak <span class="font-medium">File name</span> een van de onderstaande regels.'
+                - 'Druk op <span class="font-medium">Enter</span> of klik op <span class="font-medium">Add</span>.'
+              note_html: Geeft de eerste regel een fout, probeer dan de volgende.
+              copy_paths:
+                - 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'
+                - 'C:\Program Files\Microsoft\Edge\Application\msedge.exe'
+              images:
+                - src: graphics-settings-2.png
+                  alt: Scherm Settings → System → Display → Graphics met gemarkeerde Add desktop app-knop
+                - src: file-picker-2.png
+                  alt: Bestandskiezer met gemarkeerd veld voor bestandsnaam en knop
+            - number: 3
+              anchor_id: step3-edge
+              title_html: Kies <em>High Performance</em> voor Edge
+              paragraphs_html:
+                - 'Zoek <span class="font-medium">Microsoft Edge</span> in de lijst (mogelijk moet je scrollen). Klik erop en zet <span class="font-medium whitespace-nowrap">GPU preference</span> op <span class="font-medium whitespace-nowrap">High Performance</span>.'
+              images:
+                - src: graphics-settings-edge-3.png
+                  alt: Scherm Settings → System → Display → Graphics met Edge gemarkeerd
+            - number: 4
+              title: Start de browser opnieuw en zo nodig ook je computer
+              paragraphs_html:
+                - Sluit Edge en open het opnieuw. Helpt dat niet, probeer dan je computer opnieuw op te starten.
+              images: []
+          troubleshooting:
+            title: Als je geen verschil ziet
+            items:
+              - label: Laptop op batterij?
+                body_html: Sommige laptops geven op batterij alsnog voorrang aan de zuinige grafische chip. Probeer de stroomadapter aan te sluiten.
+              - label: Update grafische drivers
+                body_html: via de app van de maker van je grafische chip (NVIDIA / AMD / Intel) of via Windows Update.
+              - label: Reset
+                body_html: 'Zet Edge in Graphics-instellingen terug op <em>Let Windows decide</em> en doorloop daarna de stappen opnieuw.'
