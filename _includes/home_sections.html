@@ -4,12 +4,18 @@
 {%- assign rating_value_display = product_facts.online.rating.value -%}
 {%- assign decimal_separator = locale_data.formatting.decimal_separator | default: '.' -%}
 {%- assign related_tools = site.data.cross_tool_links.related_tools[include.locale_code] -%}
-{%- assign online_weekly_price = product_facts.online.offers.weekly.price -%}
-{%- assign online_yearly_price = product_facts.online.offers.yearly.price -%}
-{%- assign online_lifetime_price = product_facts.online.offers.lifetime.price -%}
-{%- assign offline_weekly_price = product_facts.offline.offers.weekly.price -%}
-{%- assign offline_yearly_price = product_facts.offline.offers.yearly.price -%}
-{%- if decimal_separator != '.' -%}
+{%- assign show_prices = false -%}
+{%- if include.locale_code == site.default_locale -%}
+  {%- assign show_prices = true -%}
+{%- endif -%}
+{%- if show_prices -%}
+  {%- assign online_weekly_price = product_facts.online.offers.weekly.price -%}
+  {%- assign online_yearly_price = product_facts.online.offers.yearly.price -%}
+  {%- assign online_lifetime_price = product_facts.online.offers.lifetime.price -%}
+  {%- assign offline_weekly_price = product_facts.offline.offers.weekly.price -%}
+  {%- assign offline_yearly_price = product_facts.offline.offers.yearly.price -%}
+{%- endif -%}
+{%- if show_prices and decimal_separator != '.' -%}
   {%- assign rating_value_display = rating_value_display | replace: '.', decimal_separator -%}
   {%- assign online_weekly_price = online_weekly_price | replace: '.', decimal_separator -%}
   {%- assign online_yearly_price = online_yearly_price | replace: '.', decimal_separator -%}
@@ -17,13 +23,15 @@
   {%- assign offline_weekly_price = offline_weekly_price | replace: '.', decimal_separator -%}
   {%- assign offline_yearly_price = offline_yearly_price | replace: '.', decimal_separator -%}
 {%- endif -%}
-{%- capture online_weekly_offer -%}{{ locale_data.online.offer_templates.weekly | replace: 'PRICE_VALUE', online_weekly_price }}{%- endcapture -%}
-{%- capture online_yearly_offer -%}{{ locale_data.online.offer_templates.yearly | replace: 'PRICE_VALUE', online_yearly_price }}{%- endcapture -%}
-{%- capture online_lifetime_offer -%}{{ locale_data.online.offer_templates.lifetime | replace: 'PRICE_VALUE', online_lifetime_price }}{%- endcapture -%}
-{%- capture offline_weekly_offer -%}{{ locale_data.offline.offer_templates.weekly | replace: 'PRICE_VALUE', offline_weekly_price }}{%- endcapture -%}
-{%- capture offline_yearly_offer -%}{{ locale_data.offline.offer_templates.yearly | replace: 'PRICE_VALUE', offline_yearly_price }}{%- endcapture -%}
-{%- capture online_pricing -%}{{ locale_data.online.pricing_template | replace: 'WEEKLY_PRICE', online_weekly_offer | replace: 'YEARLY_PRICE', online_yearly_offer | replace: 'LIFETIME_PRICE', online_lifetime_offer }}{%- endcapture -%}
-{%- capture offline_pricing -%}{{ locale_data.offline.pricing_template | replace: 'WEEKLY_PRICE', offline_weekly_offer | replace: 'YEARLY_PRICE', offline_yearly_offer }}{%- endcapture -%}
+{%- if show_prices -%}
+  {%- capture online_weekly_offer -%}{{ locale_data.online.offer_templates.weekly | replace: 'PRICE_VALUE', online_weekly_price }}{%- endcapture -%}
+  {%- capture online_yearly_offer -%}{{ locale_data.online.offer_templates.yearly | replace: 'PRICE_VALUE', online_yearly_price }}{%- endcapture -%}
+  {%- capture online_lifetime_offer -%}{{ locale_data.online.offer_templates.lifetime | replace: 'PRICE_VALUE', online_lifetime_price }}{%- endcapture -%}
+  {%- capture offline_weekly_offer -%}{{ locale_data.offline.offer_templates.weekly | replace: 'PRICE_VALUE', offline_weekly_price }}{%- endcapture -%}
+  {%- capture offline_yearly_offer -%}{{ locale_data.offline.offer_templates.yearly | replace: 'PRICE_VALUE', offline_yearly_price }}{%- endcapture -%}
+  {%- capture online_pricing -%}{{ locale_data.online.pricing_template | replace: 'WEEKLY_PRICE', online_weekly_offer | replace: 'YEARLY_PRICE', online_yearly_offer | replace: 'LIFETIME_PRICE', online_lifetime_offer }}{%- endcapture -%}
+  {%- capture offline_pricing -%}{{ locale_data.offline.pricing_template | replace: 'WEEKLY_PRICE', offline_weekly_offer | replace: 'YEARLY_PRICE', offline_yearly_offer }}{%- endcapture -%}
+{%- endif -%}
 {%- assign rating_count_display = rating_count | append: "" -%}
 {%- capture reviews_label -%}{% include review_count_label.html locale_code=include.locale_code count=rating_count %}{%- endcapture -%}
 {%- assign reviews_label = reviews_label | strip -%}
@@ -129,7 +137,9 @@
 {% endfor -%}
     </ul>
     <p class="text-xl mb-4"><strong>{{ locale_data.online.perfect_for_label }}</strong> {{ locale_data.online.perfect_for_text }}</p>
+{% if show_prices -%}
     <p class="mb-6 font-light text-gray-500 md:text-sm lg:text-sm">{{ online_pricing | strip }}</p>
+{% endif -%}
     <a
       target="_blank"
       href="{{ product_facts.online.install_url }}"
@@ -161,7 +171,9 @@
 {% endfor -%}
     </ul>
     <p class="text-xl mb-4"><strong>{{ locale_data.offline.perfect_for_label }}</strong> {{ locale_data.offline.perfect_for_text }}</p>
+{% if show_prices -%}
     <p class="mb-6 font-light text-gray-500 md:text-sm lg:text-sm">{{ offline_pricing | strip }}</p>
+{% endif -%}
     <a
       target="_blank"
       href="{{ product_facts.offline.install_url }}"

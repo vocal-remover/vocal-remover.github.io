@@ -5,6 +5,10 @@
 {%- assign page_meta = locale_data.meta -%}
 {%- assign page_og_image = '/online.png' | absolute_url -%}
 {%- assign registry_page = nil -%}
+{%- assign show_prices = false -%}
+{%- if locale_code == site.default_locale -%}
+  {%- assign show_prices = true -%}
+{%- endif -%}
 {%- for candidate_page in site.data.page_registry.pages -%}
   {%- if candidate_page.id == page.registry_id -%}
     {%- assign registry_page = candidate_page -%}
@@ -187,7 +191,7 @@
               "ratingValue": {{ product_facts.online.rating.value }},
               "ratingCount": {{ product_facts.online.rating.count }}
             },
-            "publisher": {{ locale_data.structured_data.online.publisher | jsonify }},
+            "publisher": {{ locale_data.structured_data.online.publisher | jsonify }}{% if show_prices %},
             "offers": [
               {
                 "@type": "Offer",
@@ -210,7 +214,7 @@
                 "priceCurrency": {{ product_facts.online.offers.lifetime.priceCurrency | jsonify }},
                 "availability": "https://schema.org/InStock"
               }
-            ]
+            ]{% endif %}
           },
           {
             "@type": "SoftwareApplication",
@@ -223,7 +227,7 @@
             "inLanguage": {{ locale_data.structured_data.offline.inLanguage | jsonify }},
             "url": {{ offline_page_url | jsonify }},
             "installUrl": {{ product_facts.offline.install_url | jsonify }},
-            "publisher": {{ locale_data.structured_data.offline.publisher | jsonify }},
+            "publisher": {{ locale_data.structured_data.offline.publisher | jsonify }}{% if show_prices %},
             "offers": [
               {
                 "@type": "Offer",
@@ -239,7 +243,7 @@
                 "priceCurrency": {{ product_facts.offline.offers.yearly.priceCurrency | jsonify }},
                 "availability": "https://schema.org/InStock"
               }
-            ]
+            ]{% endif %}
           }
         ]
       }
