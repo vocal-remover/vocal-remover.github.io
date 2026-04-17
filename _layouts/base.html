@@ -357,6 +357,10 @@
             return path;
           };
 
+          function normalizeLocaleCode(value) {
+            return (value || "").toLowerCase().replace(/_/g, "-");
+          }
+
           localeLinks.forEach(function(link) {
             var localeCode = link.getAttribute("data-locale-code");
             var targetPath = link.getAttribute("href");
@@ -369,7 +373,7 @@
               if (!localeCode) return;
 
               try {
-                window.localStorage.setItem("preferred_locale", localeCode);
+                window.localStorage.setItem("preferred_locale", normalizeLocaleCode(localeCode));
               } catch (error) {
               }
             });
@@ -389,33 +393,54 @@
                 {% endfor %}
               };
 
-              var targetLocale = null;
-              try {
-                targetLocale = window.localStorage.getItem("preferred_locale");
-              } catch (error) {
+              var localeAliases = {
+                {% for configured_locale in site.locales %}
+                  {{ configured_locale | downcase | replace: "_", "-" | jsonify }}: {{ configured_locale | jsonify }}{% unless forloop.last %},{% endunless %}
+                {% endfor %}
+              };
+
+              if (localePaths["zh-TW"]) {
+                localeAliases["zh-tw"] = "zh-TW";
+                localeAliases["zh-hant-tw"] = "zh-TW";
               }
 
-              if (targetLocale && !localePaths[targetLocale]) {
-                targetLocale = null;
+              function resolveLocale(value, allowLanguageFallback) {
+                var normalizedValue = normalizeLocaleCode(value);
+
+                if (!normalizedValue) {
+                  return null;
+                }
+
+                var exactLocale = localeAliases[normalizedValue];
+                if (exactLocale && localePaths[exactLocale]) {
+                  return exactLocale;
+                }
+
+                if (!allowLanguageFallback) {
+                  return null;
+                }
+
+                var languageCode = normalizedValue.split("-")[0];
+                var fallbackLocale = localeAliases[languageCode];
+
+                if (fallbackLocale && localePaths[fallbackLocale]) {
+                  return fallbackLocale;
+                }
+
+                return null;
+              }
+
+              var targetLocale = null;
+              try {
+                targetLocale = resolveLocale(window.localStorage.getItem("preferred_locale"), false);
+              } catch (error) {
               }
 
               if (!targetLocale) {
                 var requestedLanguages = window.navigator.languages || [window.navigator.language || ""];
                 requestedLanguages.some(function(language) {
-                  var normalizedLanguage = (language || "").toLowerCase();
-                  var languageCode = normalizedLanguage.split("-")[0];
-
-                  if (localePaths[normalizedLanguage]) {
-                    targetLocale = normalizedLanguage;
-                    return true;
-                  }
-
-                  if (localePaths[languageCode]) {
-                    targetLocale = languageCode;
-                    return true;
-                  }
-
-                  return false;
+                  targetLocale = resolveLocale(language, true);
+                  return !!targetLocale;
                 });
               }
 
