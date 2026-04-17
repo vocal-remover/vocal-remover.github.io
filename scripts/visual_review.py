@@ -84,6 +84,12 @@ def parse_args() -> argparse.Namespace:
         default="127.0.0.1",
         help="Host interface for the temporary local server.",
     )
+    parser.add_argument(
+        "--color-scheme",
+        choices=("light", "dark", "no-preference"),
+        default="light",
+        help="Preferred browser color scheme for the review session. Defaults to light.",
+    )
     return parser.parse_args()
 
 
@@ -157,7 +163,7 @@ def main() -> int:
             browser = playwright.chromium.launch()
             context = browser.new_context(
                 viewport={"width": viewport_width, "height": viewport_height},
-                color_scheme="light",
+                color_scheme=args.color_scheme,
                 device_scale_factor=1,
             )
 
