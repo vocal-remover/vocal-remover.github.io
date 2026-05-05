@@ -128,8 +128,6 @@ faq:
       linked_answers:
         - tool_key: bpm_extension
           template: Bir sitede zaten çalan müziği yavaşlatmak ya da hızlandırmak istiyorsanız TOOL_LINK kullanın.
-        - tool_key: speed_tool
-          template: Kendi dosyanızın temposunu değiştirip pitch'i sabit tutmak istiyorsanız TOOL_LINK kullanın.
     - question: Ücretsiz deneme var mı? Fiyatlandırma nasıl çalışıyor?
       answers:
         - Hem uzantı hem de iPhone, iPad ve Mac uygulaması kart gerektirmeyen ücretsiz deneme süresi içerir.

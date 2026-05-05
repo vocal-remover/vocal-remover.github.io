@@ -128,8 +128,6 @@ faq:
       linked_answers:
         - tool_key: bpm_extension
           template: Om du vill sakta ner eller snabba upp musik på en webbplats medan den redan spelar, använd TOOL_LINK.
-        - tool_key: speed_tool
-          template: Om du vill ändra tempot på din egen fil men behålla samma pitch, använd TOOL_LINK.
     - question: Finns det en gratis provperiod? Hur fungerar priset?
       answers:
         - Både tillägget och appen för iPhone, iPad och Mac har en gratis provperiod utan kort.

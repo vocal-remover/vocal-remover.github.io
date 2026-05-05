@@ -128,8 +128,6 @@ faq:
       linked_answers:
         - tool_key: bpm_extension
           template: Jeśli chcesz zwolnić albo przyspieszyć muzykę na stronie już podczas odtwarzania, użyj TOOL_LINK.
-        - tool_key: speed_tool
-          template: Jeśli chcesz zmienić tempo własnego pliku i zachować wysokość dźwięku, użyj TOOL_LINK.
     - question: Czy jest darmowy okres próbny? Jak działają ceny?
       answers:
         - Zarówno rozszerzenie, jak i aplikacja na iPhone'a, iPada i Maca oferują darmowy okres próbny bez karty.

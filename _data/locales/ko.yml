@@ -128,8 +128,6 @@ faq:
       linked_answers:
         - tool_key: bpm_extension
           template: 이미 재생 중인 웹사이트 음악을 느리게 하거나 빠르게 하고 싶다면 TOOL_LINK를 사용하세요.
-        - tool_key: speed_tool
-          template: 내 파일의 템포를 바꾸면서 피치는 유지하고 싶다면 TOOL_LINK를 사용하세요.
     - question: 무료 체험이 있나요? 가격은 어떻게 되나요?
       answers:
         - 확장 프로그램과 iPhone, iPad, Mac 앱 모두 카드 없이 시작할 수 있는 무료 체험 기간이 있습니다.

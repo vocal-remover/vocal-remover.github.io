@@ -128,8 +128,6 @@ faq:
       linked_answers:
         - tool_key: bpm_extension
           template: 如果你想在網站上讓正在播放的音樂變慢或變快，請使用 TOOL_LINK。
-        - tool_key: speed_tool
-          template: 如果你想改變自己檔案的速度，同時保持音高穩定，請使用 TOOL_LINK。
     - question: 有免費試用嗎？價格怎麼算？
       answers:
         - 擴充功能和 iPhone、iPad、Mac App 都有免綁卡的免費試用期。

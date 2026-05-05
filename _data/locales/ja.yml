@@ -128,8 +128,6 @@ faq:
       linked_answers:
         - tool_key: bpm_extension
           template: サイトで再生中の音楽をそのまま遅くしたり速くしたりしたいなら、TOOL_LINK を使ってください。
-        - tool_key: speed_tool
-          template: 手元のファイルのテンポだけを変えてピッチを保ちたいなら、TOOL_LINK を使ってください。
     - question: 無料トライアルはありますか？ 料金はどうなりますか？
       answers:
         - 拡張機能にも iPhone、iPad、Mac 向けアプリにも無料トライアルがあります。カードは不要です。

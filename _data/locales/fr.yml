@@ -128,8 +128,6 @@ faq:
       linked_answers:
         - tool_key: bpm_extension
           template: Si vous voulez ralentir ou accélérer la musique sur un site pendant qu'elle joue déjà, utilisez TOOL_LINK.
-        - tool_key: speed_tool
-          template: Si vous voulez changer le tempo de votre propre fichier sans toucher à la hauteur, utilisez TOOL_LINK.
     - question: Y a-t-il un essai gratuit ? Comment fonctionne le prix ?
       answers:
         - L'extension comme l'application pour iPhone, iPad et Mac incluent une période d'essai gratuite. Aucune carte bancaire n'est requise.

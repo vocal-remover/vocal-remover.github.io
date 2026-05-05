@@ -128,8 +128,6 @@ faq:
       linked_answers:
         - tool_key: bpm_extension
           template: Se você quer desacelerar ou acelerar a música em um site enquanto ela já está tocando, use TOOL_LINK.
-        - tool_key: speed_tool
-          template: Se você quer mudar o tempo do seu próprio arquivo mantendo o pitch estável, use TOOL_LINK.
     - question: Existe teste grátis? Como funciona o preço?
       answers:
         - Tanto a extensão quanto o app para iPhone, iPad e Mac incluem um período de teste grátis sem cartão.

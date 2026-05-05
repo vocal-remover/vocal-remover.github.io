@@ -9,9 +9,6 @@ related_tools:
     pitch_changer:
       name: Pitch Changer
       url: https://pitch-changer.com/
-    speed_tool:
-      name: Audio Speed Changer
-      url: https://www.musiciantools.online/en/audio-speed-changer
   it:
     vocal_remover:
       name: Vocal Remover
@@ -22,9 +19,6 @@ related_tools:
     pitch_changer:
       name: Pitch Changer
       url: https://pitch-changer.com/it/
-    speed_tool:
-      name: Cambiatore BPM
-      url: https://www.musiciantools.online/it/cambiatore-bpm
   es:
     vocal_remover:
       name: Vocal Remover
@@ -35,9 +29,6 @@ related_tools:
     pitch_changer:
       name: Pitch Changer
       url: https://pitch-changer.com/es/
-    speed_tool:
-      name: Cambiador de BPM
-      url: https://www.musiciantools.online/es/cambiador-de-bpm
   de:
     vocal_remover:
       name: Vocal Remover
@@ -48,9 +39,6 @@ related_tools:
     pitch_changer:
       name: Pitch Changer
       url: https://pitch-changer.com/de/
-    speed_tool:
-      name: Tempo ändern
-      url: https://www.musiciantools.online/de/tempo-ändern
   fr:
     vocal_remover:
       name: Vocal Remover
@@ -61,9 +49,6 @@ related_tools:
     pitch_changer:
       name: Pitch Changer
       url: https://pitch-changer.com/fr/
-    speed_tool:
-      name: Changer le BPM
-      url: https://www.musiciantools.online/fr/changer-le-bpm
   ja:
     vocal_remover:
       name: ボーカル リムーバー
@@ -74,9 +59,6 @@ related_tools:
     pitch_changer:
       name: Pitch Changer
       url: https://pitch-changer.com/ja/
-    speed_tool:
-      name: BPM Changer
-      url: https://www.musiciantools.online/ja/テンポ変更
   uk:
     vocal_remover:
       name: Vocal Remover
@@ -87,9 +69,6 @@ related_tools:
     pitch_changer:
       name: Pitch Changer
       url: https://pitch-changer.com/uk/
-    speed_tool:
-      name: Змінити темп пісні
-      url: https://www.musiciantools.online/uk/змінити-темп-пісні
   ru:
     vocal_remover:
       name: Vocal Remover
@@ -100,9 +79,6 @@ related_tools:
     pitch_changer:
       name: Pitch Changer
       url: https://pitch-changer.com/ru/
-    speed_tool:
-      name: Изменить темп песни
-      url: https://www.musiciantools.online/ru/изменить-темп-песни
   zh-TW:
     vocal_remover:
       name: Vocal Remover
@@ -113,9 +89,6 @@ related_tools:
     pitch_changer:
       name: 音高變換器
       url: https://pitch-changer.com/zh-TW/
-    speed_tool:
-      name: 音訊速度調整器
-      url: https://www.musiciantools.online/en/audio-speed-changer
   ko:
     vocal_remover:
       name: 보컬 리무버
@@ -126,9 +99,6 @@ related_tools:
     pitch_changer:
       name: 음정 변조기
       url: https://pitch-changer.com/ko/
-    speed_tool:
-      name: 오디오 속도 변경기
-      url: https://www.musiciantools.online/en/audio-speed-changer
   nl:
     vocal_remover:
       name: Stemverwijderaar
@@ -139,9 +109,6 @@ related_tools:
     pitch_changer:
       name: Toonhoogte veranderen
       url: https://pitch-changer.com/nl/
-    speed_tool:
-      name: Audio snelheid aanpassen
-      url: https://www.musiciantools.online/en/audio-speed-changer
   sv:
     vocal_remover:
       name: Vocal Remover
@@ -152,9 +119,6 @@ related_tools:
     pitch_changer:
       name: Ändra tonart
       url: https://pitch-changer.com/sv/
-    speed_tool:
-      name: Ändra ljudhastighet
-      url: https://www.musiciantools.online/en/audio-speed-changer
   nb:
     vocal_remover:
       name: Vocal Remover
@@ -165,9 +129,6 @@ related_tools:
     pitch_changer:
       name: Pitch Changer
       url: https://pitch-changer.com/nb/
-    speed_tool:
-      name: Endre lydhastighet
-      url: https://www.musiciantools.online/en/audio-speed-changer
   da:
     vocal_remover:
       name: Vocal Remover
@@ -178,9 +139,6 @@ related_tools:
     pitch_changer:
       name: Toneart Skift
       url: https://pitch-changer.com/da/
-    speed_tool:
-      name: Ændr lydhastighed
-      url: https://www.musiciantools.online/en/audio-speed-changer
   pl:
     vocal_remover:
       name: Usuwanie wokalu
@@ -191,9 +149,6 @@ related_tools:
     pitch_changer:
       name: Zmieniacz tonacji
       url: https://pitch-changer.com/pl/
-    speed_tool:
-      name: Zmiana prędkości audio
-      url: https://www.musiciantools.online/en/audio-speed-changer
   pt:
     vocal_remover:
       name: Removedor Vocal
@@ -204,9 +159,6 @@ related_tools:
     pitch_changer:
       name: Mudador de Pitch
       url: https://pitch-changer.com/pt/
-    speed_tool:
-      name: Alterar velocidade do áudio
-      url: https://www.musiciantools.online/en/audio-speed-changer
   tr:
     vocal_remover:
       name: Vocal Remover
@@ -217,6 +169,3 @@ related_tools:
     pitch_changer:
       name: Tonu Değiştirici
       url: https://pitch-changer.com/tr/
-    speed_tool:
-      name: Ses Hızı Değiştirici
-      url: https://www.musiciantools.online/en/audio-speed-changer

@@ -128,8 +128,6 @@ faq:
       linked_answers:
         - tool_key: bpm_extension
           template: Hvis du vil sætte musik på en hjemmeside ned eller op i tempo mens den allerede spiller, så brug TOOL_LINK.
-        - tool_key: speed_tool
-          template: Hvis du vil ændre tempoet på din egen fil og bevare pitch, så brug TOOL_LINK.
     - question: Er der en gratis prøveperiode? Hvordan fungerer priserne?
       answers:
         - Både udvidelsen og iPhone-, iPad- og Mac-appen har en gratis prøveperiode uden kort.
